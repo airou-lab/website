@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name = "viewport" content="with=device-width, initial- 
+    scale=1.0">
+    <title>Autonomous Interactive Robotics Lab Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+      family=Roboto:wght@100;300;400;500;700&display=swap" 
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/
+      fontawesome-free@6.2.0/css/fontawesome.min.css">
+  </head>
+
+
+<body>
+  <section class="sub-header-research"> 
+    <nav>
+      <!--- <a href="index.html"><img src="photos/airou_logo.png"></a> -->
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+        <ul>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="people.html">PEOPLE</a></li>
+          <!--  <li><a href="">PUBLICATION </a></sli>  -->
+            <li><a href="">RESEARCH</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="#prospective">PROSPECTIVE STUDENTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </ul>
+      </div>
+      <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    <h1 style="font-size:50px;"> Our Research </h1>
+  </section>
+
+
+
+<!-------- Research content -------------->
+<!--<h1 style="text-align:left; padding-top: 100px; font-size: 30px; padding-left: 4%; padding-right: 10%;">
+    Collaborative Multi-view Perception for a Safe, Robust, and Scalable Autonomous Driving 
+</h1> --> 
+
+<br><br><br>
+<p style="color:black; padding-left: 4%; padding-right: 10%; font-size: 15px;">
+    
+    Cameras and LiDARs are two sensors utilized
+    for autonomous driving systems. 
+    Our research idea investigates the solution of replacing LiDARS with 
+    stereo cameras, and the sensor fusion of semantic information extracted
+    from monocular cameras and depth information from stereo cameras for increased
+    autonomous accuracy. 
+    
+    Our project idea provides a vision-based perception platform, extended to multi-vehicles
+    with the ability of sharing information between fleets of vehicles, 
+    such that the map and localization at intersections are fused to achieve improved coverage.
+    
+
+</p>
+
+<div class="research-container">
+    <div class="research-col">
+        <h1> Current Project </h1>
+        <p>
+            <br>
+            Our current project focuses on localization and mapping for autonomous navigation 
+            utilizing MUSHr hardware. We look forward to transferring this software from our assembled MUSHr 
+            racecar to a larger rover in the near future. Using SLAM (Simultaneous Localization and Mapping) on 
+            a simulation of the racecar and its surroundings, we plan on later implementing this software 
+            onto a physical car and testing it in the physical world. 
+
+            <br> <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br><br>
+
+            Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using 
+            the LiDAR and stereo camera on-board for accurate and consistent localization. Our goals is for our 
+            car to physically showcase fully autonomous navigation before we extend our project to a larger, more 
+            complex vehicle. 
+        </p>
+    </div>
+    <div class="research-col">
+        <img src="images/mushr-car.png" alt="image of a MUSHr racecar">
+    </div>
+</div>
+
+<div class="research-container">
+    <div class="research-col-1">
+        <img src="images/real-sense-camera.png" alt="holder image">
+    </div>
+    <div class="research-col-1">
+        <h1> Vision </h1> 
+        <p>
+            <br>
+        We currently plan to utilize a RealSense Depth Camera D435i to capture the depth 
+        and geometric information of the vehicle's surroundings during localization. 
+        Stereo cameras feature two lenses that simulate the human visual experience through 
+        triangulation and captures the depth perception that a monocular camera cannot. 
+        In parallel to our project, we are looking into extracting the depth information 
+        from the stereo camera and generating a point cloud similar to a LiDAR point cloud. 
+        This will be used as a replacement since LiDAR is typically more expensive. 
+        </p>
+    </div>
+</div>
+
+
+<div class="research-container">
+    <div class="research-col">
+        <br><br><br>
+        <h1> Progress </h1>
+        <p>
+            <br>
+            In tangent to our current working MUSHr racecar, we are also assembling others 
+            MUSHr racecars and have started building a drone so that we can extend our research 
+            to aerial vehicles. These vehicles will be equipped with sensors such as stereo cameras 
+            and LiDARs for increased accuracy in environment perception.  
+        </p>
+    </div>
+    <div class="research-col">
+        <img src="images/assembled-cars.png" alt="image of a MUSHr racecar">
+    </div>
+</div>
+
+
+<div class="research-container">
+    <div class="research-col">
+        <h1> Future Prospects </h1>
+        <p>
+            <br>
+            We present a Similarity-based Incremental Learning Algorithm
+            (SILA) [1] for pedestrian motion prediction with the ability of
+            improving the learned model over the time as data is obtained
+            incrementally.
+            To keep the model size efficient, the motion primitives learned
+            from the new data are compared with the previously known ones,
+            and similar motion primitives are fused while novel motion
+            primitives are added to the model. 
+            <br> <br> 
+            SimFuse is a similarity-based model fusion algorithm for
+            improving the prediction accuracy which enables autonomous
+            agents to incrementally update their knowledge by communicating
+            with other vehicles (V2V) or by infrastructures (V2I). 
+            <br> <br>
+            This is where we propose the use of a multi-camera visual SLAM
+            method, capable of gauging depth through machine learning.
+        </p>
+    </div>
+    <div class="research-col">
+        <img src="images/graph-1.png" alt="graph 1">
+    </div>
+</div>
+
+
+<div class="research-container">
+    <div class="research-col-1">
+        <img src="images/graph-2.png" alt="graph-2">
+    </div>
+    <div class="research-col-1">
+        <p>
+            <br><br>
+            By merging the maps created from each camera, effectively
+            creating a multi-camera system, one could hope to remedy
+            complications found in single camera systems, such as
+            environmental conditions, like the affect of direct sunlight or other
+            obscuring weather conditions.
+            <br> <br> <br>
+        </p>
+        <h1> References </h1>
+        <p> [1] G. Habibi, N. Jaipuria and J. P. How, "SILA: An
+            Incremental Learning Approach for Pedestrian
+            Trajectory Prediction," 2020 IEEE/CVF
+            Conference on Computer Vision and Pattern
+            Recognition Workshops (CVPRW), 2020, pp. 4411-
+            4421, doi: 10.1109/CVPRW50498.2020.00520. </p>
+    </div>
+</div>
+
+
+
+
+
+<br><br><br>
+<h1 style="text-align: center;"> Recent Research Presentation Poster Submissions </h1><br><br>
+<div class="center-img">
+    <!--<img src="images/daniel-poster.png" style="width: 40%; align-content: center;"> 
+    <img src="images/yuki-tyler-poster.png" style="width: 40%; align-content: center;"> -->
+    <img src="images/Airou-research-poster.jpg" alt="Research poster" style="width: 80%; align-content: center;">
+</div>
+
+
+<br><br><br><br>
+<!-------- Research content -------------->
+
+
+
+<!--- Prospective Students -->
+<div id="prospective">
+    <br><br><br>
+    <section class = "ProspectiveStudents">
+      
+      <h1 style="padding-left: 5%;
+                 font-size: 25px;"> 
+      Prospective Students </h1>
+  
+      <p style="padding-left: 5%;
+                font-size: 20px;"> 
+        There are few spots in the lab available for PhD and undergraduate research. <br>
+        Interested candidates can send their CV, transcripts, and a research statement to
+        golnaz@ou.edu. 
+      </p><br><br><br><br>
+    </section>
+  </div>
+  <!--- Prospective Students -->
+  
+  
+
+
+<!--- Footer ---->
+<div id="contact">
+<section class="footer"> 
+  <h4>Contact Us</h4> 
+  <p>
+    Golnaz Habibi <br>
+    golnaz@ou.edu <br>
+    Carson Engineering Center Room 12 <br>
+    202 W Boyd St <br>
+    Norman, OK 73019
+  </p>
+</section>
+</div>
+<!--- Footer ---->
+
+
+<!-------- Script for Toggle Menu ------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){ 
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){ 
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
