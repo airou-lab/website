@@ -423,3 +423,16 @@ p{
     align-content: center;
     justify-content:space-evenly;
 }
+
+.publications{ 
+    padding: 5%;
+}
+.publications h1{
+    text-align: left;
+    font-size: 40px;
+}
+.publications p{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
