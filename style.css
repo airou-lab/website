@@ -413,6 +413,7 @@ p{
 }
 .research-col-1 h1{ 
     padding-left: 1%;
+    padding-right: 6%; 
 }
 .research-col-1 img{ 
     width: 75%; 
@@ -422,4 +423,17 @@ p{
     display: flex; 
     align-content: center;
     justify-content:space-evenly;
+}
+
+.publications{ 
+    padding: 5%;
+}
+.publications h1{
+    text-align: left;
+    font-size: 40px;
+}
+.publications p{
+    text-align: left;
+    font-size: 20px;
+    color: black;
 }
