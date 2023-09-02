@@ -5,7 +5,7 @@ sftp ouok0000@ouwww.ou.edu <<SFTP_ROUTINE
 rm *
 put *.html
 put *.css
-put -r people/
+put -r team/
 put -r news/
 put -r publications/
 put -r research/

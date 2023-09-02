@@ -1,7 +1,7 @@
-# airlabWebsite
+# AirLab Website
 
-This is the html and css code for the airlab website. 
+The codebase for the static AirLab website.
 
-This code and other relevant files (i.e. images or documents) can only be uploaded onto the AirLab FileZilla server with permission. 
+Source files can be uploaded to the hosting server via SFTP. See Golnaz for help doing this via FileZilla, or utilze the ''deploy.sh'' script to deploy the site.
 
-website: ou.edu/airou
+Hosted URL: ou.edu/airou
