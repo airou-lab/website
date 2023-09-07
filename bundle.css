@@ -20,7 +20,7 @@
 .header {
     min-height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/musr_car.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images-stock/braden-jarvis-R0b35bL_44A-unsplash.jpg);
     background-position: 100% 40%;
     /* The 40% shifts the image down in the box */
     background-size: cover;
