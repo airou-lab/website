@@ -1,21 +1,12 @@
 <div class="bio-row">
-
-    <img src="/assets/images/habibi.png" alt="">
+    <img src="{{ member.image }}" alt="">
     <div class="bio">
-        <h1> Golnaz Habibi</h1>
-        <p> Golnaz Habibi is a professor in the
-            <a href="https://www.ou.edu/coe/cs/people/habibi"> School of Computer Science</a>
-            at the University of Oklahoma.
-            She is currently the director and principal investigator of AirLab. Previously, she was a research scientist
-            at the Massachusetts Institute of Technology, a robotics engineer at Autel Robotics, and a control engineer
-            at
-            Nargon. Golnaz holds MS and BS
-            degrees in electrical and control engineering from the Toosi University of Technology and Tarbiat Modares
-            University,
-            and she received her Ph.D. in computer science from Rice University. Golnaz is interested in machine
-            learning,
-            robotics,
-            self-driving vehicles, reinforcement learning, multi-agent systems, and computer vision.
-        </p><br>
+        <h1>
+            {{ member.name }}
+        </h1>
+        <p>
+            {{ member.bio | safe}}
+        </p>
+        <br>
     </div>
 </div>

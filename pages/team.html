@@ -11,256 +11,46 @@ title: 'Meet the Team'
 
   <h3> PI (Director) </h3>
 
-  <div class="bio-row">
-
-    <!--Habibi Bio -->
-    <img src="/assets/images/habibi.png" alt="">
-    <div class="bio">
-      <h1> Golnaz Habibi</h1>
-      <p> Golnaz Habibi is a professor in the
-        <a href="https://www.ou.edu/coe/cs/people/habibi"> School of Computer Science</a>
-        at the University of Oklahoma.
-        She is currently the director and principal investigator of AirLab. Previously, she was a research scientist
-        at the Massachusetts Institute of Technology, a robotics engineer at Autel Robotics, and a control engineer at
-        Nargon. Golnaz holds MS and BS
-        degrees in electrical and control engineering from the Toosi University of Technology and Tarbiat Modares
-        University,
-        and she received her Ph.D. in computer science from Rice University. Golnaz is interested in machine learning,
-        robotics,
-        self-driving vehicles, reinforcement learning, multi-agent systems, and computer vision.
-      </p><br>
-    </div>
-  </div>
-  <!--Habibi Bio -->
+  <ul class="members">
+    {% for member in team.members.pi %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
 
   <br><br><br>
   <h3> Postdoctoral Research Associates </h3>
 
-  <div class="bio-row">
-    <div class="bio">
-      <h1>Mahmoud Sami</h1>
-      <p>Mahmoud is a postdoctoral research associate working in the AirLab.</p>
-    </div>
-  </div>
+  <ul class="members">
+    {% for member in team.members.postdoc %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
 
   <br><br><br>
   <h3> Graduate Students </h3>
 
-  <div class="bio-row">
-    <!-- William Bio -->
-    <img src="/assets/images/william.png" alt="">
-    <div class="bio">
-      <h1> William Wilson</h1>
-      <p> William is currently a master&lsquo;s student in computer science. He holds a Bsc in mechanical engineering
-        and a minor in electrical engineering from the University of Oklahoma. He has developed software for the
-        federal
-        government and currently works as an embedded software engineer at the Advanced Radar Research Center (ARRC).
-        He is currently engineering the next generation of radar systems. </p>
-
-      <p>His research interests include 3D visualization, image processing, sensor fusion, machine learning, and
-        navigation.
-        During his free time, he enjoys playing ultimate frisbee, chess, video games, working on his homelab, or rock
-        climbing.
-      </p>
-      <p> Website: <a href="https://mechaengineer.com">mechaengineer.com</p></a>
-    </div>
-  </div>
-  <!-- William Bio -->
-
-
-
-
-  <div class="bio-row">
-    <!-- Maisha Bio -->
-    <img src="/assets/images/Maisha_Maliha.png" alt="Maisha Maliha">
-    <div class="bio">
-      <h1> Maisha Maliha </h1>
-      <p> Maisha is a Ph.D student in Computer Science at the University of Oklahoma. Currently, she is
-        working as a Graduate Research Assistant under Prof. Dr. Habibi&lsquo;s supervision. She has
-        completed a Master of Technology in Computer Science and Engineering from the Indian
-        Institute of Technology Bombay, India by achieving a full-funded fellowship under the Indian
-        Council for Cultural Relations Scholarship and a Bachelor of Science in Information &
-        Communications Engineering from East West University, Bangladesh. She also worked as a
-        Lecturer at a Polytechnic Institute under the Department of Computer Science and was a
-        Graduate Teaching Assistant at East West University Bangladesh. </p>
-      <p>Her research interests are related to machine learning, artificial intelligence, IoT, natural
-        language processing, computer vision and robotics. She loves to see the sunset and enjoys traveling to new
-        places. </p>
-      <a href="https://scholar.google.com/citations?user=-zTUmEMAAAAJ&hl=en&oi=ao">
-        <p>Google Scholar Page</p>
-      </a>
-      </p>
-    </div>
-  </div>
-  <!-- Maisha Bio -->
-
-  <div class="bio-row">
-    <!-- Tate Bio -->
-    <div class="bio">
-      <h1> Tate Smith </h1>
-      <p> Tate is a master's student in Computer Science at the University of Oklahoma.
-        He holds a BS in Computer Science with a minor in Economics, also from the University
-        of Oklahoma. He currently works as a software developer for Paycom. He is also the cofounder
-        of the
-        <a href="https://www.ouc3.org/"> OU C3 Cybersecurity Club. </a>
-        This semester he is working on developing an AI agent for the
-        board game Risk. <br>
-
-        His research interests include machine learning, genetic algorithms, and reinforcement learning.
-      </p>
-    </div>
-  </div>
-  <!-- Tate Bio -->
-
-
-  <div class="bio-row">
-    <!-- Raj Bio -->
-    <img src="/assets/images/Raj_Saha.png" alt="Raj Saha">
-    <div class="bio">
-      <h1> Raj Saha </h1>
-      <p> Raj Saha is a student at The University of Oklahoma pursuing an MS in Data Science & Analytics.
-        He graduated from Bengal Institute of Technology, India in 2016 and started his professional journey in
-        TCS, India as a data analyst for over five years. He is passionate and proficient at data mining, data
-        analysis and visualization, big data processing, predictive model building, and strategic decision-making
-        to achieve business objectives.
-      </p>
-      <p> During his tenure through TCS, he developed AI Chatbot, Product Recommendation Engine,
-        Automated Loan Approval system and Sales Forecasting model. His research areas include data science,
-        machine learning, deep learning and artificial intelligence.
-      </p>
-      </p>
-    </div>
-  </div>
-  <!-- Raj Bio -->
-
-
+  <ul class="members">
+    {% for member in team.members.grad %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
 
   <br><br><br>
   <h3> Undergraduate Students </h3>
 
-  <div class="bio-row">
-    <!-- Daniel Bio -->
-    <img src="/assets/images/daniel.png" alt="">
-    <div class="bio">
-      <h1> Daniel Vargas</h1>
-      <p> Daniel is a junior majoring in Mechanical Engineering and minoring in Electrical and Computer Engineering.
-        He leads the development and optimization of robotics and drones and the implementation of autonomous
-        navigation
-        in the AirLab. He is a member of
-        <a href="https://www.oupowerlifting.com/"> OU Powerlifting</a>
-        and is the secretary for
-        <a href="https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders"> Sooners Without
-          Borders.</a><br>
-      </p>
-
-      <p>His research interests include mechanical optimization, autonomous navigation, robotics, and drones.
-      </p>
-    </div>
-  </div>
-  <!-- Daniel Bio -->
-
-  <div class="bio-row">
-    <!-- Tyler Bio -->
-    <img src="/assets/images/tyler.png" alt="">
-    <div class="bio">
-      <h1> Tyler Roman</h1>
-      <p> Tyler is currently a sophomore majoring in Computer Science and minoring in Math.
-        Previously, he was an undergraduate research assistant in 3sigma lab at the University of Oklahoma
-        with a focus on computational neuroscience. He is also the autonomous subteam lead in the
-        <a href="https://ou.edu/soonerrover/"> Sooner Rover</a>
-        team and a member of the
-        <a href="https://www.ou.edu/hsp"> Henderson Scholar's Program</a>
-        at OU. <br>
-      </p>
-
-      <p>His research interests include robotics, computer vision, and network communication.
-      </p>
-    </div>
-  </div>
-  <!-- Tyler Bio -->
-
-  <div class="bio-row">
-    <!-- Manthan C. Chilweri-->
-    <div class="bio">
-      <h1>Manthan C. Chilweri</h1>
-      <p>Manthan is an undergraduate student in the AirLab.</p>
-    </div>
-  </div>
-
-  <div class="bio-row">
-    <!-- Phong Nguyen -->
-    <div class="bio">
-      <h1>Phong Nguyen</h1>
-      <p>Phong Nguyen is an undergraduate student in the AirLab.</p>
-    </div>
-  </div>
-
+  <ul class="members">
+    {% for member in team.members.undergrad %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
 
   <br><br><br>
   <h3> Former Students and Alumni </h3>
 
-  <div class="bio-row">
-    <!-- Parisa Bio -->
-    <!-- <img src="/assets/images/parisa.png" alt=""> -->
-    <div class="bio">
-      <h1> Parisa Masnadi Khiabani</h1>
-      <p> Parisa is a Ph.D. student in Data Science and Analytics at the University of Oklahoma.
-        She has a BS in electronics engineering from the Shariati Technical and Vocational College
-        and an MS in mechatronics engineering from the K.N Toosi University in Tehran. Previously,
-        she was a senior automotive embedded software developer at Capgemini Engineering and an active
-        safety system engineer at Saipa Automotive Research and Innovation Center.<br>
-
-        Her research interests are robotics, autonomous driving, multi-object tracking, autonomous control,
-        and real-time embedded systems.
-      </p>
-      <a href="https://scholar.google.com/citations?user=-ge1tpwAAAAJ&hl=en">
-        <p>Google Scholar Page</p>
-      </a>
-      </p><br>
-    </div>
-  </div>
-  <!-- Parisa Bio -->
-
-  <div class="bio-row">
-    <!-- Yuki Bio -->
-    <!-- <img src="/assets/images/yuki.png" alt=""> -->
-    <div class="bio">
-      <h1> Yuki Zheng</h1>
-      <p>Yuki is a rising junior majoring in Computer Science and minoring in Math.
-        She is also a multimedia assistant career major completer, with three certifications in adobe premiere,
-        photoshop, and multimedia. She is currently the
-        <a href="https://ou.edu/soonerrover/"> Sooner Rover</a>
-        publicity coordinator and member of the autonomous sub-team, a
-        <a href="https://sase.ou.edu/"> Society of Asian Scientists and Engineers</a>
-        intern, the
-        <a href="https://swe.ou.edu/"> Society of Women Engineers</a>
-        publicity chair, a
-        <a href="https://www.ou.edu/coe/student-life/diversity"> Diversity & Inclusion</a>
-        Scholar, and the co-founder and co-president of the first Girls Who Code college loop in the state.
-        She is also a
-        <a href="https://www.ou.edu/coe/student-life/women/ww"> Halliburton Women's Welcome</a>
-        and ME^2 mentor.
-      </p>
-
-    </div>
-  </div>
-  <!-- Yuki Bio -->
-
-  <div class="bio-row">
-    <!-- Avinash Bio -->
-    <!-- <img src="/assets/images/Avinash.png" alt="Avinash"> -->
-    <div class="bio">
-      <h1> Avinash Reddy Nuthalapati </h1>
-      <p> Avinash is currently a master&lsquo;s student in Computer science. He has an BTech degree in computer
-        science
-        from MRCET, India. </p>
-
-      <p>His research interest includes Application development and Generative Adversarial Networks. </p>
-      <br><br><br><br>
-    </div>
-  </div>
-  <!-- Avinash Bio -->
-
+  <ul class="members">
+    {% for member in team.members.alumni %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
 
 </section>
-<!-------- (End) Meet The People -------->
