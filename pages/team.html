@@ -4,7 +4,6 @@ layout: 'layouts/page.html'
 title: 'Meet the Team'
 ---
 
-<!-------- Meet The People content -------------->
 <section class="bios">
 
   <h1>OU AirLab Members</h1>
@@ -13,15 +12,6 @@ title: 'Meet the Team'
 
   <ul class="members">
     {% for member in team.members.pi %}
-    {% include "partials/bio.html" %}
-    {% endfor %}
-  </ul>
-
-  <br><br><br>
-  <h3> Postdoctoral Research Associates </h3>
-
-  <ul class="members">
-    {% for member in team.members.postdoc %}
     {% include "partials/bio.html" %}
     {% endfor %}
   </ul>
@@ -49,7 +39,7 @@ title: 'Meet the Team'
 
   <ul class="members">
     {% for member in team.members.alumni %}
-    {% include "partials/bio.html" %}
+    {% include "partials/bio-alumni.html" %}
     {% endfor %}
   </ul>
 

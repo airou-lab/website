@@ -1,7 +1,7 @@
 @font-face {
     font-family: SourceSans3;
     src: url(assets/fonts/SourceSans3-VariableFont_wght.ttf);
-    font-style: norma;
+    font-style: normal;
 }
 
 @font-face {
@@ -321,8 +321,8 @@ p {
 .bios img {
     width: 12em;
     height: 12em;
-    padding: 0 10px 0 0;
-    border-radius: 20px;
+    margin: 0 2em 0 0;
+    border-radius: 10px;
 }
 
 .bios h3 {
