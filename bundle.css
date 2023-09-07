@@ -18,7 +18,7 @@
 
 /*background photo*/
 .header {
-    min-height: 70vh;
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images-stock/braden-jarvis-R0b35bL_44A-unsplash.jpg);
     background-position: 100% 40%;
@@ -319,10 +319,10 @@ p {
 }
 
 .bios img {
-    width: 12em;
-    height: 12em;
+    width: 10em;
+    height: 10em;
     margin: 0 2em 0 0;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 .bios h3 {
