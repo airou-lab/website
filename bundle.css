@@ -1,14 +1,26 @@
+@font-face {
+    font-family: SourceSans3;
+    src: url(assets/fonts/SourceSans3-VariableFont_wght.ttf);
+    font-style: norma;
+}
+
+@font-face {
+    font-family: SourceSans3;
+    src: url(assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: SourceSans3;
 }
 
 /*background photo*/
 .header {
     min-height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/musr_car.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/musr_car.jpg);
     background-position: 100% 40%;
     /* The 40% shifts the image down in the box */
     background-size: cover;
@@ -163,7 +175,6 @@ nav .fa {
 }
 
 .Mission h1 {
-    font: 'Roboto';
     font-size: 30px;
     padding-left: 10px;
 }
@@ -236,7 +247,6 @@ p {
     color: rgb(0, 0, 0);
     font-size: 15px;
     padding-right: 20%;
-    font: 'Roboto';
 }
 
 @media(max-height:700px) {
@@ -279,7 +289,7 @@ p {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/lab_photo.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/lab_photo.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -356,7 +366,7 @@ p {
 
 .footer {
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/musr_car.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/musr_car.jpg);
     background-position: 100% 50%;
     /* The 40% shifts the image down in the box */
     background-size: cover;
@@ -383,7 +393,7 @@ p {
 .sub-header-news {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/musr_car.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/musr_car.jpg);
     background-position: 100% 30%;
     /* The 40% shifts the image down in the box */
     background-size: cover;
@@ -404,7 +414,7 @@ p {
 .sub-header-research {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/old-3d-printers.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/old-3d-printers.png);
     background-position: 100% 50%;
     /* The 40% shifts the image down in the box */
     background-size: cover;
@@ -437,7 +447,6 @@ p {
 .research-col p {
     text-align: left;
     font-size: 15px;
-    font: 'Roboto';
     padding-left: 7%;
     color: black;
 }
@@ -461,7 +470,6 @@ p {
 .research-col-1 p {
     text-align: left;
     font-size: 15px;
-    font: 'Roboto';
     padding-right: 15%;
     color: black;
 }

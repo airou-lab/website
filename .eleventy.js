@@ -4,9 +4,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
     eleventyConfig.addPassthroughCopy("bundle.css");
-    eleventyConfig.addPassthroughCopy("images");
-    eleventyConfig.addPassthroughCopy("publications");
-
+    eleventyConfig.addPassthroughCopy("assets");
 
     // Return your Object options:
     return {
