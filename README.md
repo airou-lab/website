@@ -2,14 +2,31 @@
 
 The codebase for the static AirLab website.
 
-Source files can be uploaded to the hosting server via SFTP. See Golnaz for help doing this via FileZilla, or utilze the ''deploy.sh'' script to deploy the site.
-
 Hosted URL: ou.edu/airou
 
-# Starter Guide
+## About
 
-# Resources
+This project uses *Eleventy* (11ty), a static site generator (SSG), along with *Nunjucks* templating engine. Eleventy is a NodeJS based SSG, so with that comes `npm`.
 
-https://learneleventyfromscratch.com/
+## Setup
 
-https://www.11ty.dev/docs/getting-started/
+1. To start, clone the repository.
+
+2. Run `npm install` to install all dependencies to your machine.
+
+3. Run `npm run dev:server` to build the site and run a server locally.
+
+4. View the local site at http://localhost:8080/
+
+## Deployment
+
+After setup, just run `npm run deploy` to automatically make a clean build of the website and deploy it to the host. You will need to enter the password for the user associated with the site, which you can get from Golnaz.
+
+The deployment script will clean out the build directory (`_site`) and build the site. Then it will send the files to the host via SFTP. See the `package.json` and `deploy.sh` for more details on the node and bash scripts for the project.
+
+## Resources
+
+### Eleventy
+Familiarize yourself with the Eleventy project structure and more using the tutorials below:
+- https://learneleventyfromscratch.com/
+- https://www.11ty.dev/docs/getting-started/
