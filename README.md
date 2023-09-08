@@ -2,7 +2,7 @@
 
 The codebase for the static AirLab website.
 
-Hosted URL: ou.edu/airou
+Hosted URL: https://www.ou.edu/airou
 
 ## About
 
