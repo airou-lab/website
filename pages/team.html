@@ -1,0 +1,46 @@
+---
+permalink: "/team/"
+layout: 'layouts/page.html'
+title: 'Meet the Team'
+---
+
+<section class="bios">
+
+  <h1>OU AirLab Members</h1>
+
+  <h3> PI (Director) </h3>
+
+  <ul class="members">
+    {% for member in team.members.pi %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
+
+  <br><br><br>
+  <h3> Graduate Students </h3>
+
+  <ul class="members">
+    {% for member in team.members.grad %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
+
+  <br><br><br>
+  <h3> Undergraduate Students </h3>
+
+  <ul class="members">
+    {% for member in team.members.undergrad %}
+    {% include "partials/bio.html" %}
+    {% endfor %}
+  </ul>
+
+  <br><br><br>
+  <h3> Former Students and Alumni </h3>
+
+  <ul class="members">
+    {% for member in team.members.alumni %}
+    {% include "partials/bio-alumni.html" %}
+    {% endfor %}
+  </ul>
+
+</section>
