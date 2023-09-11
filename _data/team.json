@@ -24,12 +24,12 @@
             {
                 "name": "Daniel Vargas",
                 "image": "/assets/images/daniel.png",
-                "bio": "Daniel is a junior majoring in Mechanical Engineering and minoring in Electrical and Computer Engineering. He leads the development and optimization of robotics and drones and the implementation of autonomous navigation in the AirLab. He is a member of <a href=\"https://www.oupowerlifting.com/\"> OU Powerlifting</a> and is the secretary for <a href=\"https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders\"> Sooners Without Borders.</a><br> </p> <p>His research interests include mechanical optimization, autonomous navigation, robotics, and drones."
+                "bio": "Daniel is a junior majoring in Mechanical Engineering and minoring in Electrical and Computer Engineering. He leads the development and optimization of robotics and drones and the implementation of autonomous navigation in the AirLab. He is a member of <a href=\"https://www.oupowerlifting.com/\"> OU Powerlifting</a> and is the secretary for <a href=\"https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders\"> Sooners Without Borders.</a></p><p>His research interests include mechanical optimization, autonomous navigation, robotics, and drones."
             },
             {
                 "name": "Tyler Roman",
                 "image": "/assets/images/tyler.png",
-                "bio": "Tyler is currently a sophomore majoring in Computer Science and minoring in Math. Previously, he was an undergraduate research assistant in 3sigma lab at the University of Oklahoma with a focus on computational neuroscience. He is also the autonomous subteam lead in the <a href=\"https://ou.edu/soonerrover/\"> Sooner Rover</a> team and a member of the <a href=\"https://www.ou.edu/hsp\"> Henderson Scholar's Program</a> at OU. <br> </p> <p>His research interests include robotics, computer vision, and network communication."
+                "bio": "Tyler is a junior Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
             },
             {
                 "name": "Phong Nguyen",
@@ -40,6 +40,11 @@
                 "name": "Matthew Carroll",
                 "image": "/assets/images-stock/portrait-default.png",
                 "bio": "Matthew Carroll is an undergraduate student in the AirLab."
+            },
+            {
+                "name": "Ethan Haque",
+                "image": "/assets/images/ethan.jpeg",
+                "bio": "Ethan is a Junior majoring in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting."
             }
         ],
         "alumni": [
