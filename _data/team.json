@@ -33,13 +33,13 @@
             },
             {
                 "name": "Phong Nguyen",
-                "image": "/assets/images-stock/portrait-default.png",
-                "bio": "Phong Nguyen is an undergraduate student in the AirLab."
+                "image": "/assets/images/phong.jpeg",
+                "bio": "Phong is a junior majoring in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
             },
             {
                 "name": "Matthew Carroll",
-                "image": "/assets/images-stock/portrait-default.png",
-                "bio": "Matthew Carroll is an undergraduate student in the AirLab."
+                "image": "/assets/images/matt.jpg",
+                "bio": "Matthew Carroll is a senior in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development."
             },
             {
                 "name": "Ethan Haque",
