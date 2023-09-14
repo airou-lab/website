@@ -4,111 +4,15 @@ layout: 'layouts/page.html'
 title: AIROU News
 ---
 
-
 <!--- News --->
 <section class="News">
   <h1 style="color: rgb(65, 65, 65);">Lab News</h1>
   <div class="divider"></div>
-  <br><br><br>
-  <br><br>
-
-  <section class="Event">
-    <h2 style="color: rgb(83, 82, 82);
-               padding-left: 10px;"> April 2023 | AirLab Participates in The Big Event </h2>
-
-    <p>The underclassmen members of Airlab, Daniel, Tyler, and Yuki, were able to participate in this year's Big
-      Event.
-      The Big Event is OU's official day of community service. Pictured below are members Daniel and Tyler remulching
-      for
-      a local wild care foundation.
-    </p>
-    <img src="/assets/images/daniel-remulching-tbe.png" style="width: 20%; padding-left: 10px;">
-    <img src="/assets/images/tyler-remulching-tbe.png" style="width: 20%; padding-left: 10px;">
-  </section><br>
-  <div class="divider" style="width: 70%;"></div>
   <br>
 
-
-  <section class="Event">
-    <h2 style="color: rgb(83, 82, 82);
-               padding-left: 10px;"> Jan 2023 | AirLab Welcomes Three New Members To Lab </h2>
-
-    <p>AIROU is excited to announce the arrival of three additional members to the lab
-      for this upcoming school semester. Welcome to the team, Avinash, Tate, and Maisha!
-    </p>
-    <img src="/assets/images/Avinash.png" style="width: 20%; padding-left: 10px;">
-    <img src="/assets/images/Maisha_Maliha.png" style="width: 20%; padding-left: 10px;">
-  </section><br>
-  <div class="divider" style="width: 70%;"></div>
-  <br>
-
-
-  <section class="Event">
-    <h2 style="color: rgb(83, 82, 82);
-               padding-left: 10px;">Oct 2022 | New Lab Set Up in Carson B12 </h2>
-
-    <p>AIROU's new lab has been successfully set up in Carson B12. This space will be used for testing and
-      implementing various
-      lab and research endeavors. This space also holds our 3D printer, computers, and other electronics.
-      Currently, our member Daniel Vargas has been working on assembling our drones and MUSHr racecars
-      in this lab space. Pictured below is the AIROU's first lab meeting here!
-    </p>
-    <img src="/assets/images/lab-members.png" style="width: 20%; padding-left: 10px;">
-    <img src="/assets/images/lab.png" style="width: 20%; padding-left: 10px;">
-  </section><br>
-  <div class="divider" style="width: 70%;"></div>
-  <br>
-
-  <section class="Event">
-    <h2 style="color: rgb(83, 82, 82);
-               padding-left: 10px;"> Oct 2022 | Oklahoma Transportation Research Day</h2>
-    <p> Last October, our lab members Daniel Vargas, Yuki Zheng, and Tyler Roman were able to attend the
-      Oklahoma Transportation Research Day. <br>
-
-      Daniel (pictured: bottom left) presented his work on the implementation of localizing and mapping
-      with advanced AI for autonomous navigation, and presented his MUSHr racecar project our lab is using
-      to test our visual navigation and simulations.
-      <br><br>
-      Yuki and Tyler (pictured: bottom right) presented their poster exploring AIROU's
-      project for collaborative multi-view perception for a safe, robust, and scalable autonomous driving system.
-      Some topics covered include 3-D multi-object detection, sensor fusion, multi-object tracking,
-      collaborative learning, localization, and mapping.
-    </p>
-
-    <img src="/assets/images/daniel-poster.png" style="width: 20%; padding-left: 10px;">
-    <img src="/assets/images/yuki-tyler-poster.png" style="width: 20%; padding-left: 10px">
-  </section>
-  <br>
-  <div class="divider" style="width: 70%;"></div>
-  <br> <!--- Event -->
-
-  <section class="Event">
-    <h2 style="color:rgb(83, 82, 82);
-               padding-left: 10px;"> Oct 2022 | New 3D Printer Set Up </h2>
-    <p>
-      A 3D printer has recently been set up in the lab to facilitate in the assembling of the lab's MUSHr racecars.
-    </p>
-    <img src="/assets/images/3d-printer.png" style="width: 20%; padding-left: 10px;">
-    <img src="/assets/images/old-3d-printers.png" style="width: 20%; padding-left: 10px;">
-  </section>
-  <br>
-  <div class="divider" style="width: 70%;"></div>
-  <br>
-
-  <section class="Event">
-    <h2 style="color: rgb(83, 82, 82);
-               padding-left: 10px;">Aug 2022 | AIROU's First MUSHr Racecar Assembled </h2>
-    <p> AIROU's first MUSHr racecar has been assembled and driven in the lab!
-    </p>
-    <img src="/assets/images/mushr-car.png" style="width: 20%; padding-left: 10px;">
-    <img src="/assets/images/assembled-cars.png" style="width: 20%; padding-left: 10px;">
-  </section>
-  <br>
-  <div class="divider" style="width: 70%;"></div>
-  <br>
-
-  <br><br>
-
+  {% for snippet in news.snippets %}
+  {% include "partials/news-snippet.html" %}
+  {% endfor %}
 
 </section>
 <!--- News --->

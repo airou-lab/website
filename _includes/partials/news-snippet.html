@@ -1,0 +1,15 @@
+<section class="Event">
+
+    <h2 style="color: rgb(83, 82, 82);
+               padding-left: 10px;">{{ snippet.date}} | {{ snippet.title }}</h2>
+
+    <p>
+        {{ snippet.content | safe }}
+    </p>
+
+    {% for image in snippet.images %}
+    <img src="{{ image }}" style="width: 20%; padding-left: 10px;">
+    {% endfor %}
+</section><br>
+<div class="divider" style="width: 70%;"></div>
+<br>

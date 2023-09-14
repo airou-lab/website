@@ -1,0 +1,58 @@
+{
+    "snippets": [
+        {
+            "date": "April 2023",
+            "title": "AirLab Participates in The Big Event",
+            "content": "The underclassmen members of Airlab, Daniel, Tyler, and Yuki, were able to participate in this year's Big Event. The Big Event is OU's official day of community service. Pictured below are members Daniel and Tyler remulching for a local wild care foundation.",
+            "images": [
+                "/assets/images/daniel-remulching-tbe.png",
+                "/assets/images/tyler-remulching-tbe.png"
+            ]
+        },
+        {
+            "date": "Jan 2023",
+            "title": "AirLab Welcomes Three New Members To Lab",
+            "content": "AIROU is excited to announce the arrival of three additional members to the lab for this upcoming school semester. Welcome to the team, Avinash, Tate, and Maisha!",
+            "images": [
+                "/assets/images/Avinash.png",
+                "/assets/images/Maisha_Maliha.png"
+            ]
+        },
+        {
+            "date": "Oct 2022",
+            "title": "New Lab Set Up in Carson B12",
+            "content": "AIROU's new lab has been successfully set up in Carson B12. This space will be used for testing and implementing various lab and research endeavors. This space also holds our 3D printer, computers, and other electronics. Currently, our member Daniel Vargas has been working on assembling our drones and MUSHr racecars in this lab space. Pictured below is the AIROU's first lab meeting here!",
+            "images": [
+                "/assets/images/lab-members.png",
+                "/assets/images/lab.png"
+            ]
+        },
+        {
+            "date": "Oct 2022",
+            "title": "Oklahoma Transportation Research Day",
+            "content": "Last October, our lab members Daniel Vargas, Yuki Zheng, and Tyler Roman were able to attend the Oklahoma Transportation Research Day. <br> Daniel (pictured: bottom left) presented his work on the implementation of localizing and mapping with advanced AI for autonomous navigation, and presented his MUSHr racecar project our lab is using to test our visual navigation and simulations. <br><br> Yuki and Tyler (pictured: bottom right) presented their poster exploring AIROU's project for collaborative multi-view perception for a safe, robust, and scalable autonomous driving system. Some topics covered include 3-D multi-object detection, sensor fusion, multi-object tracking, collaborative learning, localization, and mapping.",
+            "images": [
+                "/assets/images/daniel-poster.png",
+                "/assets/images/yuki-tyler-poster.png"
+            ]
+        },
+        {
+            "date": "Oct 2022",
+            "title": "New 3D Printer Set Up",
+            "content": "A 3D printer has recently been set up in the lab to facilitate in the assembling of the lab's MUSHr racecars.",
+            "images": [
+                "/assets/images/3d-printer.png",
+                "/assets/images/old-3d-printers.png"
+            ]
+        },
+        {
+            "date": "Aug 2022",
+            "title": "AIROU's First MUSHr Racecar Assembled",
+            "content": "AIROU's first MUSHr racecar has been assembled and driven in the lab!",
+            "images": [
+                "/assets/images/mushr-car.png",
+                "/assets/images/assembled-cars.png"
+            ]
+        }
+    ]
+}
