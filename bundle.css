@@ -18,7 +18,7 @@
 
 /*background photo*/
 .header {
-    min-height: 50vh;
+    min-height: 35vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images-stock/braden-jarvis-R0b35bL_44A-unsplash.jpg);
     background-position: 100% 40%;
@@ -84,7 +84,7 @@ nav img {
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     /*moving to the center*/
@@ -93,8 +93,7 @@ nav img {
 
 /*h1: for the title*/
 .text-box h1 {
-    font-size: 62px;
-    padding-top: 55px;
+    font-size: 40px;
 }
 
 /*paragraph*/
