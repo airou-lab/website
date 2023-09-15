@@ -207,9 +207,15 @@ nav .fa {
 }
 
 .News h1 {
+    color: rgb(65, 65, 65);
     font-size: 36px;
     padding-top: -20%;
     font-weight: 600;
+}
+
+.News h2 {
+    color: rgb(83, 82, 82);
+    padding-left: 10px;
 }
 
 p {
