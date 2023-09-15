@@ -11,7 +11,7 @@ This project uses *Eleventy* (11ty), a static site generator (SSG), along with *
 ## Setup
 
 > [!WARNING]
-> The setup and deployment scripts were tested in a Linux environment, so OSX/Windows may not be compatible.
+> The setup and deployment scripts were tested in a Linux environment, so OS X/Windows may not be compatible.
 
 1. To start, clone the repository.
 
