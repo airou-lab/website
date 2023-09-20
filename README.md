@@ -15,7 +15,7 @@ This project uses *Eleventy* (11ty), a static site generator (SSG), along with *
 
 1. To start, clone the repository.
 
-2. Run `sudo apt install nodejs npm` to install all dependencies to your machine.
+2. Run `sudo apt install nodejs` to install all dependencies to your machine.
 
 3. Run `npm run dev:server` to build the site and run a server locally.
 
