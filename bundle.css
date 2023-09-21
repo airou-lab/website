@@ -427,7 +427,7 @@ nav ul li:hover::after {
 
     .landing {
         background-color: #002E3A;
-        background-image: url("/assets/images-stock/drone.svg");
+        background-image: url("assets/images-stock/drone.svg");
         background-repeat: no-repeat;
         background-position: 140% 20%;
         background-size: 70%;
