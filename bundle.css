@@ -281,21 +281,28 @@ nav ul li:hover::after {
 
 .footer {
     background-color: #002E3A;
-    text-align: center;
-    padding: 30px 0;
+    padding: 48px 0;
 
-    display: grid;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    grid-auto-flow: column;
+    text-align: center;
+
+    gap: 8vw;
+
+    & img {
+        height: 72px;
+        opacity: 0.7;
+    }
+
+    & p {
+        color: #FFFFFF;
+        opacity: 0.7;
+        font-weight: 325;
+        letter-spacing: 0.3px;
+    }
 }
 
-.footer p {
-    color: #DAF7FF;
-}
-
-.footer img {
-    height: 60px;
-}
 
 /* ----- Sub Page ---------------*/
 /*------ news --------*/
