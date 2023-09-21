@@ -22,17 +22,24 @@ html {
 
 /*background photo*/
 .header {
-    min-height: 35vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images-stock/braden-jarvis-R0b35bL_44A-unsplash.jpg);
-    background-position: 100% 40%;
-    /* The 40% shifts the image down in the box */
-    background-size: cover;
+    background-color: #002E3A;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.header h1 {
-    font-weight: 900
+.header-title {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 32px 36px;
+    letter-spacing: 2px;
+
+}
+
+.header-title a {
+    text-decoration: none;
+    color: #25A18E;
 }
 
 nav-button {
@@ -46,6 +53,8 @@ nav {
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    float: right;
+    align-self: flex-end
 }
 
 /*navigation menu orientation*/
@@ -86,30 +95,6 @@ nav img {
 /*increases from a width: 0% to width: 100%*/
 .nav-links ul li:hover::after {
     width: 100%;
-}
-
-.text-box {
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /*moving to the center*/
-    text-align: center;
-}
-
-/*h1: for the title*/
-.text-box h1 {
-    font-size: 40px;
-}
-
-/*paragraph*/
-.text-box p {
-    /*10px from top, 0 from left and right, 40px from bottom*/
-    margin: 15px 30px 40px;
-    font-size: 16px;
-    color: #fff;
 }
 
 /*designs button on home page*/
