@@ -472,4 +472,31 @@ nav ul li:hover::after {
         }
 
     }
+
+    .hero {
+        background-color: #DAF7FF;
+        padding: 20vh 15vh;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 350;
+        color: #002E3A;
+    }
+
+    .technologies {
+        background-color: #EEFBFF;
+        padding: 15vh;
+        font-size: 38px;
+        text-align: center;
+        font-weight: 450;
+        color: #002E3A;
+        line-height: 175%;
+
+        & h1 {
+            font-weight: 300;
+            font-size: 48px;
+            letter-spacing: 2px;
+
+            line-height: 200%;
+        }
+    }
 }
