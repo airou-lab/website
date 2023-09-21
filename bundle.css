@@ -17,7 +17,7 @@ html {
 * {
     margin: 0;
     padding: 0;
-    font-family: SourceSans3;
+    font-family: SourceSans3, sans-serif;
 }
 
 /*background photo*/
@@ -34,7 +34,7 @@ html {
 .header-title {
     font-weight: 900;
     font-size: 30px;
-    padding: 0 36px;
+    padding: 0 5vw;
     letter-spacing: 2px;
 }
 
@@ -429,6 +429,7 @@ nav ul li:hover::after {
 
         .landing-hero {
             padding-left: 5vw;
+            padding-top: 5vw;
 
             & h1 {
                 font-weight: 350;
