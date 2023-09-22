@@ -1,14 +1,18 @@
-<section class="Event">
+<section class="news-snippet">
 
-    <h2>{{ snippet.date}} | {{ snippet.title }}</h2>
+    <div class="content">
+        <h3>{{ snippet.date}}</h2>
+            <h2>{{ snippet.title }}</h1>
 
-    <p>
-        {{ snippet.content | safe }}
-    </p>
+                <p>
+                    {{ snippet.content | safe }}
+                </p>
+    </div>
 
-    {% for image in snippet.images %}
-    <img src="{{ image }}" style="width: 20%; padding-left: 10px;">
-    {% endfor %}
-</section><br>
-<div class="divider" style="width: 70%;"></div>
-<br>
+    <div class="images">
+
+        {% for image in snippet.images %}
+        <img src="{{ image }}">
+        {% endfor %}
+    </div>
+</section>

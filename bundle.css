@@ -18,15 +18,16 @@ html {
     margin: 0;
     padding: 0;
     font-family: SourceSans3, sans-serif;
+    color: #002E3A;
 }
 
 /*background photo*/
 .header {
     background-color: #002E3A;
     position: relative;
-    display: grid;
     align-items: center;
     color: #94CAD8;
+    display: grid;
     grid-auto-flow: column;
 
     height: 15vh;
@@ -102,306 +103,6 @@ html {
         font-weight: 325;
         letter-spacing: 0.3px;
     }
-}
-
-/* ------ Team Mission -------*/
-.Mission {
-    text-align: left;
-    padding-top: 75px;
-    padding-left: 5%;
-}
-
-.Mission h1 {
-    font-size: 30px;
-    padding-left: 10px;
-}
-
-.Mission p {
-    font-size: 15px;
-    color: rgb(58, 58, 58);
-    padding-right: 15%;
-}
-
-.a:visited {
-    color: rgb(0, 0, 0);
-}
-
-/* ------ Team Mission -------*/
-
-
-/*------ News ---------*/
-/*Centers the "Meet The Team" header & paragraph  (change these comments)*/
-.News {
-    text-align: left;
-    padding-top: 100px;
-    padding-left: 5%;
-}
-
-.divider {
-    width: 50%;
-    height: 2px;
-    background-color: rgb(113, 113, 113);
-    /* this will set the divider to a medium gray color */
-}
-
-.News h1 {
-    color: rgb(65, 65, 65);
-    font-size: 36px;
-    padding-top: -20%;
-    font-weight: 600;
-}
-
-.News h2 {
-    color: rgb(83, 82, 82);
-    padding-left: 10px;
-}
-
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-.column img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.row p {
-    padding: 0;
-}
-
-.Event {
-    width: 100%;
-}
-
-.Event p {
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    padding-right: 20%;
-}
-
-@media(max-height:700px) {
-    #Event img {
-        width: 100%;
-    }
-}
-
-
-
-/*------ Prospective Students ---------*/
-.ProspectiveStudents h1 {
-    font-size: 20px;
-    padding-left: 5px;
-    text-align: left;
-    color: rgb(0, 0, 0);
-}
-
-.ProspectiveStudents p {
-    font-size: 15px;
-    padding-left: 5px;
-    text-align: left;
-    color: rgb(0, 0, 0);
-}
-
-/* ----- Sub Page ---------------*/
-/*------ Meet The People --------*/
-.sub-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/lab_photo.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-
-/* moving text in subheader to center of photo*/
-.sub-header h1 {
-    margin-top: 100px;
-}
-
-
-/* People sub-page Biographies */
-
-.bios {
-    width: 80%;
-    margin: auto;
-    /*will be centered*/
-    text-align: center;
-    padding-top: 100px;
-}
-
-.bio-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bios img {
-    width: 10em;
-    height: 10em;
-    margin: 0 2em 0 0;
-    border-radius: 1em;
-}
-
-.bios h3 {
-    text-align: left;
-    top: 100px;
-}
-
-/* Name */
-.bio h1 {
-    font-size: 36px;
-    font-weight: 600;
-    /*margin-right: 500px;*/
-    text-align: left;
-    padding: 10px;
-}
-
-/* Biography */
-.bio p {
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    line-height: 22px;
-    padding: 10px;
-    text-align: left;
-    margin-right: 500px;
-    width: 100%;
-}
-
-/* Biography subheaders */
-.bio h4 {
-    color: rgb(0, 0, 0);
-    width: 100%;
-    margin-right: 500px;
-}
-
-@media (max-width: 700px) {
-    .bio-row {
-        flex-direction: column;
-    }
-}
-
-
-/* ----- Sub Page ---------------*/
-/*------ news --------*/
-.sub-header-news {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/musr_car.jpg);
-    background-position: 100% 30%;
-    /* The 40% shifts the image down in the box */
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-
-/* moving text in subheader to center of photo*/
-.sub-header-news h1 {
-    font-size: 40px;
-    margin-top: 100px;
-}
-
-
-
-/* ----- Sub Page ---------------*/
-/*------ research --------*/
-.sub-header-research {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/images/old-3d-printers.png);
-    background-position: 100% 50%;
-    /* The 40% shifts the image down in the box */
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-
-/* moving text in subheader to center of photo*/
-.sub-header-research h1 {
-    font-size: 40px;
-    margin-top: 100px;
-}
-
-
-.research-container {
-    display: flex;
-    flex: 33.33%;
-    padding: 5px;
-    gap: 5px;
-    justify-content: space-evenly;
-}
-
-.research-col {
-    align-content: center;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.research-col p {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 7%;
-    color: black;
-}
-
-.research-col h1 {
-    padding-left: 7%;
-}
-
-.research-col img {
-    width: 75%;
-    padding-left: 10%;
-}
-
-.research-col-1 {
-    align-content: center;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.research-col-1 p {
-    text-align: left;
-    font-size: 15px;
-    padding-right: 15%;
-    color: black;
-}
-
-.research-col-1 h1 {
-    padding-left: 1%;
-    padding-right: 6%;
-}
-
-.research-col-1 img {
-    width: 75%;
-    padding-left: 10%;
-}
-
-.center-img {
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-}
-
-.publications {
-    padding: 5%;
-}
-
-.publications h1 {
-    text-align: left;
-    font-size: 40px;
-}
-
-.publications p {
-    text-align: left;
-    font-size: 20px;
-    color: black;
 }
 
 .home {
@@ -487,6 +188,53 @@ html {
             letter-spacing: 2px;
 
             line-height: 200%;
+        }
+    }
+}
+
+.news {
+    padding: 5vw 10vw;
+
+    & h1 {
+        font-size: 48px;
+        font-weight: 400;
+        padding-bottom: 24px;
+    }
+
+    .news-snippet {
+        background-color: #e3e2e2;
+        padding: 32px;
+        border-radius: 32px;
+
+        margin: 24px 0px;
+        display: grid;
+        grid-template-columns: 1fr 220px;
+        gap: 10vw;
+
+        .content {
+
+            & h3 {
+                font-size: 28px;
+                font-weight: 250;
+                padding-bottom: 2px;
+            }
+
+            & h2 {
+                font-size: 28px;
+                font-weight: 550;
+                padding-bottom: 16px;
+            }
+
+            & p {
+                font-size: 22px
+            }
+        }
+
+        .images {
+            & img {
+                width: 100%;
+                border-radius: 10px;
+            }
         }
     }
 }
