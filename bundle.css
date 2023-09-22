@@ -126,15 +126,16 @@ html {
                 font-weight: 350;
                 font-size: 48px;
                 letter-spacing: 2px;
+                color: #7DC6D9;
             }
 
             & p {
                 padding-top: 20px;
                 width: 35vw;
-                color: #7DC6D9;
                 font-weight: 200;
                 font-size: 24px;
                 letter-spacing: 2px;
+                color: #7DC6D9;
             }
         }
 
@@ -193,7 +194,7 @@ html {
 }
 
 .news {
-    padding: 5vw 10vw;
+    padding: 5vw 8vw;
 
     & h1 {
         font-size: 48px;
@@ -209,7 +210,7 @@ html {
         margin: 24px 0px;
         display: grid;
         grid-template-columns: 1fr 220px;
-        gap: 10vw;
+        gap: 8vw;
 
         .content {
 
