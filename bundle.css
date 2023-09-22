@@ -45,42 +45,40 @@ html {
 
     /*move menus to right side of webpage*/
     & nav {
-        display: flex;
         justify-self: right;
+        display: flex;
         padding: 0 36px;
 
         & ul li {
             list-style: none;
             display: inline-block;
-            padding: 8px 12px;
+            margin: 8px 12px;
 
             & a {
                 color: #94CAD8;
                 text-decoration: none;
                 font-size: 18px;
                 letter-spacing: 2px;
-            }
 
-            /*line appears under nav menu when mouse hovers*/
-            /*increases from a width: 0% to width: 100%*/
-            &::after {
-                content: '';
-                width: 0%;
-                height: 2px;
-                background: #94CAD8;
-                display: block;
-                margin: auto;
-                transition: 0.5s;
-            }
+                /*line appears under nav menu when mouse hovers*/
+                /*increases from a width: 0% to width: 100%*/
+                &::after {
+                    content: '';
+                    width: 0%;
+                    height: 2px;
+                    background: #94CAD8;
+                    display: block;
+                    margin: auto;
+                    transition: 0.5s;
+                }
 
-            &:hover::after {
-                width: 100%;
+                &:hover::after {
+                    width: 100%;
+                }
             }
         }
     }
-
 }
-
 
 .footer {
     background-color: #002E3A;
@@ -105,8 +103,6 @@ html {
         letter-spacing: 0.3px;
     }
 }
-
-
 
 /* ------ Team Mission -------*/
 .Mission {
@@ -210,18 +206,6 @@ html {
     text-align: left;
     color: rgb(0, 0, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ----- Sub Page ---------------*/
 /*------ Meet The People --------*/
