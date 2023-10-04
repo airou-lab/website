@@ -287,6 +287,10 @@ html {
         text-decoration: none;
     }
 
+    & a:hover {
+        text-decoration: underline;
+    }
+
     .publication {
         margin: 38px 0;
 
