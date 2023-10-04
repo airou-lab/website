@@ -308,6 +308,8 @@ html {
 
 .team {
     padding: 5vw 8vw;
+    display: block;
+    margin: auto;
 
     & h1 {
         font-size: 48px;
@@ -321,38 +323,44 @@ html {
         padding-top: 10px;
     }
 
-    .bio-row {
-        background-color: #e3e2e2;
-        padding: 32px;
-        border-radius: 28px;
+    .bio-set {
+        display: flex;
+        flex-wrap: wrap;
 
-        margin: 24px 0px;
-        gap: 8vw;
-
-        & img {
-            width: 25%;
-            border-radius: 8px;
+        & li {
+            list-style: none;
         }
 
-        & h3 {
-            font-size: 28px;
-            font-weight: 250;
-            padding-bottom: 2px;
-        }
+        .bio-card {
+            background-color: #e3e2e2;
+            border-radius: 28px;
+            width: 35vh;
+            margin: 24px;
+            text-align: center;
 
-        & h2 {
-            font-size: 28px;
-            font-weight: 550;
-            padding-bottom: 16px;
-        }
+            & a {
+                text-decoration: none;
+                height: 100%;
+                display: block;
 
-        & p {
-            font-size: 22px
-        }
+                .card-contents {
+                    padding: 0 24px 0 24px;
 
-        .images {
-            position: relative;
-            height: fit-content;
+                    & img {
+                        display: block;
+                        width: 100%;
+                        border-radius: 8px;
+                        margin: 24px 0;
+                    }
+
+                    & h3 {
+                        font-size: 20px;
+                        font-weight: 550;
+                        margin: 24px 0;
+                    }
+                }
+            }
         }
     }
+
 }

@@ -9,7 +9,7 @@ title: 'Meet the Team'
   <h2>
     Principal Investigator & Director
   </h2>
-  <ul class="members">
+  <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "pi" %}
         {% include "partials/bio-card.html" %}
@@ -19,7 +19,7 @@ title: 'Meet the Team'
   <h2>
     Graduate Students
   </h2>
-  <ul class="members">
+  <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "grad" %}
         {% include "partials/bio-card.html" %}
@@ -29,7 +29,7 @@ title: 'Meet the Team'
   <h2>
     Undergraduate Students
   </h2>
-  <ul class="members">
+  <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "undergrad" %}
         {% include "partials/bio-card.html" %}
@@ -39,7 +39,7 @@ title: 'Meet the Team'
   <h2>
     Former Students and Alumni
   </h2>
-  <ul class="members">
+  <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "alumni" %}
         {% include "partials/bio-card.html" %}
