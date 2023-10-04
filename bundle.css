@@ -334,10 +334,11 @@ html {
         }
 
         .bio-card {
-            background-color: #e3e2e2;
+            background-color: #e3e2e200;
             border-radius: 28px;
             width: 35vh;
             margin: 24px;
+            transition: background-color 0.2s ease;
 
             & a {
                 text-decoration: none;
@@ -361,6 +362,10 @@ html {
                     }
                 }
             }
+        }
+
+        .bio-card:hover {
+            background-color: #e3e2e2;
         }
     }
 
