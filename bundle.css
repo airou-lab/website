@@ -311,11 +311,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     & h1 {
         font-size: 48px;
         font-weight: 400;
-        padding: 24px 0px;
     }
 
     & h2 {
@@ -325,7 +325,6 @@ html {
     }
 
     .bio-set {
-
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -339,7 +338,6 @@ html {
             border-radius: 28px;
             width: 35vh;
             margin: 24px;
-            text-align: center;
 
             & a {
                 text-decoration: none;
@@ -366,4 +364,8 @@ html {
         }
     }
 
+    & p {
+        margin-top: 32px;
+        font-size: 22px
+    }
 }
