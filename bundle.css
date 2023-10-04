@@ -40,6 +40,11 @@ html {
         & a {
             text-decoration: none;
             color: #841617;
+            transition: 0.2s;
+        }
+
+        & a:hover {
+            color: #ffffff;
         }
     }
 
@@ -150,7 +155,10 @@ html {
             text-decoration: none;
 
             .button-icon {
+                position: relative;
                 height: 40px;
+                top: 0px;
+                transition: 0.3s;
             }
 
             .button-text {
@@ -160,6 +168,11 @@ html {
                 font-weight: 500;
                 color: #f0f0f0;
             }
+
+        }
+
+        & a:hover .button-icon {
+            transform: rotate(-135deg);
         }
 
     }
