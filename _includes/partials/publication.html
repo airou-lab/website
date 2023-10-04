@@ -1,4 +1,8 @@
-<p>
-    {{ pub.citation | safe}}
-    [<a href="{{ pub.file }}">PDF</a>] </p>
-<br>
+<a href="{{ pub.file }}">
+    <div class="publication">
+        <h3>{{ pub.title }}</h3>
+        <p>
+            {{ pub.citation | safe}}
+        </p>
+    </div>
+</a>

@@ -6,10 +6,10 @@ title: 'Publications'
 <!--Publications-->
 <div class="publications">
 
-
+  <h1>Publications</h1>
 
   {% for year in publications %}
-  <h1>{{ year.year }}</h1><br>
+  <h2>{{ year.year }}</h2>
 
   {% for pub in year.citations %}
   {% include "partials/publication.html" %}

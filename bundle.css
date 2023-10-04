@@ -204,7 +204,7 @@ html {
     .news-snippet {
         background-color: #e3e2e2;
         padding: 32px;
-        border-radius: 32px;
+        border-radius: 28px;
 
         margin: 24px 0px;
         display: grid;
@@ -236,7 +236,7 @@ html {
 
             & img {
                 width: 100%;
-                border-radius: 10px;
+                border-radius: 8px;
             }
 
             .button-left,
@@ -248,7 +248,7 @@ html {
                 width: 50px;
                 font-weight: bold;
                 font-size: 18px;
-                border-radius: 0 10px 0 0;
+                border-radius: 0 8px 0 0;
                 border: 0;
                 opacity: 50%;
                 background-color: #e3e2e2;
@@ -257,13 +257,47 @@ html {
 
             .button-right {
                 right: 0;
-                border-radius: 10px 0 0 0;
+                border-radius: 8px 0 0 0;
             }
 
             .button-left:hover,
             .button-right:hover {
                 opacity: 100%
             }
+        }
+    }
+}
+
+.publications {
+    padding: 5vw 8vw;
+
+    & h1 {
+        font-size: 48px;
+        font-weight: 400;
+        padding: 24px 0px;
+    }
+
+    & h2 {
+        font-size: 28px;
+        font-weight: 250;
+        padding-top: 10px;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    .publication {
+        margin: 38px 0;
+
+        & h3 {
+            font-size: 28px;
+            font-weight: 550;
+            padding-bottom: 16px;
+        }
+
+        & p {
+            font-size: 22px
         }
     }
 }
