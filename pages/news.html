@@ -8,13 +8,14 @@ title: AIROU News
   <h1>Lab News</h1>
 
   {% for snippet in news %}
-  {% set snippetloop = loop %}
-  {% include "partials/news-snippet.njk" %}
+    {% set snippetloop = loop %}
+    {% include "partials/news-snippet.html" %}
   {% endfor %}
 
 </section>
 
-<script> // Operates each image slideshow
+<script>
+  // Operates each image slideshow
   var snippets = document.getElementsByClassName("news-snippet");
   for (i = 0; i < snippets.length; i++) {
     snippets[i].setAttribute("data-currentslide", 0);
@@ -33,11 +34,9 @@ title: AIROU News
     // Set currentslide in object
     if (slidenumber >= images.length) {
       snippet_obj.setAttribute("data-currentslide", 0);
-    }
-    else if (slidenumber < 0) {
+    } else if (slidenumber < 0) {
       snippet_obj.setAttribute("data-currentslide", images.length - 1)
-    }
-    else {
+    } else {
       snippet_obj.setAttribute("data-currentslide", slidenumber)
     }
 
