@@ -8,41 +8,41 @@ title: 'Meet the Team'
   <h1>OU AirLab Members</h1>
   <h2>
     Principal Investigator & Director
-  </h3>
+  </h2>
   <ul class="members">
     {% for member in team %}
       {% if member.class == "pi" %}
-        {% include "partials/bio.html" %}
+        {% include "partials/bio-card.html" %}
       {% endif %}
     {% endfor %}
   </ul>
   <h2>
     Graduate Students
-  </h3>
+  </h2>
   <ul class="members">
     {% for member in team %}
       {% if member.class == "grad" %}
-        {% include "partials/bio.html" %}
+        {% include "partials/bio-card.html" %}
       {% endif %}
     {% endfor %}
   </ul>
   <h2>
     Undergraduate Students
-  </h3>
+  </h2>
   <ul class="members">
     {% for member in team %}
       {% if member.class == "undergrad" %}
-        {% include "partials/bio.html" %}
+        {% include "partials/bio-card.html" %}
       {% endif %}
     {% endfor %}
   </ul>
   <h2>
     Former Students and Alumni
-  </h3>
+  </h2>
   <ul class="members">
     {% for member in team %}
       {% if member.class == "alumni" %}
-        {% include "partials/bio-alumni.html" %}
+        {% include "partials/bio-card.html" %}
       {% endif %}
     {% endfor %}
   </ul>

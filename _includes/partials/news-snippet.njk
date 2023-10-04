@@ -2,17 +2,17 @@
 
     <div class="content">
         <h3>{{ snippet.date }}</h2>
-            <h2>{{ snippet.title }}</h1>
+        <h2>{{ snippet.title }}</h1>
 
-                <p>
-                    {{ snippet.content | safe }}
-                </p>
+        <p>
+            {{ snippet.content | safe }}
+        </p>
     </div>
 
     <div class="images">
 
         {% for image in snippet.images %}
-        <img class="imager" src="{{ image }}">
+            <img class="imager" src="{{ image }}">
         {% endfor %}
         <button class="button-left"  onclick="plusDivs(-1, {{ snippetloop.index0 }})">&#10094;</button>
         <button class="button-right" onclick="plusDivs(+1, {{ snippetloop.index0 }})">&#10095;</button>
