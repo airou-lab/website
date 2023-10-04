@@ -18,7 +18,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: SourceSans3, sans-serif;
-    color: #002E3A;
+    color: #000000;
 }
 
 /*background photo*/
@@ -81,6 +81,21 @@ html {
                     width: 100%;
                 }
             }
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
         }
     }
 }
@@ -183,7 +198,6 @@ html {
         font-size: 30px;
         text-align: center;
         font-weight: 350;
-        color: #000000;
     }
 
     .technologies {
@@ -192,7 +206,6 @@ html {
         font-size: 38px;
         text-align: center;
         font-weight: 450;
-        color: #000000;
         line-height: 175%;
 
         & h1 {
@@ -305,12 +318,12 @@ html {
     }
 
     .publication {
-        margin: 38px 0;
+        margin: 38px 12px;
 
         & h3 {
             font-size: 28px;
             font-weight: 550;
-            padding-bottom: 16px;
+            padding-bottom: 12px;
         }
 
         & p {
@@ -385,5 +398,44 @@ html {
     & p {
         margin-top: 32px;
         font-size: 22px
+    }
+}
+
+.research {
+    padding: 5vw 8vw;
+
+    & h1 {
+        font-size: 48px;
+        font-weight: 400;
+        padding: 24px 0px;
+    }
+
+    & h2 {
+        font-size: 28px;
+        font-weight: 250;
+        padding-top: 10px;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    & a:hover {
+        text-decoration: underline;
+    }
+
+    & h3 {
+        font-size: 28px;
+        font-weight: 550;
+        padding-bottom: 16px;
+    }
+
+    & p {
+        font-size: 22px
+    }
+
+    .publication {
+        margin: 38px 0;
+
     }
 }

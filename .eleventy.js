@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
     // Return your Object options:
     return {
         input: "pages",
-        htmlTemplateEngine: "njk"
+        htmlTemplateEngine: "njk",
+        markdownTemplateEngine: "njk"
     }
 };
