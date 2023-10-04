@@ -308,8 +308,9 @@ html {
 
 .team {
     padding: 5vw 8vw;
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     & h1 {
         font-size: 48px;
@@ -324,8 +325,10 @@ html {
     }
 
     .bio-set {
+
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
 
         & li {
             list-style: none;
