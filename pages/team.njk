@@ -1,0 +1,51 @@
+---
+permalink: "/team/"
+layout: 'layouts/page.html'
+title: 'Meet the Team'
+---
+
+<section class="team">
+  <h1>OU AirLab Members</h1>
+  <h2>
+    Principal Investigator & Director
+  </h3>
+  <ul class="members">
+    {% for member in team %}
+      {% if member.class == "pi" %}
+        {% include "partials/bio.html" %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>
+    Graduate Students
+  </h3>
+  <ul class="members">
+    {% for member in team %}
+      {% if member.class == "grad" %}
+        {% include "partials/bio.html" %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>
+    Undergraduate Students
+  </h3>
+  <ul class="members">
+    {% for member in team %}
+      {% if member.class == "undergrad" %}
+        {% include "partials/bio.html" %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>
+    Former Students and Alumni
+  </h3>
+  <ul class="members">
+    {% for member in team %}
+      {% if member.class == "alumni" %}
+        {% include "partials/bio-alumni.html" %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  There are a few spots in the lab available for PhD and undergraduate research.<br>
+    Interested candidates can send their CV, transcripts, and a research statement to golnaz@ou.edu
+  </section>
