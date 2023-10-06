@@ -19,5 +19,12 @@
         "images": [
             "/assets/images/mushr-car.png"
         ]
+    },
+    {
+        "title": "3D Perception with Stereo Cameras",
+        "description": "We currently plan to utilize a RealSense Depth Camera D435i to capture the depth and geometric information of the vehicle's surroundings during localization. Stereo cameras feature two lenses that simulate the human visual experience through triangulation and captures the depth perception that a monocular camera cannot. In parallel to our project, we are looking into extracting the depth information from the stereo camera and generating a point cloud similar to a LiDAR point cloud. This will be used as a replacement since LiDAR is typically more expensive.",
+        "images": [
+            "/assets/images/real-sense-camera.png"
+        ]
     }
 ]

@@ -1,6 +1,8 @@
 <section class="research-highlight">
     <div class="research-col-1">
-        <img src="">
+        {% for image in highlight.images %}
+            <img src="{{ image }}">
+        {% endfor %}
     </div>
     <div class="research-col-1">
         <h2>
