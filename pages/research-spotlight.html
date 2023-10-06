@@ -1,0 +1,15 @@
+---
+title: 'Research Spotlight'
+layout: 'layouts/page-md.html'
+pagination: 
+    data: research
+    size: 1
+    alias: project
+permalink: "/research/{{ project.title | slugify }}/"
+templateEngineOverride: njk, md
+---
+<h1>
+    {{ project.title }}
+</h1>
+
+{% include project.page %}

@@ -6,6 +6,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("bundle.css");
     eleventyConfig.addPassthroughCopy("assets");
 
+    eleventyConfig.addFilter("textPreview", function (value) {
+        return value.split(' ').slice(0, 30).join(' ');
+    })
+
     // Return your Object options:
     return {
         input: "pages",

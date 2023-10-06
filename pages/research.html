@@ -18,9 +18,12 @@ title: 'Our Research'
   with the ability of sharing information between fleets of vehicles,
   such that the map and localization at intersections are fused to achieve improved coverage.
   </p>
-  {% for highlight in research %}
-    {% include "partials/research-highlight.html" %}
-  {% endfor %}
+
+  <div class="research-set">
+    {% for highlight in research %}
+      {% include "partials/research-card.html" %}
+    {% endfor %}
+  </div>
 
   <!-- Previous Work -->
   <div class="research-container">
