@@ -402,14 +402,21 @@ html {
 }
 
 .research {
-    padding: 5vw 8vw;
-    display: block;
+    padding: 10vh 12vw;
+    text-align: center;
+
+    & h1,
+    & h2,
+    & h3,
+    & a,
+    & p {
+        text-align: left;
+    }
 
     & h1 {
         font-size: 48px;
         font-weight: 400;
         padding: 24px 0px;
-        text-align: left;
     }
 
     & h2 {
@@ -437,7 +444,17 @@ html {
     }
 
     & img {
-        width: 60%;
+        height: 60vh;
+    }
+
+    .research-highlight {
+        margin: 0 8vw;
+        display: block;
+        align-items: center;
+
+        & h1 {
+            text-align: left;
+        }
     }
 
     .research-set {
@@ -468,6 +485,7 @@ html {
                     & img {
                         display: block;
                         width: 100%;
+                        height: auto;
                         border-radius: 8px;
                         margin: 24px 0;
                     }

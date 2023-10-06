@@ -1,6 +1,6 @@
 ---
 title: 'Research Spotlight'
-layout: 'layouts/page-md.html'
+layout: 'layouts/page.html'
 pagination: 
     data: research
     size: 1
@@ -8,8 +8,15 @@ pagination:
 permalink: "/research/{{ project.title | slugify }}/"
 templateEngineOverride: njk, md
 ---
-<h1>
-    {{ project.title }}
-</h1>
+<div class="research">
+    <div class="research-highlight">
+        <a href="/research/">Return to Research</a>
 
-{% include project.page %}
+        <h1>
+            {{ project.title }}
+        </h1>
+
+        {% include project.page %}
+
+    </div>
+</div>
