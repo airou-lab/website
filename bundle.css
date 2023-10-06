@@ -403,15 +403,6 @@ html {
 
 .research {
     padding: 10vh 12vw;
-    text-align: center;
-
-    & h1,
-    & h2,
-    & h3,
-    & a,
-    & p {
-        text-align: left;
-    }
 
     & h1 {
         font-size: 48px;
@@ -444,16 +435,19 @@ html {
     }
 
     & img {
+
         height: 60vh;
     }
 
-    .research-highlight {
+    .research-spotlight {
         margin: 0 8vw;
-        display: block;
-        align-items: center;
 
         & h1 {
-            text-align: left;
+            text-align: center;
+        }
+
+        & img {
+            text-align: center;
         }
     }
 
