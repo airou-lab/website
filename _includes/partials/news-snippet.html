@@ -1,14 +1,19 @@
-<section class="Event">
+<section class="news-snippet">
+    <div class="content">
+        <h3>{{ snippet.date }}</h2>
+        <h2>{{ snippet.title }}</h1>
 
-    <h2>{{ snippet.date}} | {{ snippet.title }}</h2>
+        <p>
+            {{ snippet.content | safe }}
+        </p>
+    </div>
 
-    <p>
-        {{ snippet.content | safe }}
-    </p>
+    <div class="images">
 
-    {% for image in snippet.images %}
-    <img src="{{ image }}" style="width: 20%; padding-left: 10px;">
-    {% endfor %}
-</section><br>
-<div class="divider" style="width: 70%;"></div>
-<br>
+        {% for image in snippet.images %}
+            <img class="imager" src="{{ image }}">
+        {% endfor %}
+        <button class="button-left"  onclick="plusDivs(-1, {{ snippetloop.index0 }})">&#10094;</button>
+        <button class="button-right" onclick="plusDivs(+1, {{ snippetloop.index0 }})">&#10095;</button>
+    </div>
+</section>

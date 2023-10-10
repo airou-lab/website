@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Multi-agent System for non-Holonomic Racing (MuSHR) Car",
+        "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MUSHr hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
+        "previewImage": "/assets/images/cars.png",
+        "page": "research-pages/MuSHR.md"
+    },
+    {
+        "title": "Autonomous Drones: PANTHER (Perception-Aware Trajectory Planner in Dynamic Environments)",
+        "description": "Another project we are looking forward to implementing is building an autonomous drone. This project is based on previous work, PANTHER: Perception-Aware Trajectory Planner in Dynamic Environments. Currently, this project is still in its beginning stages of assembly, but future goals include implementing SLAM and path planning algorithms to autonomously navigate aerially.<br>Pictured is the VOXL and power source that will be installed on Air Lab's drone.",
+        "previewImage": "/assets/images/voxl.png",
+        "page": "research-pages/PANTHER.md"
+    },
+    {
+        "title": "Autonomous Rovers: Clearpath Husky/Jackal and Trodden Robotics Rover",
+        "description": "The third project we are interested in involves implementing our software onto larger vehicles, such as a rover. Specifically, we are interested in utilizing hardware from the Clearpath Husky/Jackal and Trodden Robotics Rover.<br>Our goal is to autonomously navigate an environment, like the MUSHr racecars and drone projects, but with larger vehicles. Currently, we are only purchasing the parts and planning the assembly of the rover as we focus on the previously mentioned two projects first.",
+        "previewImage": "/assets/images/mushr-car.png",
+        "page": "research-pages/Rover.md"
+    },
+    {
+        "title": "3D Perception with Stereo Cameras",
+        "description": "We currently plan to utilize a RealSense Depth Camera D435i to capture the depth and geometric information of the vehicle's surroundings during localization. Stereo cameras feature two lenses that simulate the human visual experience through triangulation and captures the depth perception that a monocular camera cannot. In parallel to our project, we are looking into extracting the depth information from the stereo camera and generating a point cloud similar to a LiDAR point cloud. This will be used as a replacement since LiDAR is typically more expensive.",
+        "previewImage": "/assets/images/real-sense-camera.png",
+        "page": "research-pages/stereo.md"
+    }
+]

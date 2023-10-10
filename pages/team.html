@@ -4,43 +4,50 @@ layout: 'layouts/page.html'
 title: 'Meet the Team'
 ---
 
-<section class="bios">
-
+<section class="team">
   <h1>OU AirLab Members</h1>
-
-  <h3> Principal Investigator & Director </h3>
-
-  <ul class="members">
-    {% for member in team.members.pi %}
-    {% include "partials/bio.html" %}
+  <h2>
+    Principal Investigator & Director
+  </h2>
+  <ul class="bio-set">
+    {% for member in team %}
+      {% if member.class == "pi" %}
+        {% include "partials/bio-card.html" %}
+      {% endif %}
     {% endfor %}
   </ul>
-
-  <br><br><br>
-  <h3> Graduate Students </h3>
-
-  <ul class="members">
-    {% for member in team.members.grad %}
-    {% include "partials/bio.html" %}
+  <h2>
+    Graduate Students
+  </h2>
+  <ul class="bio-set">
+    {% for member in team %}
+      {% if member.class == "grad" %}
+        {% include "partials/bio-card.html" %}
+      {% endif %}
     {% endfor %}
   </ul>
-
-  <br><br><br>
-  <h3> Undergraduate Students </h3>
-
-  <ul class="members">
-    {% for member in team.members.undergrad %}
-    {% include "partials/bio.html" %}
+  <h2>
+    Undergraduate Students
+  </h2>
+  <ul class="bio-set">
+    {% for member in team %}
+      {% if member.class == "undergrad" %}
+        {% include "partials/bio-card.html" %}
+      {% endif %}
     {% endfor %}
   </ul>
-
-  <br><br><br>
-  <h3> Former Students and Alumni </h3>
-
-  <ul class="members">
-    {% for member in team.members.alumni %}
-    {% include "partials/bio-alumni.html" %}
+  <h2>
+    Former Students and Alumni
+  </h2>
+  <ul class="bio-set">
+    {% for member in team %}
+      {% if member.class == "alumni" %}
+        {% include "partials/bio-card.html" %}
+      {% endif %}
     {% endfor %}
   </ul>
-
+  <p>
+    Positions are available for PhD and undergraduate research.<br>
+    Interested candidates should send their CV, transcripts, and a research statement to golnaz@ou.edu
+  </p>
 </section>
