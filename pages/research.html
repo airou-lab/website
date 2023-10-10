@@ -6,28 +6,37 @@ title: 'Our Research'
 
 <div class="research">
 
-  <h1>Research</h1>
+  <h1>
+    Research
+    </h1>
 
-  <p>
-  Our research investigates the solution of replacing LiDARS with
-  stereo cameras, and the sensor fusion of semantic information extracted
-  from monocular cameras and depth information from stereo cameras for increased
-  autonomous accuracy.
+  <section>
+    <p>
+      Our research investigates the solution of replacing LiDARS with
+      stereo cameras, and the sensor fusion of semantic information extracted
+      from monocular cameras and depth information from stereo cameras for increased
+      autonomous accuracy.
+    </p>
 
-  Our project idea provides a vision-based perception platform, extended to multi-vehicles
-  with the ability of sharing information between fleets of vehicles,
-  such that the map and localization at intersections are fused to achieve improved coverage.
-  </p>
+    <p>
+      Our project idea provides a vision-based perception platform, extended to multi-vehicles
+      with the ability of sharing information between fleets of vehicles,
+      such that the map and localization at intersections are fused to achieve improved coverage.
+    </p>
+  </section>
 
-  <div class="research-set">
-    {% for highlight in research %}
-      {% include "partials/research-card.html" %}
-    {% endfor %}
-  </div>
+  <section>
+    <div class="research-set">
+      {% for highlight in research %}
+        {% include "partials/research-card.html" %}
+      {% endfor %}
+    </div>
+  </section>
 
-  <!-- Previous Work -->
-  <div class="research-container">
-    <h2> Previous Work </h2>
+  <section>
+    <h2>
+      Previous Work
+    </h2>
     <p>
       We present a Similarity-based Incremental Learning Algorithm
       (SILA) [1] for pedestrian motion prediction with the ability of
@@ -48,11 +57,13 @@ title: 'Our Research'
       This is where we propose the use of a multi-camera visual SLAM
       method, capable of gauging depth through machine learning.
     </p>
-    <img src="/assets/images/graph-1.png" alt="graph 1">
-    <img src="/assets/images/graph-2.png" alt="graph-2">
-  </div>
+    <div class="row">
+      <img src="/assets/images/graph-1.png" alt="graph 1">
+      <img src="/assets/images/graph-2.png" alt="graph-2">
+    </div>
+  </section>
 
-  <div class="research-container">
+  <section>
     <p>
       By merging the maps created from each camera, effectively
       creating a multi-camera system, one could hope to remedy
@@ -60,20 +71,28 @@ title: 'Our Research'
       environmental conditions, like the affect of direct sunlight or other
       obscuring weather conditions.
     </p>
-    <h2> References </h2>
+    <h3>
+      References
+    </h3>
     <p> [1] G. Habibi, N. Jaipuria and J. P. How, "SILA: An
       Incremental Learning Approach for Pedestrian
       Trajectory Prediction," 2020 IEEE/CVF
       Conference on Computer Vision and Pattern
       Recognition Workshops (CVPRW), 2020, pp. 4411-
-      4421, doi: 10.1109/CVPRW50498.2020.00520. </p>
-
+      4421, doi: 10.1109/CVPRW50498.2020.00520.
+    </p>
     <p> [2] G. Habibi and J. P. How, "Human Trajectory Prediction Using Similarity-Based
       Multi-Model Fusion," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp.
       715-722, April 2021, doi: 10.1109/LRA.2020.3048652.
     </p>
-  </div>
-  <!-- Previous Work -->
-  <h2 style="text-align: center;"> Recent Research Presentation Poster Submissions </h2><br><br>
-  <img src="/assets/images/Airou-research-poster.jpg" alt="Research poster">
+  </section>
+
+  <section>
+    <h2>
+      Recent Research Presentation Poster Submissions
+    </h2>
+    <div class="row">
+      <img src="/assets/images/Airou-research-poster.jpg" alt="Research poster">
+    </div>
+  </section>
 </div>
