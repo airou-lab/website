@@ -258,7 +258,7 @@ html {
 
         .images {
             position: relative;
-            height: fit-content;
+            height: 220px;
 
             & img {
                 width: 100%;
@@ -350,10 +350,20 @@ html {
         padding-top: 10px;
     }
 
+    & a {
+        text-decoration: none;
+    }
+
+    & a:hover {
+        text-decoration: underline;
+    }
+
     .member {
         margin: 0 8vw;
         list-style: none;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
 
         & h1 {
             text-align: center;
@@ -361,6 +371,7 @@ html {
 
         & img {
             text-align: center;
+            align-self: center;
             width: 30vw;
         }
     }
@@ -422,13 +433,19 @@ html {
     & h1 {
         font-size: 48px;
         font-weight: 400;
-        padding: 24px 0px;
+        margin: 24px 0px;
     }
 
     & h2 {
         font-size: 28px;
         font-weight: 250;
         padding-top: 10px;
+    }
+
+    & h3 {
+        font-size: 28px;
+        font-weight: 550;
+        margin: 20px 0;
     }
 
     & a {
@@ -439,12 +456,6 @@ html {
         text-decoration: underline;
     }
 
-    & h3 {
-        font-size: 28px;
-        font-weight: 550;
-        padding-bottom: 16px;
-    }
-
     & p {
         font-size: 22px
     }
@@ -453,15 +464,31 @@ html {
         height: 60vh;
     }
 
+    .row {
+        text-align: center;
+    }
+
+    & section {
+        margin: 24px 0;
+    }
+
     .research-spotlight {
         margin: 0 8vw;
+        display: block;
+        flex-direction: column;
 
         & h1 {
             text-align: center;
         }
 
-        & img {
-            text-align: center;
+        & p:not(:empty) {
+            margin: 24px 0;
+
+            & img {
+                display: block;
+                margin: 0 auto;
+            }
+
         }
     }
 
