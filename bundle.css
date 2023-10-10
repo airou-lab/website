@@ -318,7 +318,7 @@ html {
     }
 
     .publication {
-        margin: 38px 12px;
+        margin: 38px 16px;
 
         & h3 {
             font-size: 28px;
@@ -348,6 +348,21 @@ html {
         font-size: 28px;
         font-weight: 250;
         padding-top: 10px;
+    }
+
+    .member {
+        margin: 0 8vw;
+        list-style: none;
+        display: block;
+
+        & h1 {
+            text-align: center;
+        }
+
+        & img {
+            text-align: center;
+            width: 30vw;
+        }
     }
 
     .bio-set {
