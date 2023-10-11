@@ -26,7 +26,7 @@ Site is currently maintained by Matthew Carroll and Golnaz Habibi.
 ## Deployment
 
 > [!WARNING]
-> Please take care when deploying. It is recommended to contact the site maintainer before deploying (see [About](https://github.com/airou-lab/AirlabWebsite/README.md#about)).
+> Please take care when deploying. It is recommended to contact the site maintainer before deploying (see [About](https://github.com/airou-lab/AirlabWebsite/tree/main#about)).
 
 Before deployment, ensure that you are connected to the OU network so that you can access the host server. You may need to connect via VPN: refer to the OU IT resources.
 
