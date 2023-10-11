@@ -54,6 +54,9 @@ You can add extra images, headings, tables, strikethrough, underline, etc. using
 
 ## Resources
 
+### Site Usage
+The webhost can display our site storage usage by logging in using our website login (username: ouok0000) at [this website](https://ouwww.ou.edu/usage_web.php).
+
 ### Eleventy
 Familiarize yourself with the Eleventy project structure and more using the tutorials below:
 - https://learneleventyfromscratch.com/
