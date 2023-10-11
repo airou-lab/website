@@ -1,6 +1,6 @@
 {
   "name": "airlabwebsite",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The codebase for the static AirLab website.",
   "main": "index.js",
   "scripts": {
