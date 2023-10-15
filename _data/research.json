@@ -14,7 +14,7 @@
 
          {
         "title": "Collaborative SLAM",
-        "description": This project focuses on collaboratively simultaneously localize and map using a team of race cars and drones.",
+        "description": "This project focuses on collaboratively simultaneously localize and map using a team of race cars and drones.",
         "previewImage": "/assets/images/slam.png",
         "page": "research-pages/slam.md"
     },
@@ -33,7 +33,7 @@
     },
              {
         "title": "Social Behavior Classification in Animals",
-        "description": This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
+        "description": "This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
         "previewImage": "/assets/images/birds.png",
         "page": "research-pages/birds.md"
     },
