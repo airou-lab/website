@@ -8,7 +8,7 @@
     {
         "title": "Autonomous Drones",
         "description": "We have built a fully autonomous dron. We were inspired by the original design by ACL, MIT. Our goal to implement radar and vision based SLAM and path planning algorithms on our drone to autonomously navigate aerially.",
-        "previewImage": "/assets/images/voxl.png",
+        "previewImage": "/assets/images/drone.jpeg",
         "page": "research-pages/PANTHER.md"
     },
     {
