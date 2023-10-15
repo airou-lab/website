@@ -20,9 +20,10 @@ Site is currently maintained by Matthew Carroll and Golnaz Habibi.
 3. Run `sudo apt install nodejs`
 4. Run `sudo apt install nodejs npm` to install all dependencies to your machine.
 
-5. Run `npm run dev:server` to build the site and run a server locally.
+5. `cd AirlabWebsite`
+6.  Run `npm run dev:server` to build the site and run a server locally.
 
-6. View the local site at http://localhost:8080/
+7. View the local site at http://localhost:8080/
 
 ## Deployment
 
