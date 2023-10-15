@@ -16,12 +16,13 @@ Site is currently maintained by Matthew Carroll and Golnaz Habibi.
 > The setup and deployment scripts were tested in a Linux environment, so OS X/Windows may not be compatible.
 
 1. To start, clone the repository.
+2. Run `sudo apt update`
+3. Run `sudo apt install nodejs`
+4. Run `sudo apt install nodejs npm` to install all dependencies to your machine.
 
-2. Run `sudo apt install nodejs npm` to install all dependencies to your machine.
+5. Run `npm run dev:server` to build the site and run a server locally.
 
-3. Run `npm run dev:server` to build the site and run a server locally.
-
-4. View the local site at http://localhost:8080/
+6. View the local site at http://localhost:8080/
 
 ## Deployment
 
