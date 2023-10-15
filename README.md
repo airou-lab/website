@@ -19,11 +19,16 @@ Site is currently maintained by Matthew Carroll and Golnaz Habibi.
 2. Run `sudo apt update`
 3. Run `sudo apt install nodejs`
 4. Run `sudo apt install nodejs npm` to install all dependencies to your machine.
+5. Note Eleventy Requires Node version 14, check the node version running `node -v`
+6.  use following commands to insatll Node V14: 
+   `curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -`
+   Foe ubuntu 20.04,run:
+   `cat /etc/apt/sources.list.d/nodesource.list`
+    `sudo apt -y install nodejs`
+7. `cd AirlabWebsite`
+8.  Run `npm run dev:server` to build the site and run a server locally.
 
-5. `cd AirlabWebsite`
-6.  Run `npm run dev:server` to build the site and run a server locally.
-
-7. View the local site at http://localhost:8080/
+9. View the local site at http://localhost:8080/
 
 ## Deployment
 
