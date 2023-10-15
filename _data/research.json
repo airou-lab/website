@@ -1,13 +1,13 @@
 [
     {
         "title": "Multi-agent System for non-Holonomic Racing (MuSHR) Car",
-        "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MUSHr hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
+        "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
         "previewImage": "/assets/images/cars.png",
         "page": "research-pages/MuSHR.md"
     },
     {
-        "title": "Autonomous Drones: PANTHER (Perception-Aware Trajectory Planner in Dynamic Environments)",
-        "description": "Another project we are looking forward to implementing is building an autonomous drone. This project is based on previous work, PANTHER: Perception-Aware Trajectory Planner in Dynamic Environments. Currently, this project is still in its beginning stages of assembly, but future goals include implementing SLAM and path planning algorithms to autonomously navigate aerially.<br>Pictured is the VOXL and power source that will be installed on Air Lab's drone.",
+        "title": "Autonomous Drones",
+        "description": "We have built a fully autonomous dron. We were inspired by the original design by ACL, MIT. Our goal to implement radar and vision based SLAM and path planning algorithms on our drone to autonomously navigate aerially.",
         "previewImage": "/assets/images/voxl.png",
         "page": "research-pages/PANTHER.md"
     },

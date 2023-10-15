@@ -3,79 +3,79 @@
         "name": "Golnaz Habibi",
         "class": "pi",
         "image": "/assets/images/habibi.png",
-        "bio": "Golnaz Habibi is a professor in the <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a> at the University of Oklahoma. She is currently the director and principal investigator of AirLab. Previously, she was a research scientist at the Massachusetts Institute of Technology, a robotics engineer at Autel Robotics, and a control engineer at Nargon. Golnaz holds MS and BS degrees in electrical and control engineering from the Toosi University of Technology and Tarbiat Modares University, and she received her Ph.D. in computer science from Rice University. Golnaz is interested in machine learning, robotics, self-driving vehicles, reinforcement learning, multi-agent systems, and computer vision."
+        "bio": "Assistant professor in the <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a> at the University of Oklahoma. She is also affiliated with Department of Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. Golnaz is currently the director and principal investigator of AirLab. Previously, she was a research scientist at the Massachusetts Institute of Technology, a robotics engineer at Autel Robotics, and a control engineer at Nargon. Golnaz holds MS and BS degrees in electrical and control engineering from the Toosi University of Technology and Tarbiat Modares University, and she received her Ph.D. in computer science from Rice University. Golnaz is interested in machine learning, robotics, self-driving vehicles, aerial vehicles, reinforcement learning, multi-agent systems, and computer vision."
     },
     {
         "name": "Maisha Maliha",
         "class": "grad",
         "image": "/assets/images/Maisha_Maliha.png",
-        "bio": "Maisha is a Ph.D student in Computer Science at the University of Oklahoma. Currently, she is working as a Graduate Research Assistant under Prof. Dr. Habibi&lsquo;s supervision. She has completed a Master of Technology in Computer Science and Engineering from the Indian Institute of Technology Bombay, India by achieving a full-funded fellowship under the Indian Council for Cultural Relations Scholarship and a Bachelor of Science in Information & Communications Engineering from East West University, Bangladesh. She also worked as a Lecturer at a Polytechnic Institute under the Department of Computer Science and was a Graduate Teaching Assistant at East West University Bangladesh. </p> <p>Her research interests are related to machine learning, artificial intelligence, IoT, natural language processing, computer vision and robotics. She loves to see the sunset and enjoys traveling to new places. </p> <a href=\"https://scholar.google.com/citations?user=-zTUmEMAAAAJ&hl=en&oi=ao\"> <p>Google Scholar Page</p> </a>"
+        "bio": "Ph.D student in Computer Science at the University of Oklahoma.  Maisha has completed a Master of Technology in Computer Science and Engineering from the Indian Institute of Technology Bombay, India by achieving a full-funded fellowship under the Indian Council for Cultural Relations Scholarship and a Bachelor of Science in Information & Communications Engineering from East West University, Bangladesh. She also worked as a Lecturer at a Polytechnic Institute under the Department of Computer Science and was a Graduate Teaching Assistant at East West University Bangladesh. </p> <p>Her research interests are related to machine learning, artificial intelligence, IoT, natural language processing, computer vision and robotics. She loves to see the sunset and enjoys traveling to new places. </p> <a href=\"https://scholar.google.com/citations?user=-zTUmEMAAAAJ&hl=en&oi=ao\"> <p>Google Scholar Page</p> </a>"
     },
     {
         "name": "Avinash Reddy Nuthalapati",
         "class": "grad",
         "image": "/assets/images/Avinash.png",
-        "bio": "Avinash is currently a master&lsquo;s student in Computer science. He has an BTech degree in computer science from MRCET, India. </p> <p>His research interest includes Application development and Generative Adversarial Networks."
+        "bio": "Msc student in Computer science. He has an BTech degree in computer science from MRCET, India. </p> <p>His research interest includes Application development and Generative Adversarial Networks."
     },
     {
         "name": "William Wilson",
         "class": "grad",
         "image": "/assets/images/william.png",
-        "bio": "William is currently a master&lsquo;s student in computer science. He holds a Bsc in mechanical engineering and a minor in electrical engineering from the University of Oklahoma. He has developed software for the federal government and currently works as an embedded software engineer at the Advanced Radar Research Center (ARRC). He is currently engineering the next generation of radar systems.</p> <p>His research interests include 3D visualization, image processing, sensor fusion, machine learning, and navigation. During his free time, he enjoys playing ultimate frisbee, chess, video games, working on his homelab, or rock climbing.</p> <p> Website: <a href=\"https://mechaengineer.com\">mechaengineer.com</a>"
+        "bio": "Msc student in computer science. He holds a Bsc in mechanical engineering and a minor in electrical engineering from the University of Oklahoma. He has developed software for the federal government and currently works as an embedded software engineer at the Advanced Radar Research Center (ARRC). He is currently engineering the next generation of radar systems.</p> <p>His research interests include 3D visualization, image processing, sensor fusion, machine learning, and navigation. During his free time, he enjoys playing ultimate frisbee, chess, video games, working on his homelab, or rock climbing.</p> <p> Website: <a href=\"https://mechaengineer.com\">mechaengineer.com</a>"
     },
     {
         "name": "Daniel Vargas",
         "class": "undergrad",
         "image": "/assets/images/daniel.png",
-        "bio": "Daniel is a junior majoring in Mechanical Engineering and minoring in Electrical and Computer Engineering. He leads the development and optimization of robotics and drones and the implementation of autonomous navigation in the AirLab. He is a member of <a href=\"https://www.oupowerlifting.com/\"> OU Powerlifting</a> and is the secretary for <a href=\"https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders\"> Sooners Without Borders.</a></p><p>His research interests include mechanical optimization, autonomous navigation, robotics, and drones."
+        "bio": "Senior student in Mechanical Engineering and minoring in Electrical and Computer Engineering. He leads the development and optimization of robotics and drones and the implementation of autonomous navigation in the AirLab. He is a member of <a href=\"https://www.oupowerlifting.com/\"> OU Powerlifting</a> and is the secretary for <a href=\"https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders\"> Sooners Without Borders.</a></p><p>His research interests include mechanical optimization, autonomous navigation, robotics, and drones."
     },
     {
         "name": "Tyler Roman",
         "class": "undergrad",
         "image": "/assets/images/tyler.png",
-        "bio": "Tyler is a junior Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
+        "bio": "Junior student in Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
     },
     {
         "name": "Phong Nguyen",
         "class": "undergrad",
         "image": "/assets/images/phong.jpeg",
-        "bio": "Phong is a junior majoring in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
+        "bio": "Junior student in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
     },
     {
         "name": "Matthew Carroll",
         "class": "undergrad",
         "image": "/assets/images/matt.jpg",
-        "bio": "Matthew Carroll is a senior in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development."
+        "bio": "Senior student in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development."
     },
     {
         "name": "Ethan Haque",
         "class": "undergrad",
         "image": "/assets/images/ethan.jpeg",
-        "bio": "Ethan is a Junior majoring in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting."
+        "bio": "Junior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting."
     },
     {
         "name": "Mahmoud Sami",
         "class": "alumni",
         "image": "/assets/images-stock/portrait-default.png",
-        "bio": "Mahmoud is a postdoctoral research associate working in the AirLab."
+        "bio": "Postdoctoral research associate."
     },
     {
         "name": "Manthan C. Chilweri",
         "class": "alumni",
         "image": "/assets/images-stock/portrait-default.png",
-        "bio": "Manthan is an undergraduate student in the AirLab."
+        "bio": "Junior student in Mechanical Engineering"
     },
     {
         "name": "Parisa Masnadi Khiabani",
         "class": "alumni",
         "image": "/assets/images/parisa.png",
-        "bio": "Parisa is a Ph.D. student in Data Science and Analytics at the University of Oklahoma. She has a BS in electronics engineering from the Shariati Technical and Vocational College and an MS in mechatronics engineering from the K.N Toosi University in Tehran. Previously, she was a senior automotive embedded software developer at Capgemini Engineering and an active safety system engineer at Saipa Automotive Research and Innovation Center.<br> Her research interests are robotics, autonomous driving, multi-object tracking, autonomous control, and real-time embedded systems. </p> <a href=\"https://scholar.google.com/citations?user=-ge1tpwAAAAJ&hl=en\"> <p>Google Scholar Page</p></a>"
+        "bio": "Ph.D. student in Data Science and Analytics at the University of Oklahoma. Parisa has a BS in electronics engineering from the Shariati Technical and Vocational College and an MS in mechatronics engineering from the K.N Toosi University in Tehran. Previously, she was a senior automotive embedded software developer at Capgemini Engineering and an active safety system engineer at Saipa Automotive Research and Innovation Center.<br> Her research interests are robotics, autonomous driving, multi-object tracking, autonomous control, and real-time embedded systems. </p> <a href=\"https://scholar.google.com/citations?user=-ge1tpwAAAAJ&hl=en\"> <p>Google Scholar Page</p></a>"
     },
     {
         "name": "Yuki Zheng",
         "class": "alumni",
         "image": "/assets/images/yuki.png",
-        "bio": "Yuki is a rising junior majoring in Computer Science and minoring in Math. She is also a multimedia assistant career major completer, with three certifications in adobe premiere, photoshop, and multimedia. She is currently the <a href=\"https://ou.edu/soonerrover/\"> Sooner Rover</a> publicity coordinator and member of the autonomous sub-team, a <a href=\"https://sase.ou.edu/\"> Society of Asian Scientists and Engineers</a> intern, the <a href=\"https://swe.ou.edu/\"> Society of Women Engineers</a> publicity chair, a <a href=\"https://www.ou.edu/coe/student-life/diversity\"> Diversity & Inclusion</a> Scholar, and the co-founder and co-president of the first Girls Who Code college loop in the state. She is also a <a href=\"https://www.ou.edu/coe/student-life/women/ww\"> Halliburton Women's Welcome</a> and ME^2 mentor."
+        "bio": "Rising junior majoring in Computer Science and minoring in Math. Yuki is also a multimedia assistant career major completer, with three certifications in adobe premiere, photoshop, and multimedia. She is currently the <a href=\"https://ou.edu/soonerrover/\"> Sooner Rover</a> publicity coordinator and member of the autonomous sub-team, a <a href=\"https://sase.ou.edu/\"> Society of Asian Scientists and Engineers</a> intern, the <a href=\"https://swe.ou.edu/\"> Society of Women Engineers</a> publicity chair, a <a href=\"https://www.ou.edu/coe/student-life/diversity\"> Diversity & Inclusion</a> Scholar, and the co-founder and co-president of the first Girls Who Code college loop in the state. She is also a <a href=\"https://www.ou.edu/coe/student-life/women/ww\"> Halliburton Women's Welcome</a> and ME^2 mentor."
     },
     {
         "name": "Tate Smith",
