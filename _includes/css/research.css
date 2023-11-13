@@ -1,0 +1,112 @@
+.research {
+    padding: 10vh 12vw;
+
+    & h1 {
+        font-size: 48px;
+        font-weight: 400;
+        margin: 24px 0px;
+    }
+
+    & h2 {
+        font-size: 28px;
+        font-weight: 250;
+        padding-top: 10px;
+    }
+
+    & h3 {
+        font-size: 28px;
+        font-weight: 550;
+        margin: 20px 0;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    & a:hover {
+        text-decoration: underline;
+    }
+
+    & p {
+        font-size: 22px
+    }
+
+    & img {
+        height: 30vw;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    & section {
+        margin: 24px 0;
+    }
+
+    .research-spotlight {
+        margin: 0 8vw;
+        display: block;
+        flex-direction: column;
+
+        & h1 {
+            text-align: center;
+        }
+
+        & p:not(:empty) {
+            margin: 24px 0;
+
+            & img {
+                display: block;
+                margin: 0 auto;
+            }
+
+        }
+    }
+
+    .research-set {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+        & li {
+            list-style: none;
+        }
+
+        .research-card {
+            background-color: #e3e2e200;
+            border-radius: 28px;
+            width: 60vh;
+            margin: 24px;
+            transition: background-color 0.2s ease;
+
+            & a {
+                text-decoration: none;
+                height: 100%;
+                display: block;
+
+                .card-contents {
+                    padding: 0 24px 0 24px;
+
+                    & img {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        border-radius: 8px;
+                        margin: 24px 0;
+                    }
+
+                    & h3 {
+                        font-size: 20px;
+                        font-weight: 550;
+                        margin: 24px 0;
+                    }
+                }
+            }
+        }
+
+        .research-card:hover {
+            background-color: #e3e2e2;
+        }
+    }
+}

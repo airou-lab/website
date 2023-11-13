@@ -1,0 +1,93 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+    .landing {
+        background-color: #391819;
+        background-image: url("assets/images-stock/drone.svg");
+        background-repeat: no-repeat;
+        background-position: 140% 20%;
+        background-size: 70%;
+        height: 85vh;
+        color: #f0f0f0;
+
+        .landing-hero {
+            padding-left: 5vw;
+            padding-top: 5vw;
+
+            & h1 {
+                font-weight: 350;
+                font-size: 48px;
+                letter-spacing: 2px;
+                color: #f0f0f0;
+            }
+
+            & p {
+                padding-top: 20px;
+                width: 35vw;
+                font-weight: 200;
+                font-size: 24px;
+                letter-spacing: 2px;
+                color: #f0f0f0;
+            }
+        }
+
+
+        & a {
+            position: absolute;
+            top: 80vh;
+            left: 5vw;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-decoration: none;
+
+            .button-icon {
+                position: relative;
+                height: 40px;
+                top: 0px;
+                transition: 0.3s;
+            }
+
+            .button-text {
+                padding-left: 8px;
+                font-size: 32px;
+                letter-spacing: 2px;
+                font-weight: 500;
+                color: #f0f0f0;
+            }
+
+        }
+
+        & a:hover .button-icon {
+            transform: rotate(-135deg);
+        }
+
+    }
+
+    .hero * {
+        background-color: #f0f0f0;
+        padding: 20vh 15vh;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 350;
+    }
+
+    .technologies {
+        background-color: #ffffff;
+        padding: 15vh;
+        font-size: 38px;
+        text-align: center;
+        font-weight: 450;
+        line-height: 175%;
+
+        & h1 {
+            font-weight: 300;
+            font-size: 48px;
+            letter-spacing: 2px;
+
+            line-height: 200%;
+        }
+    }
+}

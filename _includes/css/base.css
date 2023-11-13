@@ -1,0 +1,22 @@
+@font-face {
+    font-family: SourceSans3;
+    src: url(assets/fonts/SourceSans3-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SourceSans3;
+    src: url(assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+html {
+    background-color: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: SourceSans3, sans-serif;
+    color: #000000;
+}

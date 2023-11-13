@@ -1,0 +1,94 @@
+.team {
+    padding: 5vw 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    & h1 {
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    & h2 {
+        font-size: 28px;
+        font-weight: 250;
+        padding-top: 10px;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    & a:hover {
+        text-decoration: underline;
+    }
+
+    .member {
+        margin: 0 8vw;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        & h1 {
+            text-align: center;
+        }
+
+        & img {
+            text-align: center;
+            align-self: center;
+            width: 30vw;
+        }
+    }
+
+    .bio-set {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & li {
+            list-style: none;
+        }
+
+        .bio-card {
+            background-color: #e3e2e200;
+            border-radius: 28px;
+            width: 35vh;
+            margin: 24px;
+            transition: background-color 0.2s ease;
+
+            & a {
+                text-decoration: none;
+                height: 100%;
+                display: block;
+
+                .card-contents {
+                    padding: 0 24px 0 24px;
+
+                    & img {
+                        display: block;
+                        width: 100%;
+                        border-radius: 8px;
+                        margin: 24px 0;
+                    }
+
+                    & h3 {
+                        font-size: 20px;
+                        font-weight: 550;
+                        margin: 24px 0;
+                    }
+                }
+            }
+        }
+
+        .bio-card:hover {
+            background-color: #e3e2e2;
+        }
+    }
+
+    & p {
+        margin-top: 32px;
+        font-size: 22px
+    }
+}

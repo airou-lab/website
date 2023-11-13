@@ -1,0 +1,77 @@
+.header {
+    background-color: #391819;
+    position: relative;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+
+    height: 15vh;
+
+    & h1 {
+        font-weight: 900;
+        font-size: 30px;
+        padding: 0 5vw;
+        letter-spacing: 2px;
+
+        & a {
+            text-decoration: none;
+            color: #841617;
+            transition: 0.2s;
+        }
+
+        & a:hover {
+            color: #ffffff;
+        }
+    }
+
+    /*move menus to right side of webpage*/
+    & nav {
+        justify-self: right;
+        display: flex;
+        padding: 0 36px;
+
+        & ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 8px 12px;
+
+            & a {
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 18px;
+                letter-spacing: 2px;
+
+                /*line appears under nav menu when mouse hovers*/
+                /*increases from a width: 0% to width: 100%*/
+                &::after {
+                    content: '';
+                    width: 0%;
+                    height: 2px;
+                    background: #ffffff;
+                    display: block;
+                    margin: auto;
+                    transition: 0.5s;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+    }
+}
