@@ -11,7 +11,7 @@
         {% include "partials/header.html" %}
 
         <main tabindex="-1" id="main-content">
-            {% block content %}{% endblock %}
+            {{ content | safe }}
         </main>
 
         {% include "partials/footer.html" %}
