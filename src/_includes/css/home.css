@@ -43,11 +43,13 @@
             align-items: center;
             text-decoration: none;
 
-            .button-icon {
+            & svg {
                 position: relative;
                 height: 40px;
+                width: 40px;
                 top: 0px;
                 transition: 0.3s;
+                fill: #FFFAE3;
             }
 
             .button-text {
@@ -60,7 +62,7 @@
 
         }
 
-        & a:hover .button-icon {
+        & a:hover svg {
             transform: rotate(-135deg);
         }
 
