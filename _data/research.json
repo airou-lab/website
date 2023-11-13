@@ -1,6 +1,6 @@
 [
     {
-        "title": "Multi-agent System for non-Holonomic Racing (MuSHR) Car",
+        "title": "Autonomous Rovers",
         "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
         "previewImage": "/assets/images/racecars.jpg",
         "page": "research-pages/MuSHR.md"
@@ -11,14 +11,6 @@
         "previewImage": "/assets/images/drone.jpeg",
         "page": "research-pages/PANTHER.md"
     },
-
-         {
-        "title": "Collaborative SLAM",
-        "description": "This project focuses on collaboratively simultaneously localize and map using a team of race cars and drones.",
-        "previewImage": "/assets/images/slam.png",
-        "page": "research-pages/slam.md"
-    },
-    
     {
         "title": "Autonomous Rovers: Clearpath Husky/Jackal and Trodden Robotics Rover",
         "description": "The third project we are interested in involves implementing our software onto larger vehicles, such as a rover. Specifically, we are interested in utilizing hardware from the Clearpath Husky/Jackal and Trodden Robotics Rover.<br>Our goal is to autonomously navigate an environment, like the MUSHr racecars and drone projects, but with larger vehicles. Currently, we are only purchasing the parts and planning the assembly of the rover as we focus on the previously mentioned two projects first.",
@@ -26,16 +18,9 @@
         "page": "research-pages/Rover.md"
     },
     {
-        "title": "3D Perception with Stereo Cameras",
-        "description": "We currently plan to utilize a RealSense Depth Camera D435i to capture the depth and geometric information of the vehicle's surroundings during localization. Stereo cameras feature two lenses that simulate the human visual experience through triangulation and captures the depth perception that a monocular camera cannot. In parallel to our project, we are looking into extracting the depth information from the stereo camera and generating a point cloud similar to a LiDAR point cloud. This will be used as a replacement since LiDAR is typically more expensive.",
-        "previewImage": "/assets/images/real-sense-camera.png",
-        "page": "research-pages/stereo.md"
-    },
-             {
         "title": "Social Behavior Classification in Animals",
         "description": "This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
         "previewImage": "/assets/images/Bird_project_cover.jpg",
         "page": "research-pages/birds.md"
     }
-       
 ]
