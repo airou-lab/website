@@ -3,4 +3,4 @@ Pictured on the right is our first assembled and operational MUSHr racecar.
 
 Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.
 
-![hey hey](/assets/images/cars.png)
+![Small partially-disassembled autonomous rover](/assets/images/cars.png)

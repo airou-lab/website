@@ -2,4 +2,4 @@ Another project we are looking forward to implementing is building an autonomous
 
 Pictured below is the VOXL and power source that will be installed on Air Lab's drone.
 
-![Voxl](/assets/images/voxl.png)
+![Digital components laying on tabletop, including a VOXL and step-up voltage converter](/assets/images/voxl.png)

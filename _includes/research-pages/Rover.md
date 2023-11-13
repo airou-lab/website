@@ -2,4 +2,4 @@ The third project we are interested in involves implementing our software onto l
 
 Our goal is to autonomously navigate an environment, like the MUSHr racecars and drone projects, but with larger vehicles. Currently, we are only purchasing the parts and planning the assembly of the rover as we focus on the previously mentioned two projects first.
 
-![hey hey](/assets/images/mushr-car.png)
+![3D-printed small rover](/assets/images/mushr-car.png)
