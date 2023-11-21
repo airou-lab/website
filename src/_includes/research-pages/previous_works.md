@@ -1,9 +1,3 @@
- <p>
-      Our project idea provides a vision-based perception platform, extended to multi-vehicles
-      with the ability of sharing information between fleets of vehicles,
-      such that the map and localization at intersections are fused to achieve improved coverage.
-    </p>
-  </section>
 
   <section>
     <div class="research-set">
