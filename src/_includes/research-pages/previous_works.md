@@ -1,6 +1,4 @@
 
-  <section>
-    <h2>
       Previous Work
     </h2>
     <p>
