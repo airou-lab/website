@@ -43,7 +43,7 @@
     }
 
     .bio-set {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         justify-content: left;
 
