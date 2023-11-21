@@ -1,6 +1,6 @@
 .team {
     padding: 5vw 8vw;
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: left;
     text-align: left;
@@ -27,7 +27,7 @@
     .member {
         margin: 0 8vw;
         list-style: none;
-        display: flex;
+        display: block;
         flex-direction: row;
         gap: 24px;
 
