@@ -1,8 +1,5 @@
 
-  <section>
-    <h2>
-      Previous Work
-    </h2>
+
     <p>
       We present a Similarity-based Incremental Learning Algorithm
       (SILA) [1] for pedestrian motion prediction with the ability of
