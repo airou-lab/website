@@ -23,3 +23,26 @@ title: 'Our Research'
 
 
 </div>
+<section>
+    <p>
+      Our research investigates the solution of replacing LiDARS with
+      stereo cameras, and the sensor fusion of semantic information extracted
+      from monocular cameras and depth information from stereo cameras for increased
+      autonomous accuracy.
+    </p>
+ 
+ 
+ <p>
+      Our project idea provides a vision-based perception platform, extended to multi-vehicles
+      with the ability of sharing information between fleets of vehicles,
+      such that the map and localization at intersections are fused to achieve improved coverage.
+    </p>
+  </section>
+
+  <section>
+    <div class="research-set">
+      {% for highlight in research %}
+        {% include "partials/research-card.html" %}
+      {% endfor %}
+    </div>
+  </section>
