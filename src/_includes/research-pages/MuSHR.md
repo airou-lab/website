@@ -1,6 +1,5 @@
-Our current project focuses on localization and mapping for autonomous navigation utilizing MUSHr hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world.
-Pictured on the right is our first assembled and operational MUSHr racecar.
+Inspired by MuSHR, we have designed AirOU Race Cars (ARC) with multiple cameras, LiDARS and built-in IMUs. We have built a team of ARC with 1/10 th scale of real race cars,. Our missaion is to mimic connected vehicles navigating in our smart Mini-City.
 
-Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.
+ARC hs been used for both educational and research purposes. We have implemented different algorithms on ARC such as Visual SLAM, LiDAR SLAM, Autonomous navigation and object detection and tracking. 
 
 ![Small partially-disassembled autonomous rover](/assets/images/cars.png)
