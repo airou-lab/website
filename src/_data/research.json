@@ -29,5 +29,12 @@
          "description": "Camera Radar Object Detection and Tracking",
         "previewImage": "/assets/images/mushr-car.png",
         "page": "research-pages/radarcameraperception.md"
+    },
+
+     {
+        "title": "Previous Projects",
+         "description": "Previous Works",
+        "previewImage": "/assets/images/mushr-car.png",
+        "page": "research-pages/previous_works.md"
     }
 ]
