@@ -14,6 +14,14 @@ html {
     background-color: #F5F5F5;
 }
 
+
+iframe {
+    all: unset;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
 * {
     margin: 0;
     padding: 0;
