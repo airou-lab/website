@@ -1,5 +1,1 @@
-Another project we are looking forward to implementing is building an autonomous drone. This project is based on previous work, PANTHER: Perception-Aware Trajectory Planner in Dynamic Environments. Currently, this project is still in its beginning stages of assembly, but future goals include implementing SLAM and path planning algorithms to autonomously navigate aerially.
-
-Pictured below is the VOXL and power source that will be installed on Air Lab's drone.
-
-![Digital components laying on tabletop, including a VOXL and step-up voltage converter](/assets/images/voxl.png)
+In AirOU, we are inspired by nX, we have designed and built an autonomous Hexacopter. Our drone is equipped with onboard processors and onboard cameras to navigate safely in  cluttered indoor and outdoor environment
