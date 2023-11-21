@@ -1,13 +1,5 @@
 
   <section>
-    <div class="research-set">
-      {% for highlight in research %}
-        {% include "partials/research-card.html" %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <section>
     <h2>
       Previous Work
     </h2>
