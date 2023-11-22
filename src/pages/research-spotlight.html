@@ -1,11 +1,11 @@
 ---
+permalink: "/research/{{ project.title | slugify }}/"
+layout: 'layouts/site.html'
 title: 'Research Spotlight'
-layout: 'layouts/base.html'
 pagination: 
     data: research
     size: 1
     alias: project
-permalink: "/research/{{ project.title | slugify }}/"
 templateEngineOverride: njk, md
 ---
 <div class="research">

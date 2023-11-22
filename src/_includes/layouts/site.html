@@ -1,0 +1,10 @@
+---
+layout: layouts/base.html
+---
+{% include "partials/header.html" %}
+
+<main tabindex="-1" id="main-content">
+    {{ content | safe }}
+</main>
+
+{% include "partials/footer.html" %}
