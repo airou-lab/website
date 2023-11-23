@@ -51,7 +51,7 @@
 
                     & img {
                         display: block;
-                        width: 100%;
+                        width: 80%;
                         border-radius: 8px;
                         margin: 24px 0;
                     }
@@ -83,12 +83,12 @@
         gap: 24px;
 
         & h1 {
-            text-align: center;
+            text-align: left;
         }
 
         & img {
-            text-align: center;
-            align-self: center;
+            text-align: left;
+            align-self: left;
             width: 30vw;
         }
     }
