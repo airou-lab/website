@@ -1,5 +1,5 @@
-.footer {
-    background-color: var(--dark-red);
+footer {
+    background-color: var(--crimson);
     padding: 48px 0;
 
     display: flex;
@@ -9,15 +9,16 @@
 
     gap: 8vw;
 
-    & img {
-        height: 72px;
-        opacity: 0.7;
-    }
+    >* {
+        opacity: 0.9;
 
-    & p {
         color: var(--white);
-        opacity: 0.7;
         font-weight: 325;
         letter-spacing: 0.3px;
+    }
+
+
+    & img {
+        height: 72px;
     }
 }

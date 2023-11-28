@@ -14,14 +14,14 @@
             height: 100%;
             width: 100%;
 
-            background-color: var(--dark-red);
+            background-color: var(--crimson);
 
             & svg {
                 position: relative;
                 left: 40vw;
                 height: 120vh;
 
-                fill: var(--crimson);
+                fill: var(--med-red);
             }
         }
 
