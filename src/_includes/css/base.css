@@ -10,6 +10,12 @@
     font-style: italic;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: SourceSans3, sans-serif;
+}
+
 body {
     background-color: #F5F5F5;
     color: #000000;
@@ -21,17 +27,4 @@ body {
     --crimson: #841617;
     --dark-crimson: #4e0002;
     --dark-red: #391819;
-}
-
-iframe {
-    all: unset;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: SourceSans3, sans-serif;
 }

@@ -1,4 +1,11 @@
 .docs {
+    & iframe {
+        all: unset;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+
     .float {
         position: absolute;
         bottom: 40px;
