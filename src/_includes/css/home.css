@@ -3,13 +3,13 @@
     flex-direction: column;
 
     .landing {
-        background-color: #391819;
+        background-color: var(--dark-red);
         background-image: url("assets/images-stock/drone.svg");
         background-repeat: no-repeat;
         background-position: 140% 20%;
         background-size: 70%;
         height: 85vh;
-        color: #f0f0f0;
+        color: var(--light-gray);
 
         .landing-hero {
             padding-left: 5vw;
@@ -19,7 +19,6 @@
                 font-weight: 350;
                 font-size: 48px;
                 letter-spacing: 2px;
-                color: #f0f0f0;
             }
 
             & p {
@@ -28,7 +27,6 @@
                 font-weight: 200;
                 font-size: 24px;
                 letter-spacing: 2px;
-                color: #f0f0f0;
             }
         }
 
@@ -42,6 +40,7 @@
             flex-direction: row;
             align-items: center;
             text-decoration: none;
+            color: inherit;
 
             & svg {
                 position: relative;
@@ -49,7 +48,7 @@
                 width: 40px;
                 top: 0px;
                 transition: 0.3s;
-                fill: #FFFAE3;
+                fill: var(--light-gray);
             }
 
             .button-text {
@@ -57,7 +56,6 @@
                 font-size: 32px;
                 letter-spacing: 2px;
                 font-weight: 500;
-                color: #f0f0f0;
             }
 
         }
@@ -69,7 +67,7 @@
     }
 
     .hero * {
-        background-color: #f0f0f0;
+        background-color: var(--light-gray);
         padding: 20vh 15vh;
         font-size: 30px;
         text-align: center;
@@ -77,7 +75,7 @@
     }
 
     .technologies {
-        background-color: #ffffff;
+        background-color: var(--white);
         padding: 15vh;
         font-size: 38px;
         text-align: center;

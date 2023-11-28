@@ -1,5 +1,5 @@
 .header {
-    background-color: #391819;
+    background-color: var(--dark-red);
     position: relative;
     align-items: center;
     display: grid;
@@ -15,12 +15,12 @@
 
         & a {
             text-decoration: none;
-            color: #841617;
+            color: var(--crimson);
             transition: 0.2s;
         }
 
         & a:hover {
-            color: #ffffff;
+            color: var(--white);
         }
     }
 
@@ -36,7 +36,7 @@
             margin: 8px 12px;
 
             & a {
-                color: #ffffff;
+                color: var(--white);
                 text-decoration: none;
                 font-size: 18px;
                 letter-spacing: 2px;
@@ -47,7 +47,7 @@
                     content: '';
                     width: 0%;
                     height: 2px;
-                    background: #ffffff;
+                    background: var(--white);
                     display: block;
                     margin: auto;
                     transition: 0.5s;
@@ -57,21 +57,6 @@
                     width: 100%;
                 }
             }
-        }
-
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            padding: 12px 16px;
-            z-index: 1;
         }
     }
 }

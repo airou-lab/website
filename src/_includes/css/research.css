@@ -74,7 +74,7 @@
         }
 
         .research-card {
-            background-color: #e3e2e200;
+            background-color: var(--med-gray)00;
             border-radius: 28px;
             width: 60vh;
             margin: 24px;
@@ -84,6 +84,7 @@
                 text-decoration: none;
                 height: 100%;
                 display: block;
+                color: inherit;
 
                 .card-contents {
                     padding: 0 24px 0 24px;
@@ -106,7 +107,7 @@
         }
 
         .research-card:hover {
-            background-color: #e3e2e2;
+            background-color: var(--med-gray);
         }
     }
 }

@@ -10,10 +10,18 @@
     font-style: italic;
 }
 
-html {
+body {
     background-color: #F5F5F5;
+    color: #000000;
+    --white: #FFFFFF;
+    --light-gray: #f0f0f0;
+    --med-gray: #e3e2e2;
+    --dark-gray: #323232;
+    --black: #000000;
+    --crimson: #841617;
+    --dark-crimson: #4e0002;
+    --dark-red: #391819;
 }
-
 
 iframe {
     all: unset;
@@ -26,5 +34,4 @@ iframe {
     margin: 0;
     padding: 0;
     font-family: SourceSans3, sans-serif;
-    color: #000000;
 }

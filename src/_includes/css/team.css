@@ -18,6 +18,7 @@
 
     & a {
         text-decoration: none;
+        color: inherit;
     }
 
     & a:hover {
@@ -34,7 +35,7 @@
         }
 
         .bio-card {
-            background-color: #e3e2e200;
+            background-color: var(--med-gray)00;
             border-radius: 28px;
             width: 35vh;
             margin: 24px;
@@ -66,7 +67,7 @@
         }
 
         .bio-card:hover {
-            background-color: #e3e2e2;
+            background-color: var(--med-gray);
         }
     }
 
