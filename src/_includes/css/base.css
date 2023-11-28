@@ -31,7 +31,7 @@ body {
 }
 
 .normal-width {
-    max-width: 1000px;
+    width: min(1000px, 100% - 6em);
     margin-left: auto;
     margin-right: auto;
 }
