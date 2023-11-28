@@ -1,0 +1,23 @@
+.docs {
+    .float {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    .button {
+        text-decoration: none;
+        background-color: #841617;
+        color: #FFFFFF !important;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        padding: 10px 15px;
+        transition: 0.1s;
+    }
+
+    .button:hover {
+        box-shadow: 3px 3px 4px #999;
+        transform: scale(1.02);
+    }
+}
