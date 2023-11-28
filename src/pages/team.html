@@ -3,16 +3,17 @@ permalink: "/team/"
 layout: 'layouts/site.html'
 title: 'Meet the Team'
 ---
-
-<section class="team">
-  <h1>Members</h1>
+<div class="team">
+  <h1>
+    Members
+  </h1>
   <h2>
     Faculty
   </h2>
   <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "pi" %}
-        {% include "partials/bio-card.html" %}
+        {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
   </ul>
@@ -22,7 +23,7 @@ title: 'Meet the Team'
   <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "grad" %}
-        {% include "partials/bio-card.html" %}
+        {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
   </ul>
@@ -32,7 +33,7 @@ title: 'Meet the Team'
   <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "undergrad" %}
-        {% include "partials/bio-card.html" %}
+        {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
   </ul>
@@ -42,7 +43,7 @@ title: 'Meet the Team'
   <ul class="bio-set">
     {% for member in team %}
       {% if member.class == "alumni" %}
-        {% include "partials/bio-card.html" %}
+        {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
   </ul>
@@ -50,4 +51,4 @@ title: 'Meet the Team'
     Positions are available for PhD and undergraduate research.<br>
     Interested candidates should send their CV, transcripts, and a research statement to golnaz@ou.edu
   </p>
-</section>
+</div>

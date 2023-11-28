@@ -1,19 +1,20 @@
 @font-face {
     font-family: SourceSans3;
-    src: url(assets/fonts/SourceSans3-VariableFont_wght.ttf);
-    font-style: normal;
+    src: url(assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf);
+    font-style: italic;
 }
 
 @font-face {
     font-family: SourceSans3;
-    src: url(assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf);
-    font-style: italic;
+    src: url(assets/fonts/SourceSans3-VariableFont_wght.ttf);
+    font-style: normal;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: SourceSans3, sans-serif;
+    font-style: normal;
 }
 
 body {

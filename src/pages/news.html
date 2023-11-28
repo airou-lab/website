@@ -3,8 +3,7 @@ permalink: "/news/"
 layout: 'layouts/site.html'
 title: AIROU News
 ---
-
-<section class="news">
+<div class="news">
   <h1>Lab News</h1>
 
   {% for snippet in news %}
@@ -12,7 +11,7 @@ title: AIROU News
     {% include "partials/news-snippet.html" %}
   {% endfor %}
 
-</section>
+</div>
 
 <script>
   // Operates each image slideshow
