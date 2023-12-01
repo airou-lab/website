@@ -26,7 +26,7 @@
     {
         "title": "AirOU Smart Mini-City (AirOUS-MCity)",
         "description": "We have built a smart mini city",
-        "previewImage": "/assets/images/mushr-car.png",
+        "previewImage": "/assets/images/minicity.jpeg",
         "page": "research-pages/minicity.md",
         "github": null,
         "docs": null
@@ -34,7 +34,7 @@
     {
         "title": "Radar-Based perception",
         "description": "Camera Radar Object Detection and Tracking",
-        "previewImage": "/assets/images/mushr-car.png",
+        "previewImage": null,
         "page": "research-pages/radarcameraperception.md",
         "github": "https://github.com/airou-lab/radar-camera-fusion-depth",
         "docs": null
@@ -42,7 +42,7 @@
     {
         "title": "Previous Projects",
         "description": "Previous Works",
-        "previewImage": "/assets/images/mushr-car.png",
+        "previewImage": null,
         "page": "research-pages/previous_works.md",
         "github": null,
         "docs": null

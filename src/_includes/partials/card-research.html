@@ -1,6 +1,10 @@
 <a href="/research/{{ highlight.title | slugify }}" class="text-button research-card">
     <div class="card-contents">
-        <img src="{{ highlight.previewImage }}" alt="Image">
+        {% if highlight.previewImage %}
+            <img src="{{ highlight.previewImage }}" class="image" alt="Image">
+        {% else %}
+            <div class="image color-filler"></div>
+        {% endif %}
         <h3>
             {{ highlight.title }}
         </h3>

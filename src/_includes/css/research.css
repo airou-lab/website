@@ -39,11 +39,16 @@
                 padding: 25px;
                 gap: 25px;
 
-                & img {
+                .image {
                     display: block;
                     width: 100%;
                     height: 250px;
                     object-fit: cover;
+                }
+
+                .color-filler {
+                    background: linear-gradient(33deg, var(--dark-red) 9%, var(--crimson) 100%);
+                    opacity: 90%;
                 }
             }
         }
