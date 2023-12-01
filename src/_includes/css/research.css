@@ -47,8 +47,7 @@
                 }
 
                 .color-filler {
-                    background: linear-gradient(33deg, var(--dark-red) 9%, var(--crimson) 100%);
-                    opacity: 90%;
+                    background: linear-gradient(30deg, var(--dark-red) 0%, var(--crimson) 50%);
                 }
             }
         }
