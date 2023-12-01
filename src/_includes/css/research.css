@@ -1,12 +1,8 @@
 .research {
     padding: 100px 0;
 
-    & h3 {
-        margin: 20px 0;
-    }
-
     & img {
-        height: 30vw;
+        width: 90%;
     }
 
     .row {
@@ -42,44 +38,43 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        margin-top: 64px;
 
         & li {
             list-style: none;
         }
 
         .research-card {
-            background-color: var(--med-gray)00;
-            border-radius: 28px;
-            width: 60vh;
-            margin: 24px;
-            transition: background-color 0.2s ease;
+            width: 300px;
 
             & a {
                 text-decoration: none;
                 height: 100%;
                 display: block;
                 color: inherit;
+                border-radius: 28px;
+                background-color: var(--med-gray)00;
+                transition: background-color 0.2s ease;
 
                 .card-contents {
-                    padding: 0 24px 0 24px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 25px;
+                    gap: 25px;
 
                     & img {
                         display: block;
                         width: 100%;
-                        height: auto;
+                        height: 250px;
                         border-radius: 8px;
-                        margin: 24px 0;
-                    }
-
-                    & h3 {
-                        margin: 24px 0;
+                        object-fit: cover;
                     }
                 }
             }
-        }
 
-        .research-card:hover {
-            background-color: var(--med-gray);
+            & a:hover {
+                background-color: var(--med-gray);
+            }
         }
     }
 }
