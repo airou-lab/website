@@ -6,7 +6,8 @@ pagination:
     data: research
     size: 1
     alias: project
-templateEngineOverride: njk, md
+myData:
+    myKey: 'Heyyooooooooooooooooooo'
 ---
 <div class="research normal-width">
     <div class="research-spotlight">
@@ -16,7 +17,24 @@ templateEngineOverride: njk, md
             {{ project.title }}
         </h1>
 
-        {% include project.page %}
+        {% if project.github or project.docs%}
+            <div class="links">
+                {% if project.github %}
+                    <a href={{project.github}} class="text-button" id="github">
+                        {% include "svg/github-mark.svg"%}
+                        <div class="button-text">CODE</div>
+                    </a>
+                {% endif %}
+                {% if project.docs %}
+                    <a href={{project.docs}} class="text-button" id="mdbooks">
+                        {% include "svg/mdbooks.svg"%}
+                        <div class="button-text">DOCS</div>
+                    </a>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        {% renderFile["src/_includes/", project.page] | join %}
 
     </div>
 </div>

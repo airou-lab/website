@@ -74,4 +74,43 @@
         }
 
     }
+
+    .text-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        gap: 8px;
+
+        & svg {
+            position: relative;
+            fill: currentColor;
+        }
+
+        .button-text {
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+    }
+
+    .links {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        color: var(--black);
+        margin: 24px 0px;
+
+        .text-button {
+            gap: 12px;
+            background-color: var(--med-gray);
+
+            & svg {
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
 }

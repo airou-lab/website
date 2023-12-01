@@ -3,38 +3,48 @@
         "title": "AirOU Race Cars (ARC)",
         "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
         "previewImage": "/assets/images/racecars.jpg",
-        "page": "research-pages/MuSHR.md"
+        "page": "research-pages/MuSHR.md",
+        "github": "https://github.com/airou-lab/mushr",
+        "docs": "https://airou-lab.github.io/air-lab-documentation/arc/index.html"
     },
     {
         "title": "Autonomous Drones",
         "description": "We have built a fully autonomous drone. We were inspired by the original design by ACL, MIT. Our goal to implement radar and vision based SLAM and path planning algorithms on our drone to autonomously navigate aerially.",
         "previewImage": "/assets/images/drone.jpeg",
-        "page": "research-pages/PANTHER.md"
+        "page": "research-pages/PANTHER.md",
+        "github": null,
+        "docs": "https://airou-lab.github.io/air-lab-documentation/lionn/index.html"
     },
-   
     {
         "title": "Social Behavior Classification in Animals",
         "description": "This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
         "previewImage": "/assets/images/Bird_project_cover.jpg",
-        "page": "research-pages/birds.md"
+        "page": "research-pages/birds.md",
+        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+        "docs": null
     },
-     {
+    {
         "title": "AirOU Smart Mini-City (AirOUS-MCity)",
-          "description": "We have built a smart mini city",
+        "description": "We have built a smart mini city",
         "previewImage": "/assets/images/mushr-car.png",
-        "page": "research-pages/minicity.md"
+        "page": "research-pages/minicity.md",
+        "github": null,
+        "docs": null
     },
-     {
+    {
         "title": "Radar-Based perception",
-         "description": "Camera Radar Object Detection and Tracking",
+        "description": "Camera Radar Object Detection and Tracking",
         "previewImage": "/assets/images/mushr-car.png",
-        "page": "research-pages/radarcameraperception.md"
+        "page": "research-pages/radarcameraperception.md",
+        "github": "https://github.com/airou-lab/radar-camera-fusion-depth",
+        "docs": null
     },
-
-     {
+    {
         "title": "Previous Projects",
-         "description": "Previous Works",
+        "description": "Previous Works",
         "previewImage": "/assets/images/mushr-car.png",
-        "page": "research-pages/previous_works.md"
+        "page": "research-pages/previous_works.md",
+        "github": null,
+        "docs": null
     }
 ]

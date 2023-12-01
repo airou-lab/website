@@ -10,32 +10,32 @@
     }
 }
 
-.text-button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-    gap: 8px;
-
-    & svg {
-        position: relative;
-        fill: currentColor;
-    }
-
-    .button-text {
-        font-size: 32px;
-        letter-spacing: 2px;
-        font-weight: 500;
-    }
-}
-
 .home {
     display: flex;
     flex-direction: column;
 
+    .text-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        gap: 8px;
+
+        & svg {
+            position: relative;
+            fill: currentColor;
+        }
+
+        .button-text {
+            font-size: 32px;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+    }
+
     .landing {
-        height: 85vh;
+        height: 70vh;
         color: var(--light-gray);
         position: relative;
 
@@ -49,8 +49,8 @@
 
             & svg {
                 position: relative;
-                left: 40vw;
-                height: 120vh;
+                left: 50vw;
+                height: 100vh;
                 animation: HoverDrone 10s ease infinite;
                 fill: var(--med-red);
             }
@@ -62,7 +62,7 @@
 
         .landing-hero {
             padding-left: 5vw;
-            padding-top: 5vw;
+            padding-top: 2vh;
 
             & h1 {
                 letter-spacing: 2px;
@@ -96,19 +96,12 @@
 
     }
 
-    .hero * {
-        background-color: var(--light-gray);
-        padding: 20vh 15vw;
-        font-size: 30px;
-        text-align: center;
-        font-weight: 350;
-    }
-
     .links {
         display: flex;
-        padding: 5vh 10vw;
+        height: 15vh;
         gap: 20px;
         justify-content: center;
+        align-items: center;
 
         background-color: var(--dark-crimson);
         color: var(--white);
@@ -116,6 +109,7 @@
         .text-button {
             gap: 16px;
             background-color: var(--dark-crimson);
+
         }
 
         #github {
@@ -131,6 +125,14 @@
                 width: 26px;
             }
         }
+    }
+
+    .hero * {
+        background-color: var(--light-gray);
+        padding: 20vh 15vw;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 350;
     }
 
     .technologies {
