@@ -108,8 +108,6 @@
 
         .text-button {
             gap: 16px;
-            background-color: var(--dark-crimson);
-
         }
 
         #github {

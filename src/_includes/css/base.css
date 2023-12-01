@@ -41,7 +41,7 @@ body {
 .text-button {
     display: block;
     text-decoration: none;
-    background-color: var(--crimson);
+    background-color: inherit;
     color: var(--white);
     border-radius: 16px;
     text-align: center;

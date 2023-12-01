@@ -14,5 +14,6 @@
 
     .text-button {
         color: var(--white);
+        background-color: var(--crimson);
     }
 }
