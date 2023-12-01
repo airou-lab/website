@@ -2,8 +2,6 @@
     padding: 100px 0;
 
     & h1 {
-        font-size: 48px;
-        font-weight: 400;
         padding-bottom: 24px;
     }
 
@@ -20,19 +18,11 @@
         .content {
 
             & h3 {
-                font-size: 28px;
-                font-weight: 250;
                 padding-bottom: 2px;
             }
 
             & h2 {
-                font-size: 28px;
-                font-weight: 550;
                 padding-bottom: 16px;
-            }
-
-            & p {
-                font-size: 22px
             }
         }
 

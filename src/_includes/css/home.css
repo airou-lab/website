@@ -45,8 +45,6 @@
             padding-top: 5vw;
 
             & h1 {
-                font-weight: 350;
-                font-size: 48px;
                 letter-spacing: 2px;
             }
 
@@ -60,10 +58,10 @@
         }
 
 
-        & a {
+        .text-button {
             position: absolute;
             top: 80%;
-            left: 5%;
+            left: calc(5% - 15px);
 
             display: flex;
             flex-direction: row;
@@ -89,7 +87,7 @@
 
         }
 
-        & a:hover svg {
+        .text-button:hover svg {
             transform: rotate(-135deg);
         }
 

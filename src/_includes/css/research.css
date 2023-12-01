@@ -1,33 +1,8 @@
 .research {
     padding: 100px 0;
 
-    & h1 {
-        font-size: 48px;
-        font-weight: 400;
-    }
-
-    & h2 {
-        font-size: 28px;
-        font-weight: 250;
-        padding-top: 10px;
-    }
-
     & h3 {
-        font-size: 28px;
-        font-weight: 550;
         margin: 20px 0;
-    }
-
-    & a {
-        text-decoration: none;
-    }
-
-    & a:hover {
-        text-decoration: underline;
-    }
-
-    & p {
-        font-size: 22px
     }
 
     & img {
@@ -97,8 +72,6 @@
                     }
 
                     & h3 {
-                        font-size: 20px;
-                        font-weight: 550;
                         margin: 24px 0;
                     }
                 }

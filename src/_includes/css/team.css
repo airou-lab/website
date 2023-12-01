@@ -5,14 +5,7 @@
     align-items: left;
     text-align: left;
 
-    & h1 {
-        font-size: 48px;
-        font-weight: 400;
-    }
-
     & h2 {
-        font-size: 28px;
-        font-weight: 250;
         padding-top: 10px;
     }
 
@@ -58,8 +51,6 @@
                     }
 
                     & h3 {
-                        font-size: 20px;
-                        font-weight: 550;
                         margin: 24px 0;
                     }
                 }
@@ -71,11 +62,6 @@
         }
     }
 
-    & p {
-        margin-top: 32px;
-        font-size: 22px
-    }
-
     .member {
         margin: 0 8vw;
         list-style: none;
@@ -83,13 +69,13 @@
         flex-direction: column;
         gap: 24px;
 
-        & h1 {
-            text-align: left;
+        & h3 {
+            align-self: center;
         }
 
         & img {
             text-align: left;
-            align-self: left;
+            align-self: center;
             width: 30vw;
         }
     }
