@@ -11,4 +11,8 @@
         bottom: 40px;
         right: 40px;
     }
+
+    .text-button {
+        color: var(--white);
+    }
 }

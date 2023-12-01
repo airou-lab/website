@@ -14,6 +14,7 @@
 
         .text-button {
             padding: 6px 10px;
+            color: var(--white);
         }
     }
 }
