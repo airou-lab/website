@@ -6,7 +6,7 @@
     }
 
     50% {
-        bottom: 10px;
+        bottom: 30px;
     }
 }
 
@@ -51,7 +51,7 @@
                 position: relative;
                 left: 50vw;
                 height: 100vh;
-                animation: HoverDrone 10s ease infinite;
+                animation: HoverDrone 7s ease infinite;
                 fill: var(--med-red);
             }
         }
