@@ -1,8 +1,11 @@
-<a href="{{ pub.file }}">
-    <div class="publication">
+<div class="publication">
+    <div class="text">
         <h3>{{ pub.title }}</h3>
         <p>
             {{ pub.citation | safe}}
         </p>
     </div>
-</a>
+    <div class="buttons">
+        <a href="{{ pub.file }}" class="float text-button">PDF</a>
+    </div>
+</div>

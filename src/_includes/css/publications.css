@@ -13,26 +13,26 @@
         padding-top: 10px;
     }
 
-    & a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    & a:hover {
-        text-decoration: underline;
-    }
-
     .publication {
         margin: 38px 16px;
+        display: flex;
+        justify-content: space-between;
+
+        gap: 24px;
 
         & h3 {
-            font-size: 28px;
+            font-size: 22px;
             font-weight: 550;
             padding-bottom: 12px;
         }
 
         & p {
-            font-size: 22px
+            font-size: 18px;
+            word-break: break-word;
+        }
+
+        .text-button {
+            padding: 6px 10px;
         }
     }
 }
