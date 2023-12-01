@@ -1,3 +1,15 @@
+@keyframes HoverDrone {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 10px;
+    }
+}
+
 .home {
     display: flex;
     flex-direction: column;
@@ -13,14 +25,13 @@
             z-index: -1;
             height: 100%;
             width: 100%;
-
-            background-color: var(--crimson);
+            background: var(--crimson);
 
             & svg {
                 position: relative;
                 left: 40vw;
                 height: 120vh;
-
+                animation: HoverDrone 10s ease infinite;
                 fill: var(--med-red);
             }
         }
