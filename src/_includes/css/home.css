@@ -10,6 +10,26 @@
     }
 }
 
+.text-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 8px;
+
+    & svg {
+        position: relative;
+        fill: currentColor;
+    }
+
+    .button-text {
+        font-size: 32px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+}
+
 .home {
     display: flex;
     flex-direction: column;
@@ -57,48 +77,60 @@
             }
         }
 
-
         .text-button {
             position: absolute;
             top: 80%;
             left: calc(5% - 15px);
 
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            text-decoration: none;
-            color: inherit;
-
             & svg {
-                position: relative;
+                transition: 0.3s;
                 height: 40px;
                 width: 40px;
-                top: 0px;
-                transition: 0.3s;
-                fill: currentColor;
             }
-
-            .button-text {
-                padding-left: 8px;
-                font-size: 32px;
-                letter-spacing: 2px;
-                font-weight: 500;
-            }
-
         }
 
         .text-button:hover svg {
             transform: rotate(-135deg);
         }
 
+
     }
 
     .hero * {
         background-color: var(--light-gray);
-        padding: 20vh 15vh;
+        padding: 20vh 15vw;
         font-size: 30px;
         text-align: center;
         font-weight: 350;
+    }
+
+    .links {
+        display: flex;
+        padding: 5vh 10vw;
+        gap: 20px;
+        justify-content: center;
+
+        background-color: var(--dark-crimson);
+        color: var(--white);
+
+        .text-button {
+            gap: 16px;
+            background-color: var(--dark-crimson);
+        }
+
+        #github {
+            & svg {
+                height: 28px;
+                width: 28px;
+            }
+        }
+
+        #mdbooks {
+            & svg {
+                height: 26px;
+                width: 26px;
+            }
+        }
     }
 
     .technologies {
