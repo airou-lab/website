@@ -37,13 +37,13 @@ h1 {
 h2 {
     font-size: 28px;
     font-weight: 300;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 h3 {
     font-size: 22px;
     font-weight: 500;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 p {
@@ -52,11 +52,11 @@ p {
 
 .normal-page {
     width: min(60em, 100% - 6em);
-    margin: 2em auto;
+    margin: 6em auto;
 }
 
 .text-button {
-    display: block;
+    display: flex;
     border-radius: 16px;
     padding: 10px 15px;
 
@@ -74,10 +74,9 @@ p {
 }
 
 .icon-button {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 32px;
+    font-size: 2em;
     gap: 1ch;
 
     & svg {
