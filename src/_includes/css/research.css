@@ -1,63 +1,32 @@
 .research {
-    padding: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
-    & img {
-        width: 90%;
-    }
-
-    .row {
-        text-align: center;
-    }
-
-    & section {
-        margin: 24px 0;
+    & p {
+        margin: 1em;
     }
 
     .research-set {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        text-align: center;
-        margin-top: 64px;
+        margin-top: 3em;
+    }
 
-        & li {
-            list-style: none;
-        }
-
-        .research-card {
-            display: block;
-            width: 300px;
-            text-decoration: none;
-
-            color: inherit;
-            margin: 6px;
-            padding: 0px;
-
-            .card-contents {
-                display: flex;
-                flex-direction: column;
-                padding: 25px;
-                gap: 25px;
-
-                .image {
-                    display: block;
-                    width: 100%;
-                    height: 250px;
-                    object-fit: cover;
-                }
-
-                .color-filler {
-                    background: linear-gradient(30deg, var(--dark-red) 0%, var(--crimson) 50%);
-                }
-            }
-        }
+    .card {
+        width: 18em;
     }
 }
 
 .research-spotlight {
-    margin: 0 8vw;
+    width: min(50em, 100% - 6em);
+    margin: auto;
     display: block;
     flex-direction: column;
+
+    & img {
+        width: 90%;
+    }
 
     & h1 {
         text-align: center;
@@ -69,27 +38,6 @@
         & img {
             display: block;
             margin: 0 auto;
-        }
-
-    }
-
-    .text-button {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-decoration: none;
-        color: inherit;
-        gap: 8px;
-
-        & svg {
-            position: relative;
-            fill: currentColor;
-        }
-
-        .button-text {
-            font-size: 20px;
-            letter-spacing: 2px;
-            font-weight: 500;
         }
     }
 
@@ -109,6 +57,26 @@
                 height: 20px;
                 width: 20px;
             }
+        }
+    }
+
+    .text-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        gap: 8px;
+
+        & svg {
+            position: relative;
+            fill: currentColor;
+        }
+
+        .button-text {
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-weight: 500;
         }
     }
 }

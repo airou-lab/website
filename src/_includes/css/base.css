@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 body {
@@ -43,10 +47,9 @@ p {
     font-size: 18px;
 }
 
-.normal-width {
-    width: min(1000px, 100% - 6em);
-    margin-left: auto;
-    margin-right: auto;
+.normal-page {
+    width: min(60em, 100% - 6em);
+    margin: 2em auto;
 }
 
 .text-button {
@@ -63,4 +66,36 @@ p {
 .text-button:hover {
     box-shadow: 0px 3px 4px #00000060;
     transform: scale(1.02) translate(0px, -1px);
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+
+    color: inherit;
+    margin: 6px;
+    padding: 0px;
+
+    .card-contents {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        gap: 25px;
+
+        .image {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+            aspect-ratio: 1;
+        }
+
+        .color-filler {
+            background: linear-gradient(30deg, var(--dark-red) 0%, var(--crimson) 50%);
+        }
+
+        & h3 {
+            padding: 0;
+            margin: auto;
+        }
+    }
 }
