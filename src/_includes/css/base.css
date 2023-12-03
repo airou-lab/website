@@ -93,9 +93,9 @@ p {
             background: linear-gradient(30deg, var(--dark-red) 0%, var(--crimson) 50%);
         }
 
-        & h3 {
-            padding: 0;
-            margin: auto;
+        .card-text {
+            font-size: 22px;
+            font-weight: 500;
         }
     }
 }
