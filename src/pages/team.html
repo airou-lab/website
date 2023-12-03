@@ -7,32 +7,19 @@ title: 'Meet the Team'
   <h1>
     Members
   </h1>
-  <h2>
-    Faculty
-  </h2>
   <ul class="bio-set">
     {% for member in team %}
-      {% if member.class == "pi" %}
+      {% if member.class == "Faculty" %}
         {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
-  </ul>
-  <h2>
-    Graduate Students
-  </h2>
-  <ul class="bio-set">
     {% for member in team %}
-      {% if member.class == "grad" %}
+      {% if member.class == "Graduate" %}
         {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
-  </ul>
-  <h2>
-    Undergraduate Students
-  </h2>
-  <ul class="bio-set">
     {% for member in team %}
-      {% if member.class == "undergrad" %}
+      {% if member.class == "Undergraduate" %}
         {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
@@ -42,11 +29,12 @@ title: 'Meet the Team'
   </h2>
   <ul class="bio-set">
     {% for member in team %}
-      {% if member.class == "alumni" %}
+      {% if member.class == "Alumnus" %}
         {% include "partials/card-bio.html" %}
       {% endif %}
     {% endfor %}
   </ul>
+  <br>
   <p>
     Positions are available for PhD and undergraduate research.<br>
     Interested candidates should send their CV, transcripts, and a research statement to golnaz@ou.edu

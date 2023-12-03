@@ -1,13 +1,16 @@
 <a href="/team/{{ member.name | slugify }}/" class="text-button card">
 
-    {% if member.class != "alumni" %}
+    {% if member.class != "Alumnus" %}
         <img src="{{ member.image }}" class="image" alt="">
     {% endif %}
 
     <div class="card-text">
         {{ member.name }}
     </div>
-    <div class="card-subtext">
-        {{ member.name }}
-    </div>
+
+    {% if member.class != "Alumnus" %}
+        <div class="card-subtext">
+            {{ member.class }}
+        </div>
+    {% endif %}
 </a>
