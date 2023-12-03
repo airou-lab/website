@@ -1,19 +1,7 @@
-@font-face {
-    font-family: SourceSans3;
-    src: url(assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf);
-    font-style: italic;
-}
-
-@font-face {
-    font-family: SourceSans3;
-    src: url(assets/fonts/SourceSans3-VariableFont_wght.ttf);
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
-    font-family: SourceSans3, sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-style: normal;
 }
 
@@ -62,13 +50,13 @@ h1 {
 
 h2 {
     font-size: 28px;
-    font-weight: 250;
+    font-weight: 300;
     padding-top: 10px;
 }
 
 h3 {
     font-size: 22px;
-    font-weight: 550;
+    font-weight: 500;
     padding-bottom: 12px;
 }
 

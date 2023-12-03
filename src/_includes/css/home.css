@@ -130,7 +130,7 @@
         padding: 20vh 15vw;
         font-size: 30px;
         text-align: center;
-        font-weight: 350;
+        font-weight: 300;
     }
 
     .technologies {
@@ -138,7 +138,7 @@
         padding: 15vh;
         font-size: 38px;
         text-align: center;
-        font-weight: 450;
+        font-weight: 400;
         line-height: 175%;
 
         & h1 {
