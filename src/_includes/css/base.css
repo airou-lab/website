@@ -37,7 +37,7 @@ h1 {
 h2 {
     font-size: 28px;
     font-weight: 300;
-    margin: 10px 0;
+    margin: 2em 0 1em 0;
 }
 
 h3 {
@@ -52,7 +52,7 @@ p {
 }
 
 .normal-page {
-    width: min(60em, 100% - 6em);
+    width: min(60em, 100% - 2em);
     margin: 6em auto;
 }
 

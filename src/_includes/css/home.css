@@ -13,101 +13,104 @@
 .home {
     display: flex;
     flex-direction: column;
+}
 
-    .landing {
-        height: 70vh;
-        color: var(--light-gray);
+.home .landing {
+    height: 70vh;
+    color: var(--light-gray);
 
-        #landing-background {
-            position: absolute;
-            overflow: hidden;
-            z-index: -1;
-            height: 100%;
-            width: 100%;
-            background: var(--crimson);
+    #landing-background {
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        background: var(--crimson);
 
-            & svg {
-                position: relative;
-                left: 50vw;
-                height: 100vh;
-                animation: HoverDrone 7s ease infinite;
-                fill: var(--med-red);
-            }
-        }
-
-        #landing-content {
-            z-index: 1;
-        }
-
-        .landing-hero {
-            padding-left: 5vw;
-            padding-top: 2vh;
-
-            & h1 {
-                font-family: 'Manrope';
-                letter-spacing: 2px;
-            }
-
-            & p {
-                padding-top: 20px;
-                width: 35vw;
-                font-weight: 200;
-                font-size: 24px;
-                letter-spacing: 1px;
-            }
-        }
-
-        .icon-button {
-            position: absolute;
-            top: 70%;
-            left: calc(5% - 15px);
-
-            & svg {
-                transition: 0.3s;
-                height: 1.2em;
-                width: 1.2em;
-            }
-        }
-
-        .icon-button:hover svg {
-            transform: rotate(-135deg);
+        & svg {
+            position: relative;
+            left: 50vw;
+            height: 100vh;
+            animation: HoverDrone 7s ease infinite;
+            fill: var(--med-red);
         }
     }
 
-    .links {
-        height: 15vh;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-
-        background-color: var(--dark-crimson);
-        color: var(--white);
+    #landing-content {
+        z-index: 1;
     }
 
-    .hero * {
-        background-color: var(--light-gray);
-        padding: 20vh 15vw;
+    .landing-hero {
+        padding-left: 5vw;
+        padding-top: 2vh;
+
+        & h1 {
+            font-family: 'Manrope';
+            letter-spacing: 2px;
+        }
+
+        & p {
+            padding-top: 20px;
+            width: 35vw;
+            font-weight: 200;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+    }
+
+    .icon-button {
+        position: absolute;
+        top: 70%;
+        left: calc(5% - 15px);
+
+        & svg {
+            transition: 0.3s;
+            height: 1.2em;
+            width: 1.2em;
+        }
+    }
+
+    .icon-button:hover svg {
+        transform: rotate(-135deg);
+    }
+}
+
+.home .links {
+    height: 15vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: var(--dark-crimson);
+    color: var(--white);
+}
+
+.home .hero {
+    background-color: var(--light-gray);
+
+    & p {
+        margin: 15vh 15vw;
         font-size: 30px;
         text-align: center;
         font-weight: 300;
     }
+}
 
-    .technologies {
-        background-color: var(--white);
-        padding: 15vh;
-        font-size: 38px;
-        text-align: center;
-        font-weight: 400;
-        line-height: 175%;
+.home .technologies {
+    background-color: var(--white);
+    padding: 15vh;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 175%;
 
-        & h1 {
-            font-weight: 300;
-            font-size: 48px;
-            letter-spacing: 2px;
+    & h1 {
+        font-weight: 300;
+        font-size: 48px;
+        letter-spacing: 2px;
 
-            line-height: 200%;
-        }
+        line-height: 200%;
     }
 }
