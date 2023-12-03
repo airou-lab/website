@@ -54,13 +54,36 @@ p {
 
 .text-button {
     display: block;
-    text-decoration: none;
-    background-color: inherit;
-    color: var(--white);
     border-radius: 16px;
-    text-align: center;
     padding: 10px 15px;
+
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+    color: inherit;
+
     transition: 0.1s;
+}
+
+.icon-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    gap: 1ch;
+
+    & svg {
+        position: relative;
+        fill: currentColor;
+        height: 0.9em;
+        width: 0.9em;
+    }
+
+    .button-text {
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
 }
 
 .text-button:hover {

@@ -14,30 +14,9 @@
     display: flex;
     flex-direction: column;
 
-    .text-button {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-decoration: none;
-        color: inherit;
-        gap: 8px;
-
-        & svg {
-            position: relative;
-            fill: currentColor;
-        }
-
-        .button-text {
-            font-size: 32px;
-            letter-spacing: 2px;
-            font-weight: 500;
-        }
-    }
-
     .landing {
         height: 70vh;
         color: var(--light-gray);
-        position: relative;
 
         #landing-background {
             position: absolute;
@@ -78,52 +57,33 @@
             }
         }
 
-        .text-button {
+        .icon-button {
             position: absolute;
-            top: 80%;
+            top: 70%;
             left: calc(5% - 15px);
 
             & svg {
                 transition: 0.3s;
-                height: 40px;
-                width: 40px;
+                height: 1.2em;
+                width: 1.2em;
             }
         }
 
-        .text-button:hover svg {
+        .icon-button:hover svg {
             transform: rotate(-135deg);
         }
-
-
     }
 
     .links {
-        display: flex;
         height: 15vh;
-        gap: 20px;
-        justify-content: center;
+
+        display: flex;
         align-items: center;
+        justify-content: center;
+        gap: 20px;
 
         background-color: var(--dark-crimson);
         color: var(--white);
-
-        .text-button {
-            gap: 16px;
-        }
-
-        #github {
-            & svg {
-                height: 28px;
-                width: 28px;
-            }
-        }
-
-        #mdbooks {
-            & svg {
-                height: 26px;
-                width: 26px;
-            }
-        }
     }
 
     .hero * {
