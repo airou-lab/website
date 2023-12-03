@@ -13,10 +13,13 @@ body {
     --med-gray: #e3e2e2;
     --dark-gray: #323232;
     --black: #000000;
+
     --crimson: #841617;
     --dark-crimson: #4e0002;
     --med-red: #5c0405;
     --dark-red: #391819;
+
+    --shadow: #00000060;
 
     background-color: var(--light-gray);
     color: var(--black);
@@ -57,13 +60,17 @@ p {
     border-radius: 16px;
     padding: 10px 15px;
 
-    align-items: center;
     text-align: center;
 
     text-decoration: none;
     color: inherit;
 
     transition: 0.1s;
+}
+
+.text-button:hover {
+    box-shadow: 0px 3px 4px var(--shadow);
+    transform: scale(1.02) translate(0px, -1px);
 }
 
 .icon-button {
@@ -84,11 +91,6 @@ p {
         letter-spacing: 2px;
         font-weight: 500;
     }
-}
-
-.text-button:hover {
-    box-shadow: 0px 3px 4px #00000060;
-    transform: scale(1.02) translate(0px, -1px);
 }
 
 .card {
