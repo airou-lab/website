@@ -6,13 +6,11 @@
         height: 100vh;
     }
 
-    .float {
+    .text-button {
         position: absolute;
         bottom: 40px;
         right: 40px;
-    }
 
-    .text-button {
         color: var(--white);
         background-color: var(--crimson);
     }
