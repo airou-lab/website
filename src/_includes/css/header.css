@@ -4,16 +4,15 @@ header {
     align-items: center;
     display: grid;
     grid-auto-flow: column;
-
     height: 15vh;
 
     & h1 {
         font-family: 'Manrope';
         font-weight: 700;
-        font-size: 30px;
+        font-size: 2em;
         letter-spacing: 2px;
 
-        padding: 0 5vw;
+        padding: 0 4rem;
 
         & a {
             text-decoration: none;

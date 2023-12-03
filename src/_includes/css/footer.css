@@ -1,24 +1,22 @@
 footer {
     background-color: var(--crimson);
-    padding: 48px 0;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    gap: 3em;
 
-    gap: 8vw;
-
-    >* {
-        opacity: 0.9;
-
+    .footer-item {
+        margin: 3em 3em;
         color: var(--white);
         font-weight: 300;
         letter-spacing: 0.3px;
+        min-width: 30ch;
     }
 
-
     & img {
-        height: 72px;
+        height: 5em;
     }
 }

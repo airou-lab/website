@@ -41,7 +41,7 @@
     }
 
     .landing-hero {
-        padding-left: 5vw;
+        padding-left: 4rem;
         padding-top: 2vh;
 
         & h1 {
@@ -60,8 +60,8 @@
 
     .icon-button {
         position: absolute;
-        top: 70%;
-        left: calc(5% - 15px);
+        bottom: 20vh;
+        left: calc(4rem - 15px);
 
         & svg {
             transition: 0.3s;

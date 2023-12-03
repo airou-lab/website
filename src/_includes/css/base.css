@@ -52,12 +52,12 @@ p {
 }
 
 .normal-page {
-    width: min(60em, 100% - 2em);
+    width: min(60em, 100%);
     margin: 6em auto;
 }
 
 .text-button {
-    display: flex;
+    display: block;
     border-radius: 16px;
     padding: 10px 15px;
 
@@ -75,6 +75,7 @@ p {
 }
 
 .icon-button {
+    display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 2em;
