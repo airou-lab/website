@@ -16,7 +16,7 @@
 }
 
 .home .landing {
-    height: 70vh;
+    min-height: 70vh;
     color: var(--light-gray);
 
     #landing-background {
@@ -38,11 +38,13 @@
 
     #landing-content {
         z-index: 1;
-    }
 
-    .landing-hero {
-        padding-left: 4rem;
         padding-top: 2vh;
+        padding-left: 4rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
 
         & h1 {
             font-family: 'Manrope';
@@ -50,18 +52,15 @@
         }
 
         & p {
-            padding-top: 20px;
-            width: 35vw;
+            width: 50ch;
             font-weight: 200;
-            font-size: 24px;
-            letter-spacing: 1px;
+            font-size: 1.5em;
+            letter-spacing: 0.1ch;
         }
     }
 
     .icon-button {
-        position: absolute;
-        bottom: 20vh;
-        left: calc(4rem - 15px);
+        margin: 1em 0;
 
         & svg {
             transition: 0.3s;
@@ -76,8 +75,6 @@
 }
 
 .home .links {
-    height: 15vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,6 +82,7 @@
 
     background-color: var(--dark-crimson);
     color: var(--white);
+    min-height: 15vh;
 }
 
 .home .hero {
