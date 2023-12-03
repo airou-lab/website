@@ -65,6 +65,7 @@
             padding-top: 2vh;
 
             & h1 {
+                font-family: 'Manrope';
                 letter-spacing: 2px;
             }
 
@@ -73,7 +74,7 @@
                 width: 35vw;
                 font-weight: 200;
                 font-size: 24px;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
             }
         }
 
