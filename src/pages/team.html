@@ -2,26 +2,21 @@
 permalink: "/team/"
 layout: 'layouts/site.html'
 title: 'Meet the Team'
+memberTypes: ["Faculty", "Graduate", "Undergraduate"]
 ---
 <div class="team normal-page">
   <h1>
     Members
   </h1>
   <ul class="bio-set">
-    {% for member in team %}
-      {% if member.class == "Faculty" %}
-        {% include "partials/card-bio.html" %}
-      {% endif %}
-    {% endfor %}
-    {% for member in team %}
-      {% if member.class == "Graduate" %}
-        {% include "partials/card-bio.html" %}
-      {% endif %}
-    {% endfor %}
-    {% for member in team %}
-      {% if member.class == "Undergraduate" %}
-        {% include "partials/card-bio.html" %}
-      {% endif %}
+    {% for type in memberTypes %}
+      {% for member in team %}
+        {% if member.class == type %}
+          <li>
+            {% include "partials/card-bio.html" %}
+          </li>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </ul>
   <h2>
@@ -29,9 +24,11 @@ title: 'Meet the Team'
   </h2>
   <ul class="bio-set">
     {% for member in team %}
-      {% if member.class == "Alumnus" %}
-        {% include "partials/card-bio.html" %}
-      {% endif %}
+      <li>
+        {% if member.class == "Alumnus" %}
+          {% include "partials/card-bio.html" %}
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
   <br>

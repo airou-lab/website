@@ -29,26 +29,26 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 400;
-    margin: 24px 0px;
+    margin: 1.5em 0;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 1.8em;
     font-weight: 300;
     margin: 2em 0 1em 0;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 0.8em;
 }
 
 p {
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 1.1em;
+    margin: 1em 0;
 }
 
 .normal-page {
@@ -58,8 +58,8 @@ p {
 
 .text-button {
     display: block;
-    border-radius: 16px;
-    padding: 10px 15px;
+    border-radius: 1rem;
+    padding: 0.625rem 1rem;
 
     text-align: center;
 
@@ -116,12 +116,12 @@ p {
     }
 
     .card-text {
-        font-size: 22px;
+        font-size: 1.4em;
         font-weight: 500;
     }
 
     .card-subtext {
-        font-size: 18px;
+        font-size: 1.1em;
         font-weight: 300;
         margin-top: 0.5em;
     }

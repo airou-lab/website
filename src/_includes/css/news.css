@@ -16,11 +16,12 @@
         .content {
 
             & h3 {
-                padding-bottom: 2px;
+                margin-bottom: 2px;
             }
 
             & h2 {
-                padding-bottom: 16px;
+                margin-bottom: 16px;
+                margin: 0;
             }
         }
 
