@@ -8,11 +8,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addWatchTarget("src/assets");
 
-    eleventyConfig.addFilter("textPreview", function (value) {
-        return value.split(' ').slice(0, 30).join(' ');
-    })
-
-    // Return your Object options:
     return {
         dir: {
             input: "src"
