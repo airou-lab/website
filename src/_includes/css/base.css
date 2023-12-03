@@ -116,4 +116,9 @@ p {
         font-size: 22px;
         font-weight: 500;
     }
+
+    .card-subtext {
+        font-size: 16px;
+        font-weight: 300;
+    }
 }

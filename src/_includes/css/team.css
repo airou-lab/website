@@ -1,78 +1,34 @@
 .team {
-    align-items: left;
-
-    & h2 {
-        margin-top: 10px;
-    }
-
-    & a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    & a:hover {
-        text-decoration: underline;
-    }
-
     .bio-set {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
-        & li {
-            list-style: none;
-        }
-
-        .bio-card {
-            background-color: var(--med-gray)00;
-            border-radius: 28px;
-            width: 35vh;
-            margin: 24px;
-            transition: background-color 0.2s ease;
-            text-align: center;
-
-            & a {
-                text-decoration: none;
-                height: 100%;
-                display: block;
-
-                .card-contents {
-                    padding: 0 24px 0 24px;
-
-                    & img {
-                        display: block;
-                        width: 80%;
-                        border-radius: 8px;
-                        margin: 24px 0;
-                    }
-
-                    & h3 {
-                        margin: 24px 0;
-                    }
-                }
-            }
-        }
-
-        .bio-card:hover {
-            background-color: var(--med-gray);
-        }
+        list-style: none;
     }
 
-    .member {
-        margin: 0 8vw;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
+    .card {
+        width: 12em;
 
-        & h3 {
-            align-self: center;
+        .image {
+            border-radius: 50%;
         }
+    }
+}
 
-        & img {
-            text-align: left;
-            align-self: center;
-            width: 30vw;
-        }
+.member {
+    margin: 0 8vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    & h3 {
+        align-self: center;
+    }
+
+    & img {
+        text-align: left;
+        align-self: center;
+        width: 30vw;
     }
 }

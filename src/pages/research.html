@@ -15,9 +15,13 @@ title: 'Our Research'
       Our project idea is extended to multi-vehicles with the ability of sharing information between fleets of vehicles. We design and develop the state-of-the-art data fusion and decision making technology with the aid of intelligent communication to build a reliable and robust team of autonomous vehicles.
     </p>
   </section>
-  <section class="research-set">
-    {% for highlight in research %}
-      {% include "partials/card-research.html" %}
-    {% endfor %}
+  <section>
+    <ul class="research-set">
+      {% for highlight in research %}
+        <li>
+          {% include "partials/card-research.html" %}
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 </div>
