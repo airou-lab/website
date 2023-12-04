@@ -29,7 +29,7 @@
 
         & svg {
             position: relative;
-            left: calc(-10rem + 60vw);
+            left: calc(-12rem + 58vw);
             height: 100vh;
             animation: HoverDrone 7s ease infinite;
             fill: var(--med-red);
