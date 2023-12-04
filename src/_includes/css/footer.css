@@ -3,13 +3,14 @@ footer {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 3em 3em;
+    gap: 2em;
+
     text-align: left;
-    gap: 3em;
 
     .footer-item {
-        margin: 3em 3em;
         color: var(--white);
         font-weight: 300;
         letter-spacing: 0.3px;
