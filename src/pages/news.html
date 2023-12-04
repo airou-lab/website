@@ -4,13 +4,15 @@ layout: 'layouts/site.html'
 title: AIROU News
 ---
 <div class="news normal-page">
-  <h1>Lab News</h1>
+  <div class="pad-content">
+    <h1>Lab News</h1>
 
-  {% for snippet in news %}
-    {% set snippetloop = loop %}
-    {% include "partials/news-snippet.html" %}
-  {% endfor %}
+    {% for snippet in news %}
+      {% set snippetloop = loop %}
+      {% include "partials/news-snippet.html" %}
+    {% endfor %}
 
+  </div>
 </div>
 
 <script src="/assets/js/news-buttons.js"></script>

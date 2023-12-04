@@ -28,10 +28,6 @@ body {
     font-style: normal;
 }
 
-main {
-    align-items: center;
-}
-
 h1 {
     font-size: 3em;
     font-weight: 400;
@@ -57,7 +53,11 @@ p {
 
 .normal-page {
     width: min(60em, 100%);
-    margin: 6em max(auto, 2em);
+    margin: 6em auto;
+}
+
+.pad-content {
+    margin: 0 2em;
 }
 
 .text-button {
