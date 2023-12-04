@@ -5,6 +5,7 @@ header {
     display: flex;
     height: 15vh;
     justify-content: space-between;
+    z-index: 3;
 
     & h1 {
         font-family: 'Manrope';
@@ -26,7 +27,7 @@ header {
     }
 
     /*move menus to right side of webpage*/
-    #menu {
+    .menu {
         justify-self: right;
         display: flex;
         padding: 0 36px;
@@ -61,20 +62,35 @@ header {
         }
     }
 
-    #narrow {
+    .hamburger {
         display: none;
 
-        & button {
-            background-color: transparent;
-            border: none;
-            font-size: 0;
-            cursor: pointer;
-            padding: 2rem;
-            color: var(--white);
-        }
+        background-color: transparent;
+        border: none;
+        font-size: 0;
+        cursor: pointer;
+        margin-right: 2rem;
+        padding: 0.5rem;
+        color: var(--white);
 
         .closeIcon {
             display: none;
+        }
+    }
+
+    .showMenu {
+        display: flex !important;
+        position: absolute;
+        top: 15vh;
+        right: 0;
+        background-color: var(--crimson);
+        text-align: right;
+        transition: display 1s ease-in-out;
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            align-items: right;
         }
     }
 
@@ -83,12 +99,13 @@ header {
             display: none;
         }
 
-        #narrow {
-            display: flex;
+        .hamburger {
+            display: block;
         }
 
-        #menu {
+        .menu {
             display: none;
+            z-index: 2;
         }
     }
 }
