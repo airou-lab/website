@@ -2,7 +2,7 @@
     <h1>
         <a href="/">AIROU</a>
     </h1>
-    <nav class="menu">
+    <nav class="menu hideMenu">
         <ul>
             <li>
                 <a href="/team/">TEAM</a>
@@ -18,9 +18,8 @@
             </li>
         </ul>
     </nav>
-    <button type="button" class="hamburger" onClick="console.log('hey');">
-            Open Navigation
-            <i class="menuIcon material-icons">menu</i>
+    <button type="button" class="hamburger" onClick="toggleMenu()" title="Open Navigation Menu">
+        <i class="menuIcon material-icons">menu</i>
         <i class="closeIcon material-icons">close</i>
     </button>
     <script src="/assets/js/mobile-nav.js"></script>

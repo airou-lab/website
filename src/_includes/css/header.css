@@ -1,3 +1,15 @@
+@keyframes hover-drop {
+    from {
+        transform: none;
+    }
+
+    5% {}
+
+    to {
+        transform: translateY(100%);
+    }
+}
+
 header {
     background-color: var(--crimson);
     position: relative;
@@ -26,7 +38,6 @@ header {
         }
     }
 
-    /*move menus to right side of webpage*/
     .menu {
         justify-self: right;
         display: flex;
@@ -34,86 +45,97 @@ header {
         & ul {
             display: flex;
             margin: 1rem 4rem;
-        }
 
-        & ul li {
-            list-style: none;
-            display: inline-block;
-            padding: 0.5em 0.75em;
+            & li {
+                list-style: none;
+                display: inline-block;
+                padding: 0.5em 0.75em;
 
-            & a {
-                color: var(--white);
-                text-decoration: none;
-                font-size: 18px;
-                letter-spacing: 2px;
+                & a {
+                    color: var(--white);
+                    text-decoration: none;
+                    font-size: 18px;
+                    letter-spacing: 2px;
 
-                /*line appears under nav menu when mouse hovers*/
-                /*increases from a width: 0% to width: 100%*/
-                &::after {
-                    content: '';
-                    width: 0%;
-                    height: 2px;
-                    background: var(--white);
-                    display: block;
-                    margin: auto;
-                    transition: 0.3s;
-                }
+                    &::after {
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        background: var(--white);
+                        display: block;
+                        margin: auto;
+                        transition: 0.3s;
+                    }
 
-                &:hover::after {
-                    width: 100%;
+                    &:hover::after {
+                        width: 100%;
+                    }
                 }
             }
         }
+
+        & ul li {}
+    }
+
+
+    .hideMenu {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-180px);
+    }
+
+    .showMenu {
+        opacity: 1;
+        transform: translateY(0px);
     }
 
     .hamburger {
         display: none;
-
-        background-color: transparent;
-        border: none;
-        font-size: 0;
-        cursor: pointer;
-        margin-right: 2rem;
-        padding: 0.5rem;
-        color: var(--white);
-
-        .closeIcon {
-            display: none;
-        }
-    }
-
-    .showMenu {
-        display: flex !important;
-        position: absolute;
-        top: 15vh;
-        right: 0;
-        background-color: var(--crimson);
-        text-align: right;
-        transition: display 1s ease-in-out;
-
-        & ul {
-            display: flex;
-            flex-direction: column;
-            align-items: right;
-        }
     }
 
     @media (max-width: 56em) {
-        #wide {
-            display: none;
+
+        & h1 {
+            padding: 0 2rem;
         }
 
         .hamburger {
             display: block;
+
+            background-color: transparent;
+            border: none;
+            font-size: 0;
+            cursor: pointer;
+            margin-right: 2rem;
+            padding: 0.5rem;
+            color: var(--white);
+
+            .closeIcon {
+                display: none;
+            }
         }
 
         .menu {
-            display: none;
+            position: absolute;
             z-index: 2;
-        }
+            transition: 0.15s;
 
-        & h1 {
+            display: grid;
+            background-color: var(--dark-gray);
+
             padding: 0 2rem;
+
+            top: 100%;
+            width: 100%;
+            right: 0;
+            text-align: right;
+            box-shadow: 0px 3px 4px var(--shadow);
+
+            & ul {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 }
