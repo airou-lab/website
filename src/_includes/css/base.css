@@ -84,7 +84,6 @@ a {
 
 .icon-button {
     display: flex;
-    flex-direction: row;
     align-items: center;
     font-size: 2em;
     gap: 1ch;
@@ -132,5 +131,11 @@ a {
         font-size: 1.1em;
         font-weight: 300;
         margin-top: 0.5em;
+    }
+}
+
+@media (max-width: 56em) {
+    .pad-content {
+        width: 0 0.5em;
     }
 }

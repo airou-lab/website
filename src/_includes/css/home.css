@@ -38,16 +38,13 @@
 
     #landing-content {
         z-index: 1;
-
         padding: 2vh 4rem;
-
-        display: flex;
-        flex-direction: column;
-        align-items: start;
+        display: block;
 
         & h1 {
             font-family: 'Manrope';
             letter-spacing: 2px;
+            font-size: min(2.6em, 10vw);
         }
 
         & p {
@@ -59,7 +56,8 @@
     }
 
     .icon-button {
-        margin: 1em 0;
+        margin: 1em 0 1em -16px;
+        width: fit-content;
 
         & svg {
             transition: 0.3s;
@@ -76,20 +74,28 @@
 .home .links {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    row-gap: 0;
+    column-gap: 20px;
 
     background-color: var(--dark-crimson);
     color: var(--white);
     min-height: 15vh;
+
+    .icon-button {
+        margin: 0.5em;
+    }
 }
 
 .home .hero {
     background-color: var(--light-gray);
+    padding: 5rem;
 
     & p {
-        margin: 15vh 15vw;
-        font-size: 30px;
+        margin: auto;
+        max-width: 70ch;
+        font-size: 1.8em;
         text-align: center;
         font-weight: 300;
     }
@@ -97,17 +103,17 @@
 
 .home .technologies {
     background-color: var(--white);
-    padding: 15vh;
-    font-size: 38px;
+    font-size: min(2rem, 10vw);
     text-align: center;
-    font-weight: 400;
-    line-height: 175%;
+    padding: 5rem;
 
-    & h1 {
-        font-weight: 300;
-        font-size: 48px;
-        letter-spacing: 2px;
+    & h2 {
+        letter-spacing: 0.2ch;
+        margin: 1rem 0;
+        font-size: inherit;
+    }
 
-        line-height: 200%;
+    & ul {
+        list-style: none;
     }
 }
