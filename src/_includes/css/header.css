@@ -1,15 +1,3 @@
-@keyframes hover-drop {
-    from {
-        transform: none;
-    }
-
-    5% {}
-
-    to {
-        transform: translateY(100%);
-    }
-}
-
 header {
     background-color: var(--crimson);
     position: relative;
@@ -73,20 +61,6 @@ header {
                 }
             }
         }
-
-        & ul li {}
-    }
-
-
-    .hideMenu {
-        visibility: hidden;
-        opacity: 0;
-        transform: translateY(-180px);
-    }
-
-    .showMenu {
-        opacity: 1;
-        transform: translateY(0px);
     }
 
     .hamburger {
@@ -94,7 +68,6 @@ header {
     }
 
     @media (max-width: 56em) {
-
         & h1 {
             padding: 0 2rem;
         }
@@ -136,6 +109,17 @@ header {
                 display: flex;
                 flex-direction: column;
             }
+        }
+
+        .hideMenu {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-180px);
+        }
+
+        .showMenu {
+            opacity: 1;
+            transform: translateY(0px);
         }
     }
 }
