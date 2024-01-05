@@ -44,20 +44,6 @@ header {
                     text-decoration: none;
                     font-size: 18px;
                     letter-spacing: 2px;
-
-                    &::after {
-                        content: '';
-                        width: 0%;
-                        height: 2px;
-                        background: var(--white);
-                        display: block;
-                        margin: auto;
-                        transition: 0.3s;
-                    }
-
-                    &:hover::after {
-                        width: 100%;
-                    }
                 }
             }
         }
@@ -66,8 +52,13 @@ header {
     .hamburger {
         display: none;
     }
+}
 
-    @media (max-width: 56em) {
+
+@media (max-width: 56em) {
+    header {
+        transform-style: preserve-3d;
+
         & h1 {
             padding: 0 2rem;
         }
@@ -90,7 +81,6 @@ header {
 
         .menu {
             position: absolute;
-            z-index: 2;
             transition: 0.15s;
 
             display: grid;
@@ -114,12 +104,31 @@ header {
         .hideMenu {
             visibility: hidden;
             opacity: 0;
-            transform: translateY(-180px);
+            transform: translate3d(0px, -180px, -20px);
         }
 
         .showMenu {
             opacity: 1;
-            transform: translateY(0px);
+            transform: translate3d(0px, 0px, -20px);
+        }
+    }
+}
+
+
+@media not (max-width: 56em) {
+    header .menu ul li a {
+        &::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: var(--white);
+            display: block;
+            margin: auto;
+            transition: 0.3s;
+        }
+
+        &:hover::after {
+            width: 100%;
         }
     }
 }
