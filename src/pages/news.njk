@@ -1,18 +1,16 @@
 ---
 permalink: "/news/"
-layout: 'layouts/site.html'
+layout: 'layouts/site.njk'
 title: AIROU News
 ---
+
 <div class="news normal-page">
   <div class="pad-content">
     <h1>Lab News</h1>
-
     {% for snippet in news %}
       {% set snippetloop = loop %}
-      {% include "partials/news-snippet.html" %}
+      {% include "partials/news-snippet.njk" %}
     {% endfor %}
-
   </div>
 </div>
-
 <script src="/assets/js/news-buttons.js"></script>

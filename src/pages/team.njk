@@ -1,9 +1,10 @@
 ---
 permalink: "/team/"
-layout: 'layouts/site.html'
+layout: 'layouts/site.njk'
 title: 'Meet the Team'
 memberTypes: ["Faculty", "Graduate", "Undergraduate"]
 ---
+
 <div class="team normal-page">
   <div class="pad-content">
     <h1>Members</h1>
@@ -12,26 +13,26 @@ memberTypes: ["Faculty", "Graduate", "Undergraduate"]
         {% for member in team %}
           {% if member.class == type %}
             <li>
-              {% include "partials/card-bio.html" %}
+              {% include "partials/card-bio.njk" %}
             </li>
           {% endif %}
         {% endfor %}
       {% endfor %}
     </ul>
     <h2>Former Students and Alumni</h2>
-    <ul class="bio-set">
+    <ul class="alum-set">
       {% for member in team %}
-        <li>
-          {% if member.class == "Alumnus" %}
-            {% include "partials/card-bio.html" %}
-          {% endif %}
-        </li>
+        {% if member.class == "Alumnus" %}
+          <li>
+            {{ member.name }}
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
     <br>
-    <p>
-      Positions are available for PhD and undergraduate research.<br>
-      Interested candidates should send their CV, transcripts, and a research statement to golnaz@ou.edu
-    </p>
-  </div>
-</div>
+      <p>
+        Positions are available for PhD and undergraduate research.<br>
+          Interested candidates should send their CV, transcripts, and a research statement to golnaz@ou.edu
+        </p>
+      </div>
+    </div>

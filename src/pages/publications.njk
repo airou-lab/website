@@ -1,19 +1,17 @@
 ---
 permalink: "/publications/"
-layout: 'layouts/site.html'
+layout: 'layouts/site.njk'
 title: 'Publications'
 ---
+
 <div class="publications normal-page">
   <div class="pad-content">
     <h1>Publications</h1>
     {% for year in publications %}
       <h2>{{ year.year }}</h2>
-
       {% for pub in year.citations %}
-        {% include "partials/publication.html" %}
+        {% include "partials/publication.njk" %}
       {% endfor %}
-
     {% endfor %}
-
   </div>
 </div>

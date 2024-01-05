@@ -1,12 +1,13 @@
 ---
 permalink: "/team/{{ member.name | slugify }}/"
-layout: 'layouts/site.html'
+layout: 'layouts/site.njk'
 title: 'Team Member'
 pagination: 
     data: team
     size: 1
     alias: member
 ---
+
 <div class="team normal-page">
     <div class="pad-content">
         <li class="member">

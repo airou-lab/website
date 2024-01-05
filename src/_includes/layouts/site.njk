@@ -1,10 +1,9 @@
 ---
-layout: layouts/base.html
+layout: layouts/base.njk
 ---
-{% include "partials/header.html" %}
 
+{% include "partials/header.html" %}
 <main tabindex="-1" id="main-content">
     {{ content | safe }}
 </main>
-
 {% include "partials/footer.html" %}

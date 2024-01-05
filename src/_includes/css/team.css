@@ -6,6 +6,10 @@
         list-style: none;
     }
 
+    .alum-set {
+        list-style: inside;
+    }
+
     .card {
         width: 12em;
 
