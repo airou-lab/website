@@ -13,22 +13,18 @@ Site is currently maintained by Matthew Carroll and Golnaz Habibi.
 ## Setup
 
 > [!IMPORTANT]
-> The setup and deployment scripts were tested in a Linux environment, so OS X/Windows may not be compatible.
+> The setup and deployment scripts were tested in an Linux environment, so OS X/Windows may not be compatible.
 
-1. To start, clone the repository.
-2. Run `sudo apt update`
-3. Run `sudo apt install nodejs`
-4. Run `sudo apt install nodejs npm` to install all dependencies to your machine.
-5. Note Eleventy Requires Node version 14, check the node version running `node -v`
-6.  use following commands to insatll Node V14: 
-   `curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -`
-   Foe ubuntu 20.04,run:
-   `cat /etc/apt/sources.list.d/nodesource.list`
-    `sudo apt -y install nodejs`
-7. `cd AirlabWebsite`
-8.  Run `npm run dev:server` to build the site and run a server locally.
+The following instructions are for a Ubuntu environment (incl. Windows Subsystem for Linux)
 
-9. View the local site at http://localhost:8080/
+1. Clone the repository (`git clone git@github.com:airou-lab/website.git`)
+2. Navigate to where you cloned the project (`cd website`)
+3. Run `sudo apt update`
+4. Run `sudo apt install nodejs npm` to Node and NPM to your machine
+5. Note: Eleventy requires Node version 14, check the node version running `node -v`
+6. Run `npm install` to install the project dependencies
+7. Run `npm run dev` to build the site and run a server locally
+8. View the local site at the server URL provided by 11ty (http://localhost:8080/)
 
 ## Deployment
 
@@ -48,7 +44,7 @@ The site's source code and data is all stored in the top level `src` directory.
 The site data is stored in the `src/_data` directory, where each `.json` file's data will be populated into each page.
 
 ### Editing News, Publications, or Team
-These pages can be edited by simply adding/removing/editing the associated data files. So long as the changes respect the existing structure, the appropriate page will be populated. For instance, each news article is an object within the parent array, which contains a `date`, `title`, `content`, and array of `images`. Run `npm run dev:server` to check to see if your changes are reflected in the site properly before deploying.
+These pages can be edited by simply adding/removing/editing the associated data files. So long as the changes respect the existing structure, the appropriate page will be populated. For instance, each news article is an object within the parent array, which contains a `date`, `title`, `content`, and array of `images`. Run `npm run dev` to check to see if your changes are reflected in the site properly before deploying (see Setup).
 
 ### Editing Research
 Each research topic (within `research.json`) corresponds a set of header information (`title`, `previewImage`) to an associated `page`. In the site, this header information is used to populate the preview buttons on the https://www.ou.edu/airou/research/ page. Upon clicking these preview cards, the associated `page` will be displayed, along with the `title` declared in the `.json` file.

@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @11ty/eleventy",
-    "dev:server": "npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy --pathprefix=airou",
-    "build:server": "npx @11ty/eleventy --serve --pathprefix=airou",
     "clean": "rm -rf _site/*",
     "deploy": "./deploy.sh"
   },
