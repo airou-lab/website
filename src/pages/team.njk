@@ -5,34 +5,32 @@ title: 'Meet the Team'
 memberTypes: ["Faculty", "Graduate", "Undergraduate"]
 ---
 
-<div class="team normal-page">
-  <div class="pad-content">
-    <h1>Members</h1>
-    <ul class="bio-set">
-      {% for type in memberTypes %}
-        {% for member in team %}
-          {% if member.class == type %}
-            <li>
-              {% include "partials/card-bio.njk" %}
-            </li>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </ul>
-    <h2>Former Students and Alumni</h2>
-    <ul class="alum-set">
+<div class="team page-content">
+  <h1>Members</h1>
+  <ul class="bio-set">
+    {% for type in memberTypes %}
       {% for member in team %}
-        {% if member.class == "Alumnus" %}
+        {% if member.class == type %}
           <li>
-            {{ member.name }}
+            {% include "partials/card-bio.njk" %}
           </li>
         {% endif %}
       {% endfor %}
-    </ul>
-    <br>
-      <p>
-        Positions are available for PhD and undergraduate research.<br>
-          Interested candidates should send their CV, transcripts, and a research statement to golnaz@ou.edu
-        </p>
-      </div>
-    </div>
+    {% endfor %}
+  </ul>
+  <h2>Former Students and Alumni</h2>
+  <ul class="alum-set">
+    {% for member in team %}
+      {% if member.class == "Alumnus" %}
+        <li>
+          {{ member.name }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <br/>
+  <p>
+    Positions are available for PhD and undergraduate research.<br/>Interested candidates should send their CV, transcripts,
+    and a research statement to golnaz@ou.edu
+  </p>
+</div>

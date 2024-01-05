@@ -4,14 +4,12 @@ layout: 'layouts/site.njk'
 title: 'Publications'
 ---
 
-<div class="publications normal-page">
-  <div class="pad-content">
-    <h1>Publications</h1>
-    {% for year in publications %}
-      <h2>{{ year.year }}</h2>
-      {% for pub in year.citations %}
-        {% include "partials/publication.njk" %}
-      {% endfor %}
+<div class="publications page-content">
+  <h1>Publications</h1>
+  {% for year in publications %}
+    <h2>{{ year.year }}</h2>
+    {% for pub in year.citations %}
+      {% include "partials/publication.njk" %}
     {% endfor %}
-  </div>
+  {% endfor %}
 </div>

@@ -8,19 +8,17 @@ pagination:
     alias: member
 ---
 
-<div class="team normal-page">
-    <div class="pad-content">
-        <li class="member">
-            <div class="button">
-                <a href="/team/">Back to Members</a>
-            </div>
-            <img src="{{ member.image }}" alt="">
-            <h3>
-                {{ member.name }}
-            </h3>
-            <p>
-                {{ member.bio | safe }}
-            </p>
-        </li>
-    </div>
+<div class="team page-content">
+    <li class="member">
+        <div class="button">
+            <a href="/team/">Back to Members</a>
+        </div>
+        <img src="{{ member.image }}" alt="">
+        <h3>
+            {{ member.name }}
+        </h3>
+        <p>
+            {{ member.bio | safe }}
+        </p>
+    </li>
 </div>
