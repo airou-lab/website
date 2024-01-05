@@ -58,7 +58,7 @@ You can add extra images, headings, tables, strikethrough, underline, etc. using
 
 ### Adding images
 1. Add the image file to `src/assets/images/` or `src/assets/images-stock/`, depending on if it's an image we own or not (just so we can more easily comply with copyright).
-2. Reference the image path where needed (e.g. your `src/_includes/partials/research-pages/` Markdown file). Be sure to include the leading `/`, to denote 
+2. Reference the image path where needed with a leading `/` (e.g. `/assets/images/cars.png`).
 
 ## Deployment
 
