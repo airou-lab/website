@@ -1,8 +1,8 @@
+{% set snippet_class = (snippet.title | slugify) %}
 <section class="news-snippet">
     <div class="content">
         <h3>{{ snippet.date }}</h3>
         <h2>{{ snippet.title }}</h2>
-        <p>{{ snippet.content | safe }}</p>
     </div>
     <div class="images">
         {% for image in snippet.images %}
@@ -11,4 +11,19 @@
         <button class="button-left" onclick="plusDivs(-1, {{ snippetloop.index0 }})">&#10094;</button>
         <button class="button-right" onclick="plusDivs(+1, {{ snippetloop.index0 }})">&#10095;</button>
     </div>
+    <button onclick="openDialog('{{ snippet_class }}')">Openpage</button>
 </section>
+<sl-dialog id="{{ snippet_class }}" style="--width: 50%;">
+    <div slot="label">
+        {{ snippet.date }}
+    </div>
+    <h2>{{ snippet.title }}</h2>
+    <p>{{ snippet.content | safe }}</p>
+    <sl-carousel pagination navigation mouse-dragging loop>
+        {% for image in snippet.images %}
+            <sl-carousel-item>
+                <img src="{{ image }}"/>
+            </sl-carousel-item>
+        {% endfor %}
+    </sl-carousel>
+</sl-dialog>

@@ -31,3 +31,10 @@ function showDivs(slidenumber, snippetId) {
     }
     images[slide_display].style.display = "block";
 }
+
+function openDialog(snippet) {
+    console.log(snippet);
+    const dialog = document.getElementById(snippet);
+    console.log(dialog);
+    dialog.show();
+}

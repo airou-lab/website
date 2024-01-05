@@ -61,4 +61,13 @@
             }
         }
     }
+
+    sl-dialog {
+        width: max(50%, 70ch);
+
+    }
+
+    sl-carousel {
+        --aspect-ratio: 1/1;
+    }
 }
