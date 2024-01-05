@@ -78,7 +78,7 @@ The deployment script will clean out the build directory (`_site`) and build the
 ## Resources
 
 ### Site Usage
-The webhost can display our site storage usage by logging in using our website login (username: ouok0000) at [this website](https://ouwww.ou.edu/usage_web.php).
+The webhost can display our site storage usage by logging in using the deployment credentials at [this website](https://ouwww.ou.edu/usage_web.php).
 
 ### Eleventy
 Familiarize yourself with the Eleventy project structure and more using the tutorials below:
