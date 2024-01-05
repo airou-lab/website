@@ -17,13 +17,13 @@ pagination:
         {% if project.github or project.docs %}
             <div class="links">
                 {% if project.github %}
-                    <a href='{{ project.github }}' class="text-button icon-button" id="github">
+                    <a href='{{ project.github }}' class="text-button icon-button hover-shadow" id="github">
                         {% include "svg/github-mark.svg" %}
                         <div class="button-text">CODE</div>
                     </a>
                 {% endif %}
                 {% if project.docs %}
-                    <a href='{{ project.docs }}' class="text-button icon-button" id="mdbooks">
+                    <a href='{{ project.docs }}' class="text-button icon-button hover-shadow" id="mdbooks">
                         {% include "svg/mdbooks.svg" %}
                         <div class="button-text">DOCS</div>
                     </a>

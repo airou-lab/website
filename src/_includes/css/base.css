@@ -73,11 +73,10 @@ a {
 
     text-decoration: none;
     color: inherit;
-
-    transition: 0.1s;
 }
 
-.text-button:hover {
+.hover-shadow:hover {
+    transition: 0.1s;
     box-shadow: 0px 3px 4px var(--shadow);
 }
 

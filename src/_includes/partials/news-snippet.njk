@@ -1,15 +1,12 @@
 {% set snippet_class = (snippet.title | slugify) %}
-<section class="news-snippet">
+<button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')">
     <div class="content">
         <h3>{{ snippet.date }}</h3>
         <h2>{{ snippet.title }}</h2>
     </div>
-    <div class="images">
-        {% set image = snippet.images|first %} <img class="imager" src="{{ image }}"/>
-    </div>
-    <button onclick="openDialog('{{ snippet_class }}')">Openpage</button>
-</section>
-<sl-dialog id="{{ snippet_class }}" style="--width: 50%;">
+    {% set image = snippet.images|first %} <img class="imager" src="{{ image }}"/>
+</button>
+<sl-dialog id="{{ snippet_class }}">
     <div slot="label">
         {{ snippet.date }}
     </div>
