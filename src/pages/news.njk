@@ -13,4 +13,9 @@ title: AIROU News
     {% endfor %}
   </div>
 </div>
-<script src="/assets/js/news-dialog.js"></script>
+<script>
+  function openDialog(snippet) {
+    const dialog = document.getElementById(snippet);
+    dialog.show();
+  }
+</script>
