@@ -8,15 +8,17 @@
 </button>
 <sl-dialog id="{{ snippet_class }}">
     <div slot="label">
-        {{ snippet.date }}
+        <h3>{{ snippet.date }}</h3>
     </div>
-    <h2>{{ snippet.title }}</h2>
-    <p>{{ snippet.content | safe }}</p>
-    <sl-carousel pagination navigation mouse-dragging loop>
-        {% for image in snippet.images %}
-            <sl-carousel-item>
-                <img src="{{ image }}"/>
-            </sl-carousel-item>
-        {% endfor %}
-    </sl-carousel>
+    <div>
+        <h2>{{ snippet.title }}</h2>
+        <p>{{ snippet.content | safe }}</p>
+        <sl-carousel pagination navigation mouse-dragging loop>
+            {% for image in snippet.images %}
+                <sl-carousel-item>
+                    <img src="{{ image }}"/>
+                </sl-carousel-item>
+            {% endfor %}
+        </sl-carousel>
+    </div>
 </sl-dialog>

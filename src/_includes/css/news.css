@@ -45,13 +45,19 @@
         }
     }
 
-
     sl-dialog {
         --width: min(50rem, 100%);
         --sl-border-radius-medium: 1rem;
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+        }
+
+        sl-carousel {
+            --aspect-ratio: 1/1;
+        }
     }
 
-    sl-carousel {
-        --aspect-ratio: 1/1;
-    }
 }
