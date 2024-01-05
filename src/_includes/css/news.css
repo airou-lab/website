@@ -63,8 +63,8 @@
     }
 
     sl-dialog {
-        width: max(50%, 70ch);
-
+        --width: min(60em, 100%);
+        --sl-border-radius-medium: 32px;
     }
 
     sl-carousel {

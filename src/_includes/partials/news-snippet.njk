@@ -5,11 +5,7 @@
         <h2>{{ snippet.title }}</h2>
     </div>
     <div class="images">
-        {% for image in snippet.images %}
-            <img class="imager" src="{{ image }}"/>
-        {% endfor %}
-        <button class="button-left" onclick="plusDivs(-1, {{ snippetloop.index0 }})">&#10094;</button>
-        <button class="button-right" onclick="plusDivs(+1, {{ snippetloop.index0 }})">&#10095;</button>
+        {% set image = snippet.images|first %} <img class="imager" src="{{ image }}"/>
     </div>
     <button onclick="openDialog('{{ snippet_class }}')">Openpage</button>
 </section>
