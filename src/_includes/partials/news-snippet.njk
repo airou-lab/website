@@ -1,5 +1,5 @@
 {% set snippet_class = (snippet.title | slugify) %}
-<button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')">
+<button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')" type="button">
     <div class="content">
         <h3>{{ snippet.date }}</h3>
         <h2>{{ snippet.title }}</h2>
