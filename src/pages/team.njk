@@ -1,12 +1,12 @@
 ---
 permalink: "/team/"
 layout: 'layouts/site.njk'
-title: 'Meet the Team'
+title: 'Team'
 memberTypes: ["Faculty", "Graduate", "Undergraduate"]
 ---
 
 <div class="team page-content">
-  <h1>Members</h1>
+  <h1>Team</h1>
   <ul class="bio-set">
     {% for type in memberTypes %}
       {% for member in team %}
@@ -22,9 +22,7 @@ memberTypes: ["Faculty", "Graduate", "Undergraduate"]
   <ul class="alum-set">
     {% for member in team %}
       {% if member.class == "Alumnus" %}
-        <li>
-          {{ member.name }}
-        </li>
+        <li>{{ member.name }}</li>
       {% endif %}
     {% endfor %}
   </ul>
