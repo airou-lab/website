@@ -12,12 +12,6 @@
         "bio": "Ph.D student in Computer Science. Master of Technology in Computer Science and Engineering, the Indian Institute of Technology Bombay, India (with full-funded fellowship- Indian Council for Cultural Relations Scholarship). Bachelor of Science in Information & Communications Engineering, East West University, Bangladesh. Priore Lecturer at a Polytechnic Institute, Department of Computer Science </p> <p>Research interests:  machine learning, artificial intelligence, IoT, natural language processing, computer vision and robotics. Hobbies: Maisha loves to see the sunset and enjoys traveling to new places. </p> <a href=\"https://scholar.google.com/citations?user=-zTUmEMAAAAJ&hl=en&oi=ao\"> <p>Google Scholar Page</p> </a>"
     },
     {
-        "name": "Avinash Reddy Nuthalapati",
-        "class": "Graduate",
-        "image": "/assets/images/Avinash.png",
-        "bio": "Msc student in Computer science. He has an BTech degree in computer science from MRCET, India. </p> <p>His research interest includes Application development and Generative Adversarial Networks."
-    },
-    {
         "name": "William Wilson",
         "class": "Graduate",
         "image": "/assets/images/william.png",
@@ -54,6 +48,12 @@
         "bio": "Junior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>"
     },
     {
+        "name": "Daniel Perez",
+        "class": "Undergraduate",
+        "image": "/assets/images/daniel-perez.jpeg",
+        "bio": "Student in computer science."
+    },
+    {
         "name": "Mahmoud Sami",
         "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
@@ -88,5 +88,11 @@
         "class": "Alumnus",
         "image": "/assets/images/Raj_Saha.png",
         "bio": "Raj Saha is a student at The University of Oklahoma pursuing an MS in Data Science & Analytics. He graduated from Bengal Institute of Technology, India in 2016 and started his professional journey in TCS, India as a data analyst for over five years. He is passionate and proficient at data mining, data analysis and visualization, big data processing, predictive model building, and strategic decision-making to achieve business objectives. </p> <p> During his tenure through TCS, he developed AI Chatbot, Product Recommendation Engine, Automated Loan Approval system and Sales Forecasting model. His research areas include data science, machine learning, deep learning and artificial intelligence."
+    },
+    {
+        "name": "Avinash Reddy Nuthalapati",
+        "class": "Alumnus",
+        "image": "/assets/images/Avinash.png",
+        "bio": "Msc student in Computer science. He has an BTech degree in computer science from MRCET, India. </p> <p>His research interest includes Application development and Generative Adversarial Networks."
     }
 ]
