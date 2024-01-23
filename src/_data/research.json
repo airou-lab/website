@@ -5,7 +5,7 @@
         "previewImage": "/assets/images/racecars.jpg",
         "page": "research-pages/MuSHR.md",
         "github": "https://github.com/airou-lab/mushr",
-        "docs": "https://airou-lab.github.io/air-lab-documentation/arc/index.html"
+        "docs": "https://airou-lab.github.io/docs/arc/overview.html"
     },
     {
         "title": "Autonomous Drones",
@@ -13,7 +13,7 @@
         "previewImage": "/assets/images/drone.jpeg",
         "page": "research-pages/PANTHER.md",
         "github": null,
-        "docs": "https://airou-lab.github.io/air-lab-documentation/lionn/index.html"
+        "docs": "https://airou-lab.github.io/docs/lionn/overview.html"
     },
     {
         "title": "Social Behavior Classification in Animals",
