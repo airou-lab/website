@@ -2,13 +2,13 @@
     {
         "name": "Golnaz Habibi",
         "class": "Faculty",
-        "image": "/assets/images/golnaz.jpg",
+        "image": "/assets/images/golnaz.jpeg",
         "bio": "AirLab Director and Principal investigator Assistant professor, <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a>. <br> Affiliations: Computer Science, Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. <br> Faculty Advisor of <a href=\"https://www.ou.edu/scr\"> Sooner Competitve Robotics</a>. <br> <a href=\"https://scholar.google.com/citations?hl=en&user=hU-LeNEAAAAJ&view_op=list_works&sortby=pubdate\"> Google Scholar </a>."
     },
     {
         "name": "Maisha Maliha",
         "class": "Graduate",
-        "image": "/assets/images/maisha.jpg",
+        "image": "/assets/images/maisha.jpeg",
         "bio": "Ph.D student in Computer Science. Master of Technology in Computer Science and Engineering, the Indian Institute of Technology Bombay, India (with full-funded fellowship- Indian Council for Cultural Relations Scholarship). Bachelor of Science in Information & Communications Engineering, East West University, Bangladesh. Priore Lecturer at a Polytechnic Institute, Department of Computer Science </p> <p>Research interests:  machine learning, artificial intelligence, IoT, natural language processing, computer vision and robotics. Hobbies: Maisha loves to see the sunset and enjoys traveling to new places. </p> <a href=\"https://scholar.google.com/citations?user=-zTUmEMAAAAJ&hl=en&oi=ao\"> <p>Google Scholar Page</p> </a>"
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "Matthew Carroll",
         "class": "Undergraduate",
-        "image": "/assets/images/matt.jpg",
+        "image": "/assets/images/matt.jpeg",
         "bio": "Senior student in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development."
     },
     {

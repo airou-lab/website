@@ -2,7 +2,7 @@
     {
         "title": "AirOU Race Cars (ARC)",
         "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
-        "previewImage": "/assets/images/racecars.jpg",
+        "previewImage": "/assets/images/racecars.jpeg",
         "page": "research-pages/MuSHR.md",
         "github": "https://github.com/airou-lab/mushr",
         "docs": "https://airou-lab.github.io/docs/arc/overview.html"
@@ -18,7 +18,7 @@
     {
         "title": "Social Behavior Classification in Animals",
         "description": "This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
-        "previewImage": "/assets/images/Bird_project_cover.jpg",
+        "previewImage": "/assets/images/Bird_project_cover.jpeg",
         "page": "research-pages/birds.md",
         "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
         "docs": null
