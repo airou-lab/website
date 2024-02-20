@@ -13,7 +13,9 @@ pagination:
         <div class="button">
             <a href="/team/">BACK TO TEAM</a>
         </div>
-        <img src="{{ member.image }}" alt="">
+        {% if member.image %}
+            <img src="{{ member.image }}" alt=""/>
+        {% endif %}
         <h3>
             {{ member.name }}
         </h3>

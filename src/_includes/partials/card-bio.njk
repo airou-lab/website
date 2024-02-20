@@ -1,6 +1,10 @@
 <a href="/team/{{ member.name | slugify }}/" class="text-button card hover-shadow">
     {% if member.class != "Alumnus" %}
-        <img src="{{ member.image }}" class="image" alt=""/>
+        {% if member.image %}
+            <img src="{{ member.image }}" class="image" alt=""/>
+        {% else %}
+            <div class="image color-filler"></div>
+        {% endif %}
     {% endif %}
     <div class="card-text">
         {{ member.name }}
