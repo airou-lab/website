@@ -8,7 +8,7 @@ Hosted URL: https://www.ou.edu/airou
 
 This project uses *Eleventy* (11ty), a static site generator (SSG), along with *Nunjucks* templating engine. Eleventy is a NodeJS based SSG, so with that comes `npm`.
 
-Site is currently maintained by Matthew Carroll and Golnaz Habibi. Please contact them before deploying changes.
+Site is currently maintained by Matthew Carroll, Aksel Can Sozudogru and Golnaz Habibi. Please contact them before deploying changes.
 
 ## Setup
 
