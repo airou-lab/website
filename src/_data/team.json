@@ -13,7 +13,7 @@
     },
     {
         "name": "Daniel Vargas",
-        "class": "Undergraduate",
+        "class": "Graduate",
         "image": "/assets/images/daniel.png",
         "bio": "Senior student in Mechanical Engineering and minoring in Electrical and Computer Engineering. He leads the development, optimization, and autonomous implementation of ground and aerial systems. He designed, sourced, and constructed MALCoLM, LIONN, Minicity, and SARRS projects.  He is also the secretary for <a href=\"https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders\">Sooners Without Borders</a>.</p><p>His research interests include controls system development, implementation of autonomous navigation in ground and aerial vehicles, and applied nuclear robotics."
     },
@@ -43,9 +43,21 @@
     },
     {
         "name": "Daniel Perez-Melo",
-        "class": "Undergraduate",
+        "class": "Graduate",
         "image": "/assets/images/daniel-perez.jpeg",
         "bio": "Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
+    },
+    {
+        "name": "Aksel Can Sozudogru",
+        "class": "Undergraduate",
+        "image": "/assets/images/blankpic.png",
+        "bio": "Rising senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which computes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
+    },
+    {
+        "name": "Anany Pratap Gupta",
+        "class": "Undergraduate",
+        "image": "/assets/images/blankpic.png",
+        "bio": "Rising senior "
     },
     {
         "name": "Mahmoud Sami",
