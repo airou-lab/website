@@ -2,13 +2,13 @@
 
 The codebase for the static AirLab website.
 
-Hosted URL: https://www.ou.edu/airou
+Hosted URL: https://airou.cs.ou.edu
 
 ## About
 
 This project uses *Eleventy* (11ty), a static site generator (SSG), along with *Nunjucks* templating engine. Eleventy is a NodeJS based SSG, so with that comes `npm`.
 
-Site is currently maintained by Matthew Carroll, Aksel Can Sozudogru and Golnaz Habibi. Please contact them before deploying changes.
+Site is currently maintained by Aksel Can Sozudogru and Golnaz Habibi. Please contact them before deploying changes.
 
 ## Setup
 
@@ -78,7 +78,7 @@ The deployment script will clean out the build directory (`_site`) and build the
 ## Resources
 
 ### Site Usage
-The webhost can display our site storage usage by logging in using the deployment credentials at [this website](https://ouwww.ou.edu/usage_web.php).
+Our web host has been moved from OUWWW to CS departmental web hosting. For any help, the System Administrator of the CS department's IT can be contacted.
 
 ### Eleventy
 Familiarize yourself with the Eleventy project structure and more using the tutorials below:
