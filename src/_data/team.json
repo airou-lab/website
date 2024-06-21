@@ -14,7 +14,7 @@
     {
         "name": "Vineel Palla",
         "class": "Graduate",
-        "image": "/assets/images/vineel_photo.jpeg",
+        "image": "/assets/images/vineel_photo.jpg",
         "bio": "I am Vineel Palla, a Master's student in Computer Science at the University of Oklahoma. My work focuses on machine learning, deep learning, and data science, using technologies like TensorFlow and Python. Currently, I am working on a project involving multi-camera and RADAR 3D object detection and tracking for smart infrastructure at city intersections. This project aims to use multiple monocular cameras at intersection corners to track pedestrians and cars, addressing the challenge of fusing data from multiple cameras with RADAR for accurate tracking."
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "Subhash Chandra",
         "class": "Graduate",
-        "image": "/assets/images/SubhashChandra.png",
+        "image": "/assets/images/SubhashChandra.jpg",
         "bio": "Subhash Chandra is currently a Master's student at the Department of Computer Science, University of Oklahoma. His research interests lie in the areas of Artificial Intelligence, Reifrocement Learning, Robotics, Robotics using AR/VR, Cryptograpy, Large Language Models (LLM), Natural Language Processing (NLP), and High-Performance Computing (HPC). </p><p> Previously, Subhash was a Research Assistant at the Indian Institute of Science (IISc.), Bangalore, where he engaged in various research projects related to cryptography, automation, NLP, and virtual reality. His work at IISc. involved leading innovative projects and contributing significantly to advancements in these fields.</p><p> For more information, visit his web page : https://iisc-scv.github.io/resume/"
     },
     {
@@ -56,7 +56,7 @@
     {
         "name": "Aksel Can Sozudogru",
         "class": "Undergraduate",
-        "image": "/assets/images/AkselCVPic.png",
+        "image": "/assets/images/AkselCVPic.jpg",
         "bio": "Rising senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which computes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
     },
     {
@@ -68,7 +68,7 @@
     {
         "name": "Keon Moradi",
         "class": "Undergraduate",
-        "image": "/assets/images-stock/keon.png",
+        "image": "/assets/images-stock/keon.jpg",
         "bio": "Pursuing bachelor's degrees in Math and Computer Science. Involved with machine learning projects throughout undergraduate career, interested in graduate studies. Currently working in conjunction with Bentz lab (alongside Ethan Haque)."
     },
     {
