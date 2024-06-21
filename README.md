@@ -2,13 +2,13 @@
 
 The codebase for the static AirLab website.
 
-Hosted URL: https://www.ou.edu/airou
+Hosted URL: https://airou.cs.ou.edu
 
 ## About
 
 This project uses *Eleventy* (11ty), a static site generator (SSG), along with *Nunjucks* templating engine. Eleventy is a NodeJS based SSG, so with that comes `npm`.
 
-Site is currently maintained by Matthew Carroll, Aksel Can Sozudogru and Golnaz Habibi. Please contact them before deploying changes.
+Site is currently maintained by Aksel Can Sozudogru and Golnaz Habibi. Please contact them before deploying changes.
 
 ## Setup
 
@@ -50,7 +50,7 @@ The site data is stored in the `src/_data` directory, where each `.json` file's 
 These pages can be edited by simply adding/removing/editing the associated data files. So long as the changes respect the existing structure, the appropriate page will be populated. For instance, each news article is an object within the parent array, which contains a `date`, `title`, `content`, and array of `images`.
 
 ### Editing Research
-Each research topic (within `research.json`) corresponds a set of header information (`title`, `previewImage`) to an associated `page`. In the site, this header information is used to populate the preview buttons on the https://www.ou.edu/airou/research/ page. Upon clicking these preview cards, the associated `page` will be displayed, along with the `title` declared in the `.json` file.
+Each research topic (within `research.json`) corresponds a set of header information (`title`, `previewImage`) to an associated `page`. In the site, this header information is used to populate the preview buttons on the https://airou.cs.ou.edu/airou/research/ page. Upon clicking these preview cards, the associated `page` will be displayed, along with the `title` declared in the `.json` file.
 
 Each research page exists as a Markdown file within `src/_includes/partials/research-pages/`. This allows you to easily edit the content of each research page without having to mess with formatting, styling, or HTML. 
 
@@ -78,7 +78,7 @@ The deployment script will clean out the build directory (`_site`) and build the
 ## Resources
 
 ### Site Usage
-The webhost can display our site storage usage by logging in using the deployment credentials at [this website](https://ouwww.ou.edu/usage_web.php).
+Our web host has been moved from OUWWW to CS departmental web hosting. For any help, the System Administrator of the CS department's IT can be contacted.
 
 ### Eleventy
 Familiarize yourself with the Eleventy project structure and more using the tutorials below:
