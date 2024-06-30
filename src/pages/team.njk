@@ -22,7 +22,9 @@ memberTypes: ["Faculty", "Graduate", "Undergraduate"]
   <ul class="alum-set">
     {% for member in team %}
       {% if member.class == "Alumnus" %}
-        <li>{{ member.name }}</li>
+        <li>
+          <a href="{{ member.url }}">{{ member.name }}</a>
+        </li>
       {% endif %}
     {% endfor %}
   </ul>
