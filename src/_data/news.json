@@ -1,10 +1,31 @@
 [
     {
+        "date": "June 2024",
+        "title": "Sooner Competetive Robotics wins 1st place!",
+        "content": "Sooner Competitive Robotics has officially won 1st place at the Intelligent Ground Vehicle Competition (IGVC) for the second year in a row! With our robot, the Danger Zone, we placed first in both the AutoNav challenge as well as first in the Grand Award. This team worked so hard all year and was able to replicate our success from last year. We are proud to represent the University of Oklahoma and the University of Oklahoma – Gallogly College of Engineering! Thank you to all our friends, family, alumni, and sponsors for supporting us all year. We look forward to IGVC 2025!" ,
+        "images": [
+            "/assets/images/SCR.jpeg",
+            "/assets/images/SCR2.jpeg"
+
+        ]
+    },
+    {
         "date": "May 2024",
         "title": "Daniel Vargas Receives Research Fellowship Once Again",
         "content": "Our undergraduate student, Daniel Vargas, received the <a href=\"https://www.ou.edu/coe/research/undergrad/fund\">Gallogly College of Engineering Research Fellowship once again!</a>. This exclusive grant allows students to focus on their research and allow them to prosper in their work. He received the grant for his project: Search and Rescue Robotic System (SARRS.)" ,
         "images": [
             "/assets/images/SARRS.jpeg"
+        ]
+    },
+    {
+        "date": "April 2024",
+        "title": "We relaxed before the finals with some BBQ!",
+        "content": "Our research lab recently enjoyed a delightful barbeque, providing a much-needed break and a chance to relax before the final exams. It was a perfect opportunity for everyone to gather outside, share delicious food, and strengthen our sense of community. The event was filled with laughter and camaraderie, making it a memorable and refreshing experience for all." ,
+        "images": [
+            "/assets/images/IMG_3544.jpg",
+            "/assets/images/IMG_3555.jpg",
+            "/assets/images/IMG_3547.jpg"
+
         ]
     },
     {
