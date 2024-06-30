@@ -76,7 +76,7 @@
         "class": "Alumnus",
         "image": "/assets/images/matt.jpeg",
         "bio": "Senior student in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development.",
-        "url" : "#matthew-carroll"
+        "url" : "matthew-carroll"
 
     },
     {
@@ -84,21 +84,21 @@
         "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": "Postdoctoral research associate.",
-        "url" : "#mahmoud-sami"
+        "url" : "mahmoud-sami"
     },
     {
         "name": ">Manthan C. Chilweri",
         "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": "Junior student in Mechanical Engineering",
-        "url": "#manthan-chilweri"
+        "url": "manthan-chilweri"
     },
     {
         "name": "Parisa Masnadi Khiabani",
         "class": "Alumnus",
         "image": "/assets/images/parisa.png",
         "bio": "Ph.D. student in Data Science and Analytics at the University of Oklahoma. Parisa has a BS in electronics engineering from the Shariati Technical and Vocational College and an MS in mechatronics engineering from the K.N Toosi University in Tehran. Previously, she was a senior automotive embedded software developer at Capgemini Engineering and an active safety system engineer at Saipa Automotive Research and Innovation Center.<br> Her research interests are robotics, autonomous driving, multi-object tracking, autonomous control, and real-time embedded systems. </p> <a href=\"https://scholar.google.com/citations?user=-ge1tpwAAAAJ&hl=en\"> <p>Google Scholar Page</p></a>",
-        "url": "#parisa-masnadi-khiabani"
+        "url": "parisa-masnadi-khiabani"
 
     },
     {
@@ -106,7 +106,7 @@
         "class": "Alumnus",
         "image": "/assets/images/yuki.png",
         "bio": "Rising junior majoring in Computer Science and minoring in Math. Yuki is also a multimedia assistant career major completer, with three certifications in adobe premiere, photoshop, and multimedia. She is currently the <a href=\"https://ou.edu/soonerrover/\"> Sooner Rover</a> publicity coordinator and member of the autonomous sub-team, a <a href=\"https://sase.ou.edu/\"> Society of Asian Scientists and Engineers</a> intern, the <a href=\"https://swe.ou.edu/\"> Society of Women Engineers</a> publicity chair, a <a href=\"https://www.ou.edu/coe/student-life/diversity\"> Diversity & Inclusion</a> Scholar, and the co-founder and co-president of the first Girls Who Code college loop in the state. She is also a <a href=\"https://www.ou.edu/coe/student-life/women/ww\"> Halliburton Women's Welcome</a> and ME^2 mentor.",
-        "url": "#yuki-zheng"
+        "url": "yuki-zheng"
 
     },
     {
@@ -114,7 +114,7 @@
         "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": "Tate is a master's student in Computer Science at the University of Oklahoma. He holds a BS in Computer Science with a minor in Economics, also from the University of Oklahoma. He currently works as a software developer for Paycom. He is also the cofounder of the <a href=\"https://www.ouc3.org/\"> OU C3 Cybersecurity Club. </a> This semester he is working on developing an AI agent for the board game Risk. <br> His research interests include machine learning, genetic algorithms, and reinforcement learning.",
-        "url": "#tate-smith"
+        "url": "tate-smith"
 
     },
     {
@@ -122,7 +122,7 @@
         "class": "Alumnus",
         "image": "/assets/images/Raj_Saha.png",
         "bio": "Raj Saha is a student at The University of Oklahoma pursuing an MS in Data Science & Analytics. He graduated from Bengal Institute of Technology, India in 2016 and started his professional journey in TCS, India as a data analyst for over five years. He is passionate and proficient at data mining, data analysis and visualization, big data processing, predictive model building, and strategic decision-making to achieve business objectives. </p> <p> During his tenure through TCS, he developed AI Chatbot, Product Recommendation Engine, Automated Loan Approval system and Sales Forecasting model. His research areas include data science, machine learning, deep learning and artificial intelligence.",
-        "url": "#raj-saha"
+        "url": "raj-saha"
 
     },
     {
@@ -130,7 +130,7 @@
         "class": "Alumnus",
         "image": "/assets/images/Avinash.png",
         "bio": "Msc student in Computer science. He has an BTech degree in computer science from MRCET, India. </p> <p>His research interest includes Application development and Generative Adversarial Networks.",
-        "url": "#avinash-reddy-nuthalapati"
+        "url": "avinash-reddy-nuthalapati"
 
     },
     {
