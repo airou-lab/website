@@ -21,7 +21,7 @@
         "name": "Daniel Vargas",
         "class": "Graduate",
         "image": "/assets/images/daniel.png",
-        "bio": "Senior student in Mechanical Engineering and minoring in Electrical and Computer Engineering. He leads the development, optimization, and autonomous implementation of ground and aerial systems. He designed, sourced, and constructed MALCoLM, LIONN, Minicity, and SARRS projects.  He is also the secretary for <a href=\"https://www.ou.edu/coe/centers/water/getinvolved/soonerswithoutborders\">Sooners Without Borders</a>.</p><p>His research interests include controls system development, implementation of autonomous navigation in ground and aerial vehicles, and applied nuclear robotics."
+        "bio": "First-year Ph.D student in Control System Engineering, where he will be designing a search and rescue robot and drone for people lost in difficult-to-search areas. His B.S. was in Mechanical Engineering with a minor in Electrical and Computer Engineering. He led the design and building of Minicity, ARC, ARCPro, LIONN, and SARRS. For any questions, please reach out to him at dvargas88@ou.edu His research interests are robotics, autonomous implementation in ground and aerial vehicles, and applied nuclear robotics."
     },
     {
         "name": "Tyler Roman",
@@ -46,6 +46,12 @@
         "class": "Undergraduate",
         "image": "/assets/images/ethan.jpeg",
         "bio": "Junior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>"
+    },
+    {
+        "name": "Nthati Lehloenya",
+        "class": "Undergraduate",
+        "image": "/assets/images/headshot.jpg",
+        "bio": "I am a junior in computer science, passionate about cybersecurity and AI. As a proud UWC scholar from the Kingdom of Lesotho, I’m committed to using technology for positive impact and serving my community. I manage operations at the OU Food Pantry, tutor math through the Transforming Tutoring Initiative, and provide prototyping and research development support using specialized workspaces in the Fabrication lab. As an associate in the Jerry Holmes Leadership Program, I focus on purposeful leadership, a skill I also apply as co-founder of the Gumboot Dance Club, where we celebrate South African heritage and honor the dance’s deep history of unity and resilience among Southern African miners during apartheid. Guided by my love for God, I aim to bring integrity and service to all my endeavors."
     },
     {
         "name": "Daniel Perez-Melo",
