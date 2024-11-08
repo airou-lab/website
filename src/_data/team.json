@@ -9,7 +9,7 @@
         "name": "Mathis Morales",
         "class": "Graduate",
         "image": "/assets/images/mathis.jpeg",
-        "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>He is currently working on Radar-Camera multi-object tracking. His research focuses on Robotics, Machine Learning, and Computer Vision, for airborne vehicles."
+        "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>He is currently working on VelACaR-MOT, a Velocity Aware Camera-Radar 3D Multi-Object Tracking algorithm. His research focuses on UAV Dynamic Trajectory Planning for Search and Rescue in disaster environments."
     },
     {
         "name": "Vineel Palla",
