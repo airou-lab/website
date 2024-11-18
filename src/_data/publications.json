@@ -1,14 +1,4 @@
 [
-     {
-        "year": 2023,
-        "citations": [
-            {
-                "file": "/assets/publications/mptcp.pdf",
-                "title": "A Survey on Congestion Control and Scheduling for Multipath TCP: Machine Learning vs Classical Approaches",
-                "citation": "M. Maliha, G. Habibi, M. Atiquzzaman, \"A Survey on Congestion Control and Scheduling for Multipath TCP: Machine Learning vs Classical Approaches,\"; acsis2023. [Online]. Available: https://annals-csis.org/proceedings/2023/pliks/9832.pdf. [Accessed: 1-oct-2023]."
-            }
-        ]
-    },
     {
         "year": 2025,
         "citations": [
