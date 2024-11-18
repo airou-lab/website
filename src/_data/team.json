@@ -13,7 +13,7 @@
     },
     {
         "name": "Vineel Palla",
-        "class": "Graduate",
+        "class": "Alumnus",
         "image": "/assets/images/vineel_photo.jpg",
         "bio": "I am Vineel Palla, a Master's student in Computer Science at the University of Oklahoma. My work focuses on machine learning, deep learning, and data science, using technologies like TensorFlow and Python. Currently, I am working on a project involving multi-camera and RADAR 3D object detection and tracking for smart infrastructure at city intersections. This project aims to use multiple monocular cameras at intersection corners to track pedestrians and cars, addressing the challenge of fusing data from multiple cameras with RADAR for accurate tracking."
     },
@@ -25,7 +25,7 @@
     },
     {
         "name": "Tyler Roman",
-        "class": "Undergraduate",
+        "class": "Alumnus",
         "image": "/assets/images/tyler.png",
         "bio": "Junior student in Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
     },
