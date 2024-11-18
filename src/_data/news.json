@@ -2,20 +2,28 @@
       {
         "date": "October 2024",
         "title": "Our paper on Multi-bird tracking is accepted to WACV 2025! Congratulation to Keon andEthan for their hardwork.",
+              "images": [
+        ]
     },
        {
         "date": "October 2024",
         "title": "We have finished building ten ArcPro Cars!",
+              "images": [
+        ]
     },
       {
         "date": "September 2024",
         "title": "We have presented our minicity paper in ITSC 2024",
+             "images": [
+        ]
     },
       {
         "date": "August 2024",
         "title": "Daniel Vargas and Daniel Perez are now PhD students in AirOU, congratulations!",
         "content":"Daniel Vargas continues his study as a PhD student in Control. Daniel Perez starts his PhD in Data Science and Analytics. Welcome back!" ,
-    },
+    "images": [
+        ]
+      },
     {
         "date": "June 2024",
         "title": "Sooner Competetive Robotics wins 1st place!",
@@ -23,7 +31,6 @@
         "images": [
             "/assets/images/SCR.jpg",
             "/assets/images/SCR2.jpg"
-
         ]
     },
     {
