@@ -3,7 +3,7 @@
         "year": 2025,
         "citations": [
             {
-                "file": "/assets/publications/mptcp.pdf",
+                "file": "/assets/publications/Context-Aware_Pedestrian_Motion_Prediction_in_Urban_Intersections.pdf",
                 "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary",
                 "citation": "K. Moradi, E. Haque, J. Kaur, A. Bentz, E. Bridge, G. Habibi , \"Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary,\"; WACV2025"
             }
