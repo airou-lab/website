@@ -1,9 +1,9 @@
 [
-    
+    {
         "year": 2025,
         "citations": [
             {
-                "file": "",
+                "file": "/assets/publications/mptcp.pdf",
                 "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar
 Small Birds in An Outdoor Aviary",
                 "citation": "K. Moradi, E. Haque, J. Kaur, A. Bentz, E. Bridge, G. Habibi , \"Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar
