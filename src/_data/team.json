@@ -11,6 +11,14 @@
         "image": "/assets/images/mathis.jpeg",
         "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>He is currently working on VelACaR-MOT, a Velocity Aware Camera-Radar 3D Multi-Object Tracking algorithm. His research focuses on UAV Dynamic Trajectory Planning for Search and Rescue in disaster environments."
     },
+
+    {
+        "name": "Evan Mcculley ",
+        "class": "Graduate",
+        "image": "",
+        "bio": "Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
+
+    },
     {
         "name": "Vineel Palla",
         "class": "Alumnus",
@@ -43,7 +51,7 @@
     },
     {
         "name": "Ethan Haque",
-        "class": "Undergraduate",
+        "class": "Alumnus",
         "image": "/assets/images/ethan.jpeg",
         "bio": "Junior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>"
     },
