@@ -32,6 +32,14 @@
         "docs": null
     },
     {
+        "title": "Camera-Radar Multi Object Tracking",
+        "description": "Camera-Radar Multi Object Tracking",
+        "previewImage": null,
+        "page": "research-pages/cameraradarmot.md",
+        "github": "https://github.com/airou-lab/MatTrack",
+        "docs": null
+    },
+    {
         "title": "Radar-Based perception",
         "description": "Camera Radar Object Detection and Tracking",
         "previewImage": null,
