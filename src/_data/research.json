@@ -34,7 +34,7 @@
     {
         "title": "Camera-Radar Multi Object Tracking",
         "description": "Camera-Radar Multi Object Tracking",
-        "previewImage": null,
+        "previewImage": "/assets/images/Tracking_single.jpg",
         "page": "research-pages/cameraradarmot.md",
         "github": "https://github.com/airou-lab/MatTrack",
         "docs": null
