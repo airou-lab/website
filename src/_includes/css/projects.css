@@ -3,7 +3,7 @@
         margin: 1em;
     }
 
-    .research-set {
+    .projects-set {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -16,7 +16,7 @@
     }
 }
 
-.research-spotlight {
+.projects-spotlight {
     width: min(50em, 100% - 6em);
     margin: auto;
 
