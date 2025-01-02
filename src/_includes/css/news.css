@@ -18,7 +18,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
-    width: 150%;
+    width: 120%;
 
     background-color: var(--med-gray);
     border-radius: 12px;
