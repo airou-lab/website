@@ -18,10 +18,10 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
-    width: 100%;
+    width: 150%;
 
     background-color: var(--med-gray);
-    border-radius: 30px;
+    border-radius: 12px;
 
 
     .content {
