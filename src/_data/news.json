@@ -1,7 +1,7 @@
 [
       {
         "date": "October 2024",
-        "title": "Our paper on Multi-bird tracking is accepted to WACV 2025! Congratulation to Keon and Ethan for their hardwork.",
+        "title": "Our paper on Multi-bird tracking is accepted to WACV 2025! Congratulation to Keon and Ethan for their hardwork!",
               "images": [
         ]
     },
@@ -51,6 +51,11 @@
             "/assets/images/IMG_3547.JPG"
 
         ]
+    },
+        {
+        "date": "April 2024",
+        "title": "Our proposal on Minicity gets funded by DISC seed funding",
+        "content": "We are excited to share that AirOU gets the support for research on Minicity with the amount of $10,000." ,
     },
     {
         "date": "December 2023",
