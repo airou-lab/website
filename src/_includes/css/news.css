@@ -1,6 +1,6 @@
 .news {
     & h1 {
-        padding-bottom: 12px;
+        padding-bottom: 10px;
     }
 }
 
@@ -21,7 +21,7 @@
     width: 100%;
 
     background-color: var(--med-gray);
-    border-radius: 15px;
+    border-radius: 12px;
 
 
     .content {
