@@ -3,4 +3,4 @@ With more advances in computer vision, studying animal behavior is now becoming 
 Pictured below is an example of our detection Algorithm(Mask RCNN + Background Subtraction) 
 Note: Detection increased to 15% after addition of Background Detection
 
-![Segmented image, outlining bird silhouettes](src/assets/images/Bird_project_cover.jpeg)
+![Segmented image, outlining bird silhouettes]!(/assets/images/Bird_project_cover.jpeg)
