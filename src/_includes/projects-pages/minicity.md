@@ -1,0 +1,3 @@
+Our Mini-City is a 1/10 scale design, meant to simulate an urban environment and is used for testing and prototyping algorithms on our model vehicle platform. It currently is in use as a scenario environment used for a course where students choose how to navigate the vehicle through city using a variety of sensors. We plan to add features to the city such as cameras that observe intersections and are capable of relaying the information to the ARC cars. We also plan to add timer-based traffic lights to provide a more realistic environment, rather than the stop signs that are currently in use as placeholders of a traffic management system.
+
+![Cardboard building, with a drone on top and several small vehicles below](/assets/images/minicity.jpeg)
