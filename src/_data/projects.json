@@ -40,7 +40,7 @@
         "docs": null
     },
     {
-        "title": "Radar-Based perception",
+        "title": "Radar-Based Depth Estimation",
         "description": "Camera Radar Object Detection and Tracking",
         "previewImage": null,
         "page": "projects-pages/radarcameraperception.md",
