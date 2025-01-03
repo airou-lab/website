@@ -6,20 +6,6 @@
         "bio": "AirLab Director and Principal investigator Assistant professor, <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a>. <br> Affiliations: Computer Science, Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. <br> Faculty Advisor of <a href=\"https://www.ou.edu/scr\"> Sooner Competitve Robotics</a>. <br> <a href=\"https://scholar.google.com/citations?hl=en&user=hU-LeNEAAAAJ&view_op=list_works&sortby=pubdate\"> Google Scholar </a>."
     },
     {
-        "name": "Mathis Morales",
-        "class": "Graduate",
-        "image": "/assets/images/mathis.jpeg",
-        "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
-    },
-
-    {
-        "name": "Evan Mcculley ",
-        "class": "Graduate",
-        "image": "",
-        "bio": "Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
-
-    },
-    {
         "name": "Vineel Palla",
         "class": "Alumnus",
         "image": "/assets/images/vineel_photo.jpg",
@@ -30,6 +16,26 @@
         "class": "Graduate",
         "image": "/assets/images/daniel.png",
         "bio": "First-year Ph.D student in Control System Engineering, where he will be designing a search and rescue robot and drone for people lost in difficult-to-search areas. His B.S. was in Mechanical Engineering with a minor in Electrical and Computer Engineering. He led the design and building of Minicity, ARC, ARCPro, LIONN, and SARRS. For any questions, please reach out to him at dvargas88@ou.edu His research interests are robotics, autonomous implementation in ground and aerial vehicles, and applied nuclear robotics."
+    },
+     {
+        "name": "Daniel Perez-Melo",
+        "class": "PhD Student",
+        "image": "/assets/images/daniel-perez.jpeg",
+        "bio": "Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
+    },
+        {
+        "name": "Mathis Morales",
+        "class": "Master Student",
+        "image": "/assets/images/mathis.jpeg",
+        "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
+    },
+
+    {
+        "name": "Evan Mcculley ",
+        "class": "Master Student",
+        "image": "",
+        "bio": "Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
+
     },
     {
         "name": "Tyler Roman",
@@ -45,7 +51,7 @@
     },
     {
         "name": "Subhash Chandra",
-        "class": "Graduate",
+        "class": "Alumnus",
         "image": "/assets/images/SubhashChandra.jpg",
         "bio": "Subhash Chandra is currently a Master's student at the Department of Computer Science, University of Oklahoma. His research interests lie in the areas of Artificial Intelligence, Reifrocement Learning, Robotics, Robotics using AR/VR, Cryptograpy, Large Language Models (LLM), Natural Language Processing (NLP), and High-Performance Computing (HPC). </p><p> Previously, Subhash was a Research Assistant at the Indian Institute of Science (IISc.), Bangalore, where he engaged in various research projects related to cryptography, automation, NLP, and virtual reality. His work at IISc. involved leading innovative projects and contributing significantly to advancements in these fields.</p><p> For more information, visit his web page : <a href=https://iisc-scv.github.io/resume/> Website </a>"
     },
@@ -57,31 +63,26 @@
     },
     {
         "name": "Nthati Lehloenya",
-        "class": "Undergraduate",
+        "class": "Undergraduate Student",
         "image": "/assets/images/headshot.jpg",
         "bio": "I am a junior in computer science, passionate about cybersecurity and AI. As a proud UWC scholar from the Kingdom of Lesotho, I’m committed to using technology for positive impact and serving my community. I manage operations at the OU Food Pantry, tutor math through the Transforming Tutoring Initiative, and provide prototyping and research development support using specialized workspaces in the Fabrication lab. As an associate in the Jerry Holmes Leadership Program, I focus on purposeful leadership, a skill I also apply as co-founder of the Gumboot Dance Club, where we celebrate South African heritage and honor the dance’s deep history of unity and resilience among Southern African miners during apartheid. Guided by my love for God, I aim to bring integrity and service to all my endeavors."
     },
-    {
-        "name": "Daniel Perez-Melo",
-        "class": "Graduate",
-        "image": "/assets/images/daniel-perez.jpeg",
-        "bio": "Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
-    },
+   
     {
         "name": "Aksel Can Sozudogru",
-        "class": "Undergraduate",
+        "class": "Undergraduate Student",
         "image": "/assets/images/aksel.jpg",
         "bio": "Rising senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which computes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
     },
     {
         "name": "Anany Pratap Gupta",
-        "class": "Undergraduate",
+        "class": "Undergraduate Student",
         "image": "/assets/images/anany.png",
         "bio": "Senior at OU, passionate about AI and autonomous vehicle navigation development. Pursuing a bachelor's in computer science, I excel in web development, database management, and applying machine learning in astrophysics. I've worked on SLAM for autonomous systems and ROS migration projects. Currently, I'm involved in a smart city initiative, optimizing autonomous vehicle operations for safer urban mobility."
     },
     {
         "name": "Keon Moradi",
-        "class": "Undergraduate",
+        "class": "Alumnus",
         "image": "/assets/images/keon.jpg",
         "bio": "Pursuing bachelor's degrees in Math and Computer Science. Involved with machine learning projects throughout undergraduate career, interested in graduate studies. Currently working in conjunction with Bentz lab (alongside Ethan Haque)."
     },
