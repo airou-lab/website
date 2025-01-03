@@ -13,7 +13,7 @@
     },
     {
         "name": "Daniel Vargas",
-        "class": "Graduate",
+        "class": "PhD Student",
         "image": "/assets/images/daniel.png",
         "bio": "First-year Ph.D student in Control System Engineering, where he will be designing a search and rescue robot and drone for people lost in difficult-to-search areas. His B.S. was in Mechanical Engineering with a minor in Electrical and Computer Engineering. He led the design and building of Minicity, ARC, ARCPro, LIONN, and SARRS. For any questions, please reach out to him at dvargas88@ou.edu His research interests are robotics, autonomous implementation in ground and aerial vehicles, and applied nuclear robotics."
     },
@@ -22,6 +22,12 @@
         "class": "PhD Student",
         "image": "/assets/images/daniel-perez.jpeg",
         "bio": "Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
+    },
+         {
+        "name": "Job Elliott",
+        "class": "PhD Student",
+        "image": null,
+        "bio": "PhD student in Computer Science"
     },
         {
         "name": "Mathis Morales",
