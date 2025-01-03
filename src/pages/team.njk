@@ -2,11 +2,12 @@
 permalink: "/team/"
 layout: 'layouts/site.njk'
 title: 'Team'
-memberTypes: ["Principle Investigator", "PhD Student", Master's Student", "Undergraduate Student"]
+memberTypes: ["Principal Investigator", "PhD Student", Master's Student", "Undergraduate Student"]
 ---
 
 <div class="team page-content">
   <h1>Team</h1>
+  <h2>Lab Director</h2>
   <ul class="bio-set">
       {% for member in team %}
         {% if member.class == "Principle Investigator" %}
