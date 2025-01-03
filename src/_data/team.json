@@ -31,14 +31,14 @@
     },
         {
         "name": "Mathis Morales",
-        "class": "Master Student",
+        "class": "Master's Student",
         "image": "/assets/images/mathis.jpeg",
         "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
     },
 
     {
         "name": "Evan Mcculley ",
-        "class": "Master Student",
+        "class": "Master's Student",
         "image": "",
         "bio": "Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
 
