@@ -2,7 +2,7 @@
 permalink: "/team/"
 layout: 'layouts/site.njk'
 title: 'Team'
-memberTypes: ["Principle Investigator", "PhD Student", Master Student", "Undergraduate Student"]
+memberTypes: ["Principle Investigator", "PhD Student", Master's Student", "Undergraduate Student"]
 ---
 
 <div class="team page-content">
@@ -16,7 +16,7 @@ memberTypes: ["Principle Investigator", "PhD Student", Master Student", "Undergr
         {% endif %}
       {% endfor %}
   </ul>
-
+  <h2>PhD Students</h2>
   <ul class="bio-set">
       {% for member in team %}
         {% if member.class == "PhD Student" %}
@@ -26,7 +26,27 @@ memberTypes: ["Principle Investigator", "PhD Student", Master Student", "Undergr
         {% endif %}
     {% endfor %}
   </ul>
-  <h2>Former Students and Alumni</h2>
+  <h2>Master's Students</h2>
+  <ul class="bio-set">
+      {% for member in team %}
+        {% if member.class == "Master's Student" %}
+          <li>
+            {% include "partials/card-bio.njk" %}
+          </li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>Undergarudate Students</h2>
+  <ul class="bio-set">
+      {% for member in team %}
+        {% if member.class == "Undergraduate Student" %}
+          <li>
+            {% include "partials/card-bio.njk" %}
+          </li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>Alumni</h2>
   <ul class="alum-set">
     {% for member in team %}
       {% if member.class == "Alumnus" %}
