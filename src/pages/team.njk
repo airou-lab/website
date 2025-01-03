@@ -2,20 +2,28 @@
 permalink: "/team/"
 layout: 'layouts/site.njk'
 title: 'Team'
-memberTypes: ["Faculty", "Graduate", "Undergraduate"]
+memberTypes: ["Principle Investigator", "PhD Student", Master Student", "Undergraduate Student"]
 ---
 
 <div class="team page-content">
   <h1>Team</h1>
   <ul class="bio-set">
-    {% for type in memberTypes %}
       {% for member in team %}
-        {% if member.class == type %}
+        {% if member.class == "Principle Investigator" %}
           <li>
             {% include "partials/card-bio.njk" %}
           </li>
         {% endif %}
       {% endfor %}
+  </ul>
+
+  <ul class="bio-set">
+      {% for member in team %}
+        {% if member.class == "PhD Student" %}
+          <li>
+            {% include "partials/card-bio.njk" %}
+          </li>
+        {% endif %}
     {% endfor %}
   </ul>
   <h2>Former Students and Alumni</h2>
