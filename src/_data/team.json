@@ -26,7 +26,7 @@
          {
         "name": "Job Elliott",
         "class": "PhD Student",
-        "image": null,
+        "image": "/assets/images-stock/portrait-default.png",
         "bio": "PhD student in Computer Science"
     },
         {
@@ -39,7 +39,7 @@
     {
         "name": "Evan Mcculley ",
         "class": "Master's Student",
-        "image": "",
+        "image": "/assets/images-stock/portrait-default.png",
         "bio": "Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
 
     },
@@ -51,7 +51,7 @@
     },
     {
         "name": "Phong Nguyen",
-        "class": "Undergraduate",
+        "class": "Undergraduate Student",
         "image": "/assets/images/phong.jpeg",
         "bio": "Junior student in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
     },
