@@ -10,7 +10,7 @@ memberTypes: ["Principal Investigator", "PhD Student", Master's Student", "Under
   <h2>Lab Director</h2>
   <ul class="bio-set">
       {% for member in team %}
-        {% if member.class == "Principle Investigator" %}
+        {% if member.class == "Principal Investigator" %}
           <li>
             {% include "partials/card-bio.njk" %}
           </li>
