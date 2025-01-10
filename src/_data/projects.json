@@ -2,7 +2,7 @@
     {
         "title": "AirOU Race Cars (ARC)",
         "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
-        "previewImage": "/assets/images/racecars.jpeg",
+        "previewImage": "/assets/images/arcpro.png",
         "page": "projects-pages/MuSHR.md",
         "github": "https://github.com/airou-lab/mushr",
         "docs": "https://airou-lab.github.io/docs/arc/index.html"
