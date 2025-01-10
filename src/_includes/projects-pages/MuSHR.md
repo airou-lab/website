@@ -4,7 +4,7 @@ We have end-to-end designed and built 10 cars, called ArcPro, which features wit
 ArcPro cars are used for research and education purposes in the area of robotics, computer vision, autonomous driving and navigation, mapping and perception.
 
 
-![Arcpro](/assets/images/arcpro.png)
+![Arcpro](/assets/images/IMG_4023.jpeg)
 
 
 # AirOU Race Cars (ARC):
