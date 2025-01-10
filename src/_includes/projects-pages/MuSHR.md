@@ -3,8 +3,8 @@ ARC Pro:
 We have end-to-end designed and built 10 cars, called ArcPro, which features with RGB-D camera and 2D LiDAR. Our car is equipped with Intel NUC processor and is powered by batteries.
 ArcPro cars are used for research and education purposes in the area of robotics, computer vision, autonomous driving and navigation, mapping and perception.
 
-Bill of materials and instruction (coming soon)
 
+![Arcpro](/assets/images/arcpro.png)
 
 
 Arc:
