@@ -169,7 +169,7 @@
         "bio": "Msc student in computer science. He holds a Bsc in mechanical engineering and a minor in electrical engineering from the University of Oklahoma. He has developed software for the federal government and currently works as an embedded software engineer at the Advanced Radar Research Center (ARRC). He is currently engineering the next generation of radar systems.</p> <p>His research interests include 3D visualization, image processing, sensor fusion, machine learning, and navigation. During his free time, he enjoys playing ultimate frisbee, chess, video games, working on his homelab, or rock climbing.</p> <p> Website: <a href=\"https://mechaengineer.com\">mechaengineer.com</a>",
         "url": "william-wilson"
 
-    }
+    },
 
   {
         "name": "Aarom Hamil",
@@ -187,11 +187,10 @@
     },
 
 
-
       {
         "name": "Christian Sink",
         "class": "Undergraduate Student",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": " Joined Fall 2024. Undergraduate student in Aerospace and Mechanical Engineering"
-    },
+    }
 ]
