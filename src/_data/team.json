@@ -9,57 +9,57 @@
         "name": "Vineel Palla",
         "class": "Alumnus",
         "image": "/assets/images/vineel_photo.jpg",
-        "bio": "I am Vineel Palla, a Master's student in Computer Science at the University of Oklahoma. My work focuses on machine learning, deep learning, and data science, using technologies like TensorFlow and Python. Currently, I am working on a project involving multi-camera and RADAR 3D object detection and tracking for smart infrastructure at city intersections. This project aims to use multiple monocular cameras at intersection corners to track pedestrians and cars, addressing the challenge of fusing data from multiple cameras with RADAR for accurate tracking."
+        "bio": "Summer 2024. I am Vineel Palla, a Master's student in Computer Science at the University of Oklahoma. My work focuses on machine learning, deep learning, and data science, using technologies like TensorFlow and Python. Currently, I am working on a project involving multi-camera and RADAR 3D object detection and tracking for smart infrastructure at city intersections. This project aims to use multiple monocular cameras at intersection corners to track pedestrians and cars, addressing the challenge of fusing data from multiple cameras with RADAR for accurate tracking."
     },
     {
         "name": "Daniel Vargas",
         "class": "PhD Student",
         "image": "/assets/images/daniel.png",
-        "bio": "First-year Ph.D student in Control System Engineering, where he will be designing a search and rescue robot and drone for people lost in difficult-to-search areas. His B.S. was in Mechanical Engineering with a minor in Electrical and Computer Engineering. He led the design and building of Minicity, ARC, ARCPro, LIONN, and SARRS. For any questions, please reach out to him at dvargas88@ou.edu His research interests are robotics, autonomous implementation in ground and aerial vehicles, and applied nuclear robotics."
+        "bio": "Joined Summer 2022. First-year Ph.D student in Control System Engineering, where he will be designing a search and rescue robot and drone for people lost in difficult-to-search areas. His B.S. was in Mechanical Engineering with a minor in Electrical and Computer Engineering. He led the design and building of Minicity, ARC, ARCPro, LIONN, and SARRS. For any questions, please reach out to him at dvargas88@ou.edu His research interests are robotics, autonomous implementation in ground and aerial vehicles, and applied nuclear robotics."
     },
      {
         "name": "Daniel Perez-Melo",
         "class": "PhD Student",
         "image": "/assets/images/daniel-perez.jpeg",
-        "bio": "Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
+        "bio": "Joined Spring 2024. Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
     },
          {
         "name": "Job Elliott",
         "class": "PhD Student",
         "image": "/assets/images/Job_Elliott.png",
-        "bio": "PhD student in Computer Science"
+        "bio": "Joined Spring 2025. PhD student in Computer Science"
     },
         {
         "name": "Mathis Morales",
         "class": "Master's Student",
         "image": "/assets/images/mathis.jpeg",
-        "bio": "Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
+        "bio": "Joined Spring 2024. Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
     },
 
     {
         "name": "Evan Mcculley ",
         "class": "Master's Student",
         "image": "/assets/images-stock/portrait-default.png",
-        "bio": "Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
+        "bio": "Joined Fall 2024. Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
 
     },
     {
         "name": "Tyler Roman",
         "class": "Alumnus",
         "image": "/assets/images/tyler.png",
-        "bio": "Junior student in Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
+        "bio": "Summer 2022- Spring 2024. Senior student in Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
     },
     {
         "name": "Phong Nguyen",
         "class": "Undergraduate Student",
         "image": "/assets/images/phong.jpeg",
-        "bio": "Junior student in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
+        "bio": "Joined Summer 2023. Senior student in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
     },
     {
         "name": "Subhash Chandra",
         "class": "Alumnus",
         "image": "/assets/images/SubhashChandra.jpg",
-        "bio": "Subhash Chandra is currently a Master's student at the Department of Computer Science, University of Oklahoma. His research interests lie in the areas of Artificial Intelligence, Reifrocement Learning, Robotics, Robotics using AR/VR, Cryptograpy, Large Language Models (LLM), Natural Language Processing (NLP), and High-Performance Computing (HPC). </p><p> Previously, Subhash was a Research Assistant at the Indian Institute of Science (IISc.), Bangalore, where he engaged in various research projects related to cryptography, automation, NLP, and virtual reality. His work at IISc. involved leading innovative projects and contributing significantly to advancements in these fields.</p><p> For more information, visit his web page : <a href=https://iisc-scv.github.io/resume/> Website </a>"
+        "bio": "Summer 2024-Fall 2024. Subhash Chandra is currently a Master's student at the Department of Computer Science, University of Oklahoma. His research interests lie in the areas of Artificial Intelligence, Reifrocement Learning, Robotics, Robotics using AR/VR, Cryptograpy, Large Language Models (LLM), Natural Language Processing (NLP), and High-Performance Computing (HPC). </p><p> Previously, Subhash was a Research Assistant at the Indian Institute of Science (IISc.), Bangalore, where he engaged in various research projects related to cryptography, automation, NLP, and virtual reality. His work at IISc. involved leading innovative projects and contributing significantly to advancements in these fields.</p><p> For more information, visit his web page : <a href=https://iisc-scv.github.io/resume/> Website </a>"
     },
     {
         "name": "Ethan Haque",
@@ -78,25 +78,25 @@
         "name": "Aksel Can Sozudogru",
         "class": "Undergraduate Student",
         "image": "/assets/images/aksel.jpg",
-        "bio": "Rising senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which computes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
+        "bio": "Joined Summer 2024. Rising senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which computes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
     },
     {
         "name": "Anany Pratap Gupta",
         "class": "Undergraduate Student",
         "image": "/assets/images/anany.png",
-        "bio": "Senior at OU, passionate about AI and autonomous vehicle navigation development. Pursuing a bachelor's in computer science, I excel in web development, database management, and applying machine learning in astrophysics. I've worked on SLAM for autonomous systems and ROS migration projects. Currently, I'm involved in a smart city initiative, optimizing autonomous vehicle operations for safer urban mobility."
+        "bio": " Summer 2024- Fall 2024. Senior at OU, passionate about AI and autonomous vehicle navigation development. Pursuing a bachelor's in computer science, I excel in web development, database management, and applying machine learning in astrophysics. I've worked on SLAM for autonomous systems and ROS migration projects. Currently, I'm involved in a smart city initiative, optimizing autonomous vehicle operations for safer urban mobility."
     },
     {
         "name": "Keon Moradi",
         "class": "Alumnus",
         "image": "/assets/images/keon.jpg",
-        "bio": "Pursuing bachelor's degrees in Math and Computer Science. Involved with machine learning projects throughout undergraduate career, interested in graduate studies. Currently working in conjunction with Bentz lab (alongside Ethan Haque)."
+        "bio": "Summer 2024-Fall 2024. Pursuing bachelor's degrees in Math and Computer Science. Involved with machine learning projects throughout undergraduate career, interested in graduate studies. Currently working in conjunction with Bentz lab (alongside Ethan Haque)."
     },
     {   
         "name": "Matthew Carroll", 
         "class": "Alumnus",
         "image": "/assets/images/matt.jpeg",
-        "bio": "Senior student in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development.",
+        "bio": "Fall 2023- Spring 2024. Senior student in Computer Science, continuing into an accelerated Masters in Computer Science. He leads the campus Sailing Club as well as the environmental interest organization \"Green Week\", while also working as a Peer Tutor in the Gallogly College of Engineering Diversity and Inclusion program.<br>His research interests include machine learning and system development.",
         "url" : "matthew-carroll"
 
     },
@@ -104,7 +104,7 @@
         "name": "Mahmoud Sami",
         "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
-        "bio": "Postdoctoral research associate.",
+        "bio": "Spring 2024. Postdoctoral research associate.",
         "url" : "mahmoud-sami"
     },
     {
@@ -118,7 +118,7 @@
         "name": "Parisa Masnadi Khiabani",
         "class": "Alumnus",
         "image": "/assets/images/parisa.png",
-        "bio": "Ph.D. student in Data Science and Analytics at the University of Oklahoma. Parisa has a BS in electronics engineering from the Shariati Technical and Vocational College and an MS in mechatronics engineering from the K.N Toosi University in Tehran. Previously, she was a senior automotive embedded software developer at Capgemini Engineering and an active safety system engineer at Saipa Automotive Research and Innovation Center.<br> Her research interests are robotics, autonomous driving, multi-object tracking, autonomous control, and real-time embedded systems. </p> <a href=\"https://scholar.google.com/citations?user=-ge1tpwAAAAJ&hl=en\"> <p>Google Scholar Page</p></a>",
+        "bio": "Fall 2022. Ph.D. student in Data Science and Analytics at the University of Oklahoma. Parisa has a BS in electronics engineering from the Shariati Technical and Vocational College and an MS in mechatronics engineering from the K.N Toosi University in Tehran. Previously, she was a senior automotive embedded software developer at Capgemini Engineering and an active safety system engineer at Saipa Automotive Research and Innovation Center.<br> Her research interests are robotics, autonomous driving, multi-object tracking, autonomous control, and real-time embedded systems. </p> <a href=\"https://scholar.google.com/citations?user=-ge1tpwAAAAJ&hl=en\"> <p>Google Scholar Page</p></a>",
         "url": "parisa-masnadi-khiabani"
 
     },
@@ -170,4 +170,28 @@
         "url": "william-wilson"
 
     }
+
+  {
+        "name": "Aarom Hamil",
+        "class": "Undergraduate Student",
+        "image": "/assets/images-stock/portrait-default.png",
+        "bio": "Junior student Computer Science. Joined Spring 2025."
+    },
+
+
+      {
+        "name": "Sasank Sribhashyam",
+        "class": "Master's Student",
+        "image": "/assets/images-stock/portrait-default.png",
+        "bio": "Masters student in Computer Science."
+    },
+
+
+
+      {
+        "name": "Christian Sink",
+        "class": "Undergraduate Student",
+        "image": "/assets/images-stock/portrait-default.png",
+        "bio": " Joined Fall 2024. Undergraduate student in Aerospace and Mechanical Engineering"
+    },
 ]
