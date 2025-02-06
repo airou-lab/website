@@ -8,13 +8,14 @@
        {
         "date": "October 2024",
         "title": "We have finished building 10 ArcPro Cars!",
-              "images": [
+              "images": ["/assets/images/ARCnew.jpg"
         ]
     },
       {
         "date": "September 2024",
         "title": "We have presented our minicity paper in ITSC 2024",
-             "images": [
+        "content": "Check the paper <a href=\"https://arxiv.org/abs/2408.04195\">here</a>",
+             "images": ["/assets/images/ITSC24.png"
         ]
     },
       {
