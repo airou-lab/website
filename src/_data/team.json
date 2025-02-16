@@ -21,26 +21,26 @@
         "name": "Daniel Perez-Melo",
         "class": "PhD Student",
         "image": "/assets/images/daniel-perez.jpeg",
-        "bio": "Joined Spring 2024. Senior student in Mechanical Engineering from Chile, enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
+        "bio": "Joined AirOU in Spring 2024. PhD student in Data Science and Analytics. BSc in Mechanical Engineering, University of Oklahoma. Daniel is from Chile, he enjoys outdoor activities, playing the piano, and a good cup of coffee in his free time. His research interests include Machine Learning applications, CAD modeling, and Autonomous Driving. He is also a proud United World College Scholar."
     },
          {
         "name": "Job Elliott",
         "class": "PhD Student",
         "image": "/assets/images/Job_Elliott.png",
-        "bio": "Joined Spring 2025. PhD student in Computer Science"
+        "bio": "Joined AirOU in Spring 2025. PhD student in Computer Science"
     },
         {
         "name": "Mathis Morales",
         "class": "Master's Student",
         "image": "/assets/images/mathis.jpeg",
-        "bio": "Joined Spring 2024. Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
+        "bio": "Joined AirOU in Spring 2024. Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
     },
 
     {
         "name": "Evan Mcculley ",
         "class": "Master's Student",
         "image": "/assets/images/evan.jpg",
-        "bio": "Joined Fall 2024. Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
+        "bio": "Joined AirOU in Fall 2024. Graduate student doing a Master's in Aerospace and Mechanical Engineering,"
 
     },
     {
@@ -53,7 +53,7 @@
         "name": "Phong Nguyen",
         "class": "Undergraduate Student",
         "image": "/assets/images/phong.jpeg",
-        "bio": "Joined Summer 2023. Senior student in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
+        "bio": "Joined AirOU in Summer 2023. Senior student in Aerospace Engineering. He’s currently working on materials design under Airlab Lab. His research focuses on aerodynamics and propulsion."
     },
     {
         "name": "Subhash Chandra",
