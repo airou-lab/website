@@ -3,7 +3,7 @@
         "name": "Golnaz Habibi",
         "class": "Principal Investigator",
         "image": "/assets/images/golnaz.jpeg",
-        "bio": "AirLab Director and Principal investigator Assistant professor, <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a>. <br> Affiliations: Computer Science, Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. <br> Faculty Advisor of <a href=\"https://www.ou.edu/scr\"> Sooner Competitve Robotics</a>. <br> <a href=\"https://scholar.google.com/citations?hl=en&user=hU-LeNEAAAAJ&view_op=list_works&sortby=pubdate\"> Google Scholar </a>."
+        "bio": "AirOU Director and Principal investigator, Assistant professor, <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a>. <br> Affiliations: Computer Science, Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. <br> Faculty Advisor of <a href=\"https://www.ou.edu/scr\"> Sooner Competitve Robotics</a>. <br> <a href=\"https://scholar.google.com/citations?hl=en&user=hU-LeNEAAAAJ&view_op=list_works&sortby=pubdate\"> Google Scholar </a>."
     },
     {
         "name": "Vineel Palla",
@@ -71,7 +71,8 @@
         "name": "Nthati Lehloenya",
         "class": "Alumnus",
         "image": "/assets/images/headshot.jpg",
-        "bio": "I am a junior in computer science, passionate about cybersecurity and AI. As a proud UWC scholar from the Kingdom of Lesotho, I’m committed to using technology for positive impact and serving my community. I manage operations at the OU Food Pantry, tutor math through the Transforming Tutoring Initiative, and provide prototyping and research development support using specialized workspaces in the Fabrication lab. As an associate in the Jerry Holmes Leadership Program, I focus on purposeful leadership, a skill I also apply as co-founder of the Gumboot Dance Club, where we celebrate South African heritage and honor the dance’s deep history of unity and resilience among Southern African miners during apartheid. Guided by my love for God, I aim to bring integrity and service to all my endeavors."
+        "bio": "I am a junior in computer science, passionate about cybersecurity and AI. As a proud UWC scholar from the Kingdom of Lesotho, I’m committed to using technology for positive impact and serving my community. I manage operations at the OU Food Pantry, tutor math through the Transforming Tutoring Initiative, and provide prototyping and research development support using specialized workspaces in the Fabrication lab. As an associate in the Jerry Holmes Leadership Program, I focus on purposeful leadership, a skill I also apply as co-founder of the Gumboot Dance Club, where we celebrate South African heritage and honor the dance’s deep history of unity and resilience among Southern African miners during apartheid. Guided by my love for God, I aim to bring integrity and service to all my endeavors.",
+        "url" : "Nthati-Lehloenya"
     },
    
     {
@@ -79,18 +80,26 @@
         "class": "Undergraduate Student",
         "image": "/assets/images/aksel.jpg",
         "bio": "Joined Summer 2024. Senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which competes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
+    
+    
     },
     {
         "name": "Anany Pratap Gupta",
         "class": "Alumnus",
         "image": "/assets/images/anany.png",
-        "bio": " Summer 2024- Fall 2024. Senior at OU, passionate about AI and autonomous vehicle navigation development. Pursuing a bachelor's in computer science, I excel in web development, database management, and applying machine learning in astrophysics. I've worked on SLAM for autonomous systems and ROS migration projects. Currently, I'm involved in a smart city initiative, optimizing autonomous vehicle operations for safer urban mobility."
+        "bio": " Summer 2024- Fall 2024. Senior at OU, passionate about AI and autonomous vehicle navigation development. Pursuing a bachelor's in computer science, I excel in web development, database management, and applying machine learning in astrophysics. I've worked on SLAM for autonomous systems and ROS migration projects., Currently, I'm involved in a smart city initiative, optimizing autonomous vehicle operations for safer urban mobility."
+        "url" : "anany-gupta"
+
     },
     {
         "name": "Keon Moradi",
         "class": "Alumnus",
         "image": "/assets/images/keon.jpg",
-        "bio": "Summer 2024-Fall 2024. Pursuing bachelor's degrees in Math and Computer Science. Involved with machine learning projects throughout undergraduate career, interested in graduate studies. Currently working in conjunction with Bentz lab (alongside Ethan Haque)."
+        "bio": "Summer 2024-Fall 2024. Pursuing bachelor's degrees in Math and Computer Science. Involved with machine learning projects throughout undergraduate career, interested in graduate studies.
+        Currently working in conjunction with Bentz lab (alongside Ethan Haque)."
+        "url" : "keon-moradi"
+
+    
     },
     {   
         "name": "Matthew Carroll", 
