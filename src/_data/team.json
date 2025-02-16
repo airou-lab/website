@@ -48,7 +48,9 @@
         "name": "Tyler Roman",
         "class": "Alumnus",
         "image": "/assets/images/tyler.png",
-        "bio": "Summer 2022- Spring 2024. Senior student in Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication"
+        "bio": "Summer 2022- Spring 2024. Senior student in Computer Science student with a minor in Mathematics pursuing honors. Previously, he's worked in 3Sigma Lab at the University of Oklahoma, focusing on Computational Neuroscience. He is also the Leader of the Sooner Rover Autonomous Team, proud Henderson Scholar, and the cofounder of turnstyl.<br>His research interests lie in robotics and network communication",
+         "url" : "tyler-roman"
+
     },
     {
         "name": "Phong Nguyen",
