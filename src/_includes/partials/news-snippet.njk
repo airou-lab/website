@@ -1,32 +1,35 @@
-{% set grouped_news = {} %}
+{% set last_date = null %}
 
-{# Group news by date #}
-{% for snippet in news %}
-    {% if grouped_news[snippet.date] is not defined %}
-        {% set grouped_news = grouped_news | merge({ (snippet.date): [] }) %}
-    {% endif %}
-    {% set grouped_news = grouped_news | merge({ (snippet.date): grouped_news[snippet.date] | concat([snippet]) }) %}
-{% endfor %}
+<div class="news">
+    <h1>News</h1>
 
-{# Render grouped news #}
-{% for date, snippets in grouped_news %}
-    <h2 class="news-date">{{ date }}</h2>
+    {% for snippet in news %}
+        {# Display date header only once per group #}
+        {% if last_date != snippet.date %}
+            <h2 class="news-date">{{ snippet.date }}</h2>
+            {% set last_date = snippet.date %}
+        {% endif %}
 
-    {% for snippet in snippets %}
+        {# Generate a unique class for the news snippet #}
         {% set snippet_class = (snippet.title | slugify) %}
+        
+        {# News card button #}
         <button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')" type="button">
             <div class="content">
                 <h2>{{ snippet.title }}</h2>
             </div>
         </button>
-        
+
+        {# Modal dialog for the news #}
         <sl-dialog id="{{ snippet_class }}">
             <div slot="label">
-                <h3>{{ date }}</h3>
+                <h3>{{ snippet.date }}</h3>
             </div>
             <div>
                 <h2>{{ snippet.title }}</h2>
                 <p>{{ snippet.content | safe }}</p>
+
+                {# Display carousel if images are available #}
                 {% if snippet.images and snippet.images.length > 0 %}
                     <sl-carousel pagination navigation mouse-dragging loop>
                         {% for image in snippet.images %}
@@ -39,4 +42,4 @@
             </div>
         </sl-dialog>
     {% endfor %}
-{% endfor %}
+</div>
