@@ -46,6 +46,16 @@
     }
 }
 
+.news-date {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--dark-gray);
+    border-bottom: 2px solid var(--med-gray);
+    padding-bottom: 5px;
+}
+
+
 .news sl-dialog {
     --width: min(50rem, 100%);
     --sl-border-radius-medium: 1rem;

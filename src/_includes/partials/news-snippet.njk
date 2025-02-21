@@ -1,23 +1,42 @@
-{% set snippet_class = (snippet.title | slugify) %}
-<button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')" type="button">
-    <div class="content">
-        <h3>{{ snippet.date }}</h3>
-        <h2>{{ snippet.title }}</h2>
-    </div>
-</button>
-<sl-dialog id="{{ snippet_class }}">
-    <div slot="label">
-        <h3>{{ snippet.date }}</h3>
-    </div>
-    <div>
-        <h2>{{ snippet.title }}</h2>
-        <p>{{ snippet.content | safe }}</p>
-        <sl-carousel pagination navigation mouse-dragging loop>
-            {% for image in snippet.images %}
-                <sl-carousel-item>
-                    <img src="{{ image }}"/>
-                </sl-carousel-item>
-            {% endfor %}
-        </sl-carousel>
-    </div>
-</sl-dialog>
+{% set grouped_news = {} %}
+
+{# Group news by date #}
+{% for snippet in news %}
+    {% if grouped_news[snippet.date] is not defined %}
+        {% set grouped_news = grouped_news | merge({ (snippet.date): [] }) %}
+    {% endif %}
+    {% set grouped_news = grouped_news | merge({ (snippet.date): grouped_news[snippet.date] | concat([snippet]) }) %}
+{% endfor %}
+
+{# Render grouped news #}
+{% for date, snippets in grouped_news %}
+    <h2 class="news-date">{{ date }}</h2>
+
+    {% for snippet in snippets %}
+        {% set snippet_class = (snippet.title | slugify) %}
+        <button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')" type="button">
+            <div class="content">
+                <h2>{{ snippet.title }}</h2>
+            </div>
+        </button>
+        
+        <sl-dialog id="{{ snippet_class }}">
+            <div slot="label">
+                <h3>{{ date }}</h3>
+            </div>
+            <div>
+                <h2>{{ snippet.title }}</h2>
+                <p>{{ snippet.content | safe }}</p>
+                {% if snippet.images and snippet.images.length > 0 %}
+                    <sl-carousel pagination navigation mouse-dragging loop>
+                        {% for image in snippet.images %}
+                            <sl-carousel-item>
+                                <img src="{{ image }}" alt="News Image" />
+                            </sl-carousel-item>
+                        {% endfor %}
+                    </sl-carousel>
+                {% endif %}
+            </div>
+        </sl-dialog>
+    {% endfor %}
+{% endfor %}
