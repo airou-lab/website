@@ -4,7 +4,7 @@
     <h1>News</h1>
 
     {% for snippet in news %}
-        {# Display date header only once per group #}
+        {# Only display the date heading once per group #}
         {% if last_date != snippet.date %}
             <h2 class="news-date">{{ snippet.date }}</h2>
             {% set last_date = snippet.date %}
@@ -13,7 +13,6 @@
         {# Generate a unique class for the news snippet #}
         {% set snippet_class = (snippet.title | slugify) %}
         
-        {# News card button #}
         <button class="card news-snippet hover-shadow" onclick="openDialog('{{ snippet_class }}')" type="button">
             <div class="content">
                 <h2>{{ snippet.title }}</h2>
@@ -29,7 +28,6 @@
                 <h2>{{ snippet.title }}</h2>
                 <p>{{ snippet.content | safe }}</p>
 
-                {# Display carousel if images are available #}
                 {% if snippet.images and snippet.images.length > 0 %}
                     <sl-carousel pagination navigation mouse-dragging loop>
                         {% for image in snippet.images %}
