@@ -1,9 +1,19 @@
 [
+    {
+        "date": "January 2025",
+        "title": "Daniel Vargas receives DEI Scholarship to attend WACV 2025 in Tucson, AZ",
+        "content": "Daniel Vargas, a senior undergraduate student in the School of Computer Science, has been awarded the Diversity, Equity, and Inclusion (DEI) Scholarship to attend the Winter Conference on Applications of Computer Vision (WACV) 2025 in Tucson, Arizona. The scholarship is awarded to students who have demonstrated a commitment to diversity and inclusion in the field of computer vision. Daniel will present his research on multi-object tracking at the conference and participate in workshops and networking events. Congratulations, Daniel!"  
+    },
+    {
+        "date": "January 2025",
+        "title": "New Members Join AirOU",
+        "content": "We are excited to welcome new members to AirOU! Please join us in welcoming Job, Sasank, and Aaron to the lab. We are excited to have them on board and look forward to working together on exciting projects in the future."
+    },
+    
       {
         "date": "October 2024",
-        "title": "Our paper on Multi-bird tracking is accepted to WACV 2025! Congratulation to Keon and Ethan for their hardwork!",
-              "images": [
-        ]
+        "title": "Our paper on Multi-bird tracking is accepted to WACV 2025! Congratulation to Keon and Ethan for their hardwork!"
+             
     },
        {
         "date": "October 2024",
