@@ -6,11 +6,20 @@ title: 'News'
 
 <div class="news page-content">
   <h1>News</h1>
+
+  {% set last_date = null %}
+
   {% for snippet in news %}
-    {% set snippetloop = loop %}
-    {% include "partials/news-snippet.njk" %}
+      {# Display date header only once per group #}
+      {% if last_date != snippet.date %}
+          <h2 class="news-date">{{ snippet.date }}</h2>
+          {% set last_date = snippet.date %}
+      {% endif %}
+
+      {% include "partials/news-snippet.njk" %}
   {% endfor %}
 </div>
+
 <script>
   function openDialog(snippet) {
     const dialog = document.getElementById(snippet);
