@@ -1,0 +1,18 @@
+[
+    {
+      "type": "image",
+      "title": "Sunset View",
+      "src": "/assets/images/sunset.jpg"
+    },
+    {
+      "type": "video",
+      "title": "Ocean Waves",
+      "src": "/assets/videos/ocean.mp4"
+    },
+    {
+      "type": "image",
+      "title": "Mountain Range",
+      "src": "/assets/images/mountain.jpg"
+    }
+  ]
+  

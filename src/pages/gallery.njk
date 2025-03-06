@@ -1,0 +1,82 @@
+---
+permalink: "/gallery/"
+layout: 'layouts/site.njk'
+title: 'Gallery'
+---
+
+<div class="gallery page-content">
+    <h1>Gallery</h1>
+    <div id="gallery-container" class="gallery-grid"></div>
+</div>
+
+<script>
+  async function fetchGallery() {
+    const response = await fetch('/path/to/gallery.json'); // Update this path
+    const galleryData = await response.json();
+    renderGallery(galleryData);
+  }
+
+  function renderGallery(items) {
+    const container = document.getElementById('gallery-container');
+    container.innerHTML = '';
+
+    items.forEach(item => {
+      const element = document.createElement('div');
+      element.classList.add('gallery-item');
+
+      if (item.type === "image") {
+        element.innerHTML = `<img src="${item.src}" alt="${item.title}" onclick="openLightbox('${item.src}')">`;
+      } else if (item.type === "video") {
+        element.innerHTML = `
+          <video controls>
+            <source src="${item.src}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>`;
+      }
+
+      container.appendChild(element);
+    });
+  }
+
+  function openLightbox(src) {
+    const lightbox = document.createElement('div');
+    lightbox.classList.add('lightbox');
+    lightbox.innerHTML = `<img src="${src}" onclick="closeLightbox()">`;
+    document.body.appendChild(lightbox);
+  }
+
+  function closeLightbox() {
+    document.querySelector('.lightbox').remove();
+  }
+
+  fetchGallery();
+</script>
+
+<style>
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+
+  .gallery-item img, .gallery-item video {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .lightbox {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+</style>
