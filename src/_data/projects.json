@@ -16,8 +16,16 @@
         "docs": "https://airou-lab.github.io/docs/lionn/overview.html"
     },
     {
+        "title": "Applying Gender-Semantic Classification for Enhanced 3D Tracking and Reconstruciton",
+        "description": "This project applices machine learning techniques to detect, track, and classify small birds based on their gender and environmental context",
+        "previewImage": "/assets/images/Bird_project_cover.jpeg",
+        "page": "projects-pages/birds.md",
+        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+        "docs": null
+    },    
+    {
         "title": "Social Behavior Classification in Animals",
-        "description": "This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
+        "description": "This project applices machine learning techniques to detect, track, and classify social behavior of small birds",
         "previewImage": "/assets/images/Bird_project_cover.jpeg",
         "page": "projects-pages/birds.md",
         "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
