@@ -3,6 +3,16 @@
         "year": 2025,
         "citations": [
             {
+                "file": "/assets/publications/ISEC_Paper.pdf",
+                "title": "Development and Implementation of a Hands-On Robotic Course on Computer Vision for Autonomous Vehicles",
+                "citation": "Golnaz Habibi, Samuel Billerbeck, Daniel Vargas, Evan McCulley, Daniel Perez, \"Development and Implementation of a Hands-On Robotic Course on Computer Vision for Autonomous Vehicles,\"; ISEC2025"
+            }
+        ]
+    },
+    {
+        "year": 2025,
+        "citations": [
+            {
                 "file": "/assets/publications/Multi_Bird_Tracking_WACV2025-compressed.pdf",
                 "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary",
                 "citation": "K. Moradi, E. Haque, J. Kaur, A. Bentz, E. Bridge, G. Habibi , \"Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary,\"; WACV2025"

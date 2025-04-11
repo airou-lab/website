@@ -1,8 +1,16 @@
 [
     {
         "title": "AirOU Race Cars (ARC)",
-        "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR hardware. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
+        "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR software. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
         "previewImage": "/assets/images/cars.png",
+        "page": "projects-pages/MuSHR.md",
+        "github": "https://github.com/airou-lab/mushr",
+        "docs": "https://airou-lab.github.io/docs/arc/index.html"
+    },
+   {
+        "title": "AirOU Race Cars - Pro (ARCPro)",
+        "description": "The successor to ARC, this project also has the same goals as it and working on MuSHR system and was used in the Artificial Intelligence course. In addition, it is used for Kimera and Multi-Kimera for real-time metric-semantic simultaneous localization and mapping (SLAM), which uses camera images and inertial data to build a semantically annotated 3D mesh of the environment. The ARCPro also includes full overhaul - Updated chassis, upgraded processor (i7 Intel NUC with 32GB RAM), and an upgraded Lidar (X4-Pro YDLIDAR).",
+        "previewImage": "/assets/images/ARCnew.jpg",
         "page": "projects-pages/MuSHR.md",
         "github": "https://github.com/airou-lab/mushr",
         "docs": "https://airou-lab.github.io/docs/arc/index.html"
@@ -16,8 +24,24 @@
         "docs": "https://airou-lab.github.io/docs/lionn/overview.html"
     },
     {
+        "title": "Applying Gender-Semantic Classification for Enhanced 3D Tracking and Reconstruciton",
+        "description": "This project is a continuation of our previous project Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary. It applies a trained Convolutional Neural Network (YOLOv11) model to detect, track, and classify small birds based on their gender and environmental context, while also creating a 3D view of their flight patterns",
+        "previewImage": "/assets/images/Bird_project_cover.jpeg",
+        "page": "projects-pages/birds.md",
+        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+        "docs": null
+    },
+    {
+        "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary",
+        "description": "This project applies machine learning techniques to rejection incorrect matching for better detection and tracking of small, similar-looking birds, while also creating a 3D view of their flight patterns.",
+        "previewImage": "/assets/images/Bird_project_cover.jpeg",
+        "page": "projects-pages/birds.md",
+        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+        "docs": null
+    },
+    {
         "title": "Social Behavior Classification in Animals",
-        "description": "This projectapplices machine learning techniques to detect, track, and classify social behavior of small birds",
+        "description": "This project applies machine learning techniques to detect, track, and classify social behavior of small birds",
         "previewImage": "/assets/images/Bird_project_cover.jpeg",
         "page": "projects-pages/birds.md",
         "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
@@ -25,7 +49,7 @@
     },
     {
         "title": "AirOU Smart Mini-City (AirOUS-MCity)",
-        "description": "We have built a smart mini city",
+        "description": "We have built a smart Minicity, intended to simulate a real-world urban environment. It has been used for our Visual Navigation for Autonomous Vehicles (VNAV) and Artifical Intelligence (AI) courses, as well as for our research projects!",
         "previewImage": "/assets/images/minicity.jpeg",
         "page": "projects-pages/minicity.md",
         "github": null,
