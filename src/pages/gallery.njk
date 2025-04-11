@@ -9,9 +9,9 @@ title: 'Gallery'
 
     {# ===== Carousel at the top ===== #}
     <sl-carousel navigation pagination mouse-dragging loop>
-        <sl-carousel-item><img src="/assets/images/lab1.jpg" alt="Lab Image 1"></sl-carousel-item>
-        <sl-carousel-item><img src="/assets/images/lab2.jpg" alt="Lab Image 2"></sl-carousel-item>
-        <sl-carousel-item><img src="/assets/images/lab3.jpg" alt="Lab Image 3"></sl-carousel-item>
+        <sl-carousel-item><img src="/assets/images/lab_photo.jpeg" alt="Lab Group Photo"></sl-carousel-item>
+        <sl-carousel-item><img src="/assets/images/lab-members.png" alt="Lab Members"></sl-carousel-item>
+        <sl-carousel-item><img src="/assets/images/Lab_Picture_Evan.jpg" alt="Lab Picture"></sl-carousel-item>
     </sl-carousel>
 
     {# ===== Category Buttons ===== #}
@@ -29,7 +29,7 @@ title: 'Gallery'
   let fullGalleryData = [];
 
   async function fetchGallery() {
-    const response = await fetch('/path/to/gallery.json'); // Update path
+    const response = await fetch('/assets/gallery.json'); // <-- Corrected path
     const galleryData = await response.json();
     fullGalleryData = galleryData;
     renderGallery(galleryData);
@@ -44,11 +44,11 @@ title: 'Gallery'
       element.classList.add('gallery-item');
 
       if (item.type === "image") {
-        element.innerHTML = `<img src="${item.src}" alt="${item.title}" onclick="openLightbox('${item.src}')">`;
+        element.innerHTML = `<img src="/assets/images/${item.src}" alt="${item.title}" onclick="openLightbox('/assets/images/${item.src}')">`;
       } else if (item.type === "video") {
         element.innerHTML = `
           <video controls>
-            <source src="${item.src}" type="video/mp4">
+            <source src="/assets/videos/${item.src}" type="video/mp4">
             Your browser does not support the video tag.
           </video>`;
       }

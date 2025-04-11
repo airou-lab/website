@@ -1,20 +1,20 @@
 [
   {
     "type": "image",
-    "title": "Minicity Overview",
-    "src": "/assets/images/minicity1.jpg",
+    "title": "Minicity Poster",
+    "src": "minicity.jpeg",
     "category": "minicity"
   },
   {
     "type": "image",
-    "title": "Bird Tracking Setup",
-    "src": "/assets/images/bird1.jpg",
+    "title": "Bird Tracking Poster",
+    "src": "Bird_project_cover.jpeg",
     "category": "bird"
   },
   {
-    "type": "video",
-    "title": "Danger Zone Robot",
-    "src": "/assets/videos/dangerzone.mp4",
+    "type": "image",
+    "title": "Team Remulching Event",
+    "src": "daniel-remulching-tbe.png",
     "category": "general"
   }
 ]
