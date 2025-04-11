@@ -6,13 +6,32 @@ title: 'Gallery'
 
 <div class="gallery page-content">
     <h1>Gallery</h1>
+
+    {# ===== Carousel at the top ===== #}
+    <sl-carousel navigation pagination mouse-dragging loop>
+        <sl-carousel-item><img src="/assets/images/lab1.jpg" alt="Lab Image 1"></sl-carousel-item>
+        <sl-carousel-item><img src="/assets/images/lab2.jpg" alt="Lab Image 2"></sl-carousel-item>
+        <sl-carousel-item><img src="/assets/images/lab3.jpg" alt="Lab Image 3"></sl-carousel-item>
+    </sl-carousel>
+
+    {# ===== Category Buttons ===== #}
+    <div class="gallery-categories">
+        <button onclick="filterGallery('minicity')">Minicity</button>
+        <button onclick="filterGallery('bird')">Bird Project</button>
+        <button onclick="filterGallery('general')">General</button>
+    </div>
+
+    {# ===== Grid Gallery ===== #}
     <div id="gallery-container" class="gallery-grid"></div>
 </div>
 
 <script>
+  let fullGalleryData = [];
+
   async function fetchGallery() {
-    const response = await fetch('/path/to/gallery.json'); // Update this path
+    const response = await fetch('/path/to/gallery.json'); // Update path
     const galleryData = await response.json();
+    fullGalleryData = galleryData;
     renderGallery(galleryData);
   }
 
@@ -38,6 +57,15 @@ title: 'Gallery'
     });
   }
 
+  function filterGallery(category) {
+    if (category === 'general') {
+      renderGallery(fullGalleryData);
+    } else {
+      const filtered = fullGalleryData.filter(item => item.category === category);
+      renderGallery(filtered);
+    }
+  }
+
   function openLightbox(src) {
     const lightbox = document.createElement('div');
     lightbox.classList.add('lightbox');
@@ -53,6 +81,40 @@ title: 'Gallery'
 </script>
 
 <style>
+  sl-carousel {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+  }
+
+  sl-carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .gallery-categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .gallery-categories button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: var(--med-gray);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .gallery-categories button:hover {
+    background: var(--dark-gray);
+    color: white;
+  }
+
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -63,6 +125,7 @@ title: 'Gallery'
     width: 100%;
     height: auto;
     cursor: pointer;
+    border-radius: 8px;
   }
 
   .lightbox {
@@ -73,6 +136,7 @@ title: 'Gallery'
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
   }
 
   .lightbox img {
