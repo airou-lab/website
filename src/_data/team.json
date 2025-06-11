@@ -2,7 +2,7 @@
     {
         "name": "Golnaz Habibi",
         "class": "Principal Investigator",
-        "image": "/assets/images/golnaz.jpeg",
+        "image": "/assets/images/golnaz2.jpg",
         "bio": "AirOU Director and Principal investigator, Assistant professor, <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a>. <br> Affiliations: Computer Science, Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. <br> Faculty Advisor of <a href=\"https://www.ou.edu/scr\"> Sooner Competitve Robotics</a>. <br> <a href=\"https://scholar.google.com/citations?hl=en&user=hU-LeNEAAAAJ&view_op=list_works&sortby=pubdate\"> Google Scholar </a>."
     },
     {
@@ -31,8 +31,15 @@
         "bio": "Joined AirOU in Spring 2025. PhD student in Computer Science"
     },
         {
-        "name": "Mathis Morales",
+        "name": "Jessica Lumry",
         "class": "Master's Student",
+        "image": "/assets/images-stock/portrait-default.png",
+        "bio": "Joined AirOU in Summer 2025. Graduate student doing a Master's in Computer Science.   
+    },
+    
+        {
+        "name": "Mathis Morales",
+        "class": "Alumnus",
         "image": "/assets/images/mathis.jpeg",
         "bio": "Joined AirOU in Spring 2024. Graduate student doing a Master's in Electrical and Computer Engineering. He has a Master's degree in Electrical Engineering from the University Polytechnic School of Clermont-Ferrand (Polytech Clermont), France, with a dual degree in Artificial Perception and Robotics from the University School of Physics and Engineering (EUPI) of Clermont-Ferrand, France.</p><p>His research interests include Robotics, Neural Networks, and Computer Vision. His thesis focuses on a Camera-Radar Multi Object Tracking (MOT) pipeline robust to sensor failure, based on filtering methods. "
     },
@@ -83,7 +90,7 @@
    
     {
         "name": "Aksel Can Sozudogru",
-        "class": "Undergraduate Student",
+        "class": "Alumnus",
         "image": "/assets/images/aksel.jpg",
         "bio": "Joined Summer 2024. Senior student in Computer Science. He is the founder of Rug Making Club as well as the CFO of the Sooner Racing Team which competes in Formula SAE, while also working as a Software Engineering Intern in the OU Information Technologies. </p><p>His research interests include Machine Learning, Computer Vision, and Network Communication."
     
@@ -202,7 +209,7 @@
 
       {
         "name": "Christian Sink",
-        "class": "Undergraduate Student",
+        "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": " Joined Fall 2024. Undergraduate student in Aerospace and Mechanical Engineering"
     }
