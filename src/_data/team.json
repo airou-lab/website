@@ -19,9 +19,6 @@
         "bio": "Joined AirOU Spring 2022. First-year Ph.D student in Control Systems. His dissertation focus is designing a 6-DoF robotic arm to assist in neurosurgical operations to increase precision, safety, and efficiency. He graduated with a B.S. in Mechanical Engineering with a minor in Electrical and Computer Engineering in 2024. He has led the design and building of the Minicity, ARC, ARCPro, LIONN, the micro-quadcopter, and SARRS. His research interests are Neurosurgical & Neurorehabilitation Robotics, Robotic Stereotactic Radiotherapy, and Autonomous Navigation for Search & Rescue. For any questions, please reach out at dvargas88@ou.edu."
     },
 
-
-    
-
      {
         "name": "Daniel Perez-Melo",
         "class": "PhD Student",
@@ -85,13 +82,12 @@
         "bio": "Joined AirOU in Spring 2023. Senior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>"
     },
 
-
   {
         "name": "Gautham Chandra",
         "class": "Undergraduate Student",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": "Joined AirOU in Spring 2025."
-  }
+  },
 
     
     {
