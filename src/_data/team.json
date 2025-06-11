@@ -21,12 +21,6 @@
 
 
     
- {
-         "name": "Gautham Chandra",
-        "class": "Undergraduate Student",
-        "image": "/assets/images-stock/portrait-default.png",
-        "bio": "Joined AirOU in Spring 2025."
- },
 
      {
         "name": "Daniel Perez-Melo",
@@ -90,6 +84,16 @@
         "image": "/assets/images/ethan.jpeg",
         "bio": "Joined AirOU in Spring 2023. Senior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>"
     },
+
+
+  {
+        "name": "Gautham Chandra",
+        "class": "Undergraduate Student",
+        "image": "/assets/images-stock/portrait-default.png",
+        "bio": "Joined AirOU in Spring 2025."
+  }
+
+    
     {
         "name": "Nthati Lehloenya",
         "class": "Alumnus",
