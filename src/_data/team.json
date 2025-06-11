@@ -61,7 +61,7 @@
     },
     {
         "name": "Phong Nguyen",
-        "class": "Undergraduate Student",
+        "class": "Alumnus",
         "image": "/assets/images/phong.jpeg",
         "bio": "Joined AirOU in Summer 2023. Senior student in Aerospace Engineering. He led the design of the Mini-City Bridge and the traffic lights integration within the Mini-City. He's currently helping work on the SARRS project, building the ARCPRO, and most recently, designing a low-cost micro-quadcopter, as well as assisting the creating the control system for it. His research interests are in 3D CAD, drone development, and robotics."
     },
@@ -201,7 +201,7 @@
 
       {
         "name": "Sasank Sribhashyam",
-        "class": "Master's Student",
+        "class": "Alumnus",
         "image": "/assets/images-stock/portrait-default.png",
         "bio": "Masters student in Computer Science."
     },
