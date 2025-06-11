@@ -23,8 +23,9 @@
  {
         "name": "Gautham Chandra",
         "class": "Undergraduate Student",
-        "image": "/assets/images/ethan.jpeg",
+        "image": "/assets/images-stock/portrait-default.png",
         "bio": "Joined AirOU in Spring 2025."
+ },
      {
         "name": "Daniel Perez-Melo",
         "class": "PhD Student",
@@ -205,6 +206,15 @@
         "bio": "Junior student Computer Science. Joined Spring 2025."
     },
 
+  {
+        "name": " Gautham Chandra",
+        "class": "Undergraduate Student",
+        "image": "/assets/images/aaron.jpeg",
+        "bio": "Junior student Computer Science. Joined Spring 2025."
+    },
+
+
+    
 
       {
         "name": "Sasank Sribhashyam",
