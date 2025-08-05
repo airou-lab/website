@@ -33,10 +33,10 @@
     },
     {
         "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary",
-        "description": "This project applies machine learning techniques to rejection incorrect matching for better detection and tracking of small, similar-looking birds, while also creating a 3D view of their flight patterns.",
-        "previewImage": "/assets/images/Bird_project_cover.jpeg",
-        "page": "projects-pages/birds.md",
-        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+        "description": "This project has several different outlier rejection modes (landmark (L), sex (X), semantic segmentation (S), L+X, L+S, X+S, L+X+S) to assist with removing incorrect bird matches.",
+        "previewImage": "/assets/images/semantic_match.png",
+        "page": "projects-pages/birds-outlier.md",
+        "github": "https://github.com/airou-lab/Birds-Outlier-Rejection",
         "docs": null
     },
     {
