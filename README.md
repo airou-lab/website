@@ -60,6 +60,8 @@ You can add extra images, headings, tables, strikethrough, underline, etc. using
 1. Add the image file to `src/assets/images/` or `src/assets/images-stock/`, depending on if it's an image we own or not (just so we can more easily comply with copyright).
 2. Reference the image path where needed with a leading `/` (e.g. `/assets/images/cars.png`).
 
+For team images the preferred size is denoted by 837x837px for both the personal page and main page.
+
 ## Deployment
 
 > [!WARNING]

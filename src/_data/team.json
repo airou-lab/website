@@ -5,6 +5,14 @@
         "image": "/assets/images/golnaz2.jpg",
         "bio": "AirOU Director and Principal investigator, Assistant professor, <a href=\"https://www.ou.edu/coe/cs/people/habibi\"> School of Computer Science</a>. <br> Affiliations: Computer Science, Electrical and Computer Engineering, Aerospace and Mechanical Engineering, and Data Science and Analytics Institute. <br> Faculty Advisor of <a href=\"https://www.ou.edu/scr\"> Sooner Competitve Robotics</a>. <br> <a href=\"https://scholar.google.com/citations?hl=en&user=hU-LeNEAAAAJ&view_op=list_works&sortby=pubdate\"> Google Scholar </a>."
     },
+  {
+        "name": "Arika Khor",
+        "class": "Undergraduate Student",
+        "image": "/assets/images/arika.jpg",
+        "bio": "Joined AirOU in Fall 2025. Arika is a undergraduate CS student currently working on autonomous navigation with reinforcement learning and several other projects. <br>You can reach her via her email found through her website <br>https://core310.github.io/arika/",
+    "url": "arikak"
+    },
+
     {
         "name": "Vineel Palla",
         "class": "Alumnus",
@@ -37,8 +45,8 @@
         "image": "/assets/images/Jessica-Lumry.jpg",
         "bio": "Joined AirOU in Summer 2025. Jessica has a B.S. in Biomedical Engineering and is currently pursuing a Master's Degree in Computer Science. Alongside her studies, she runs the Research 3D Printing service for OU Libraries. Her research interests include: Computer Vision, 3D Printing, and Animal Behavior. "  
     },
-    
-        {
+
+    {
         "name": "Mathis Morales",
         "class": "Alumnus",
         "image": "/assets/images/mathis.jpeg",
