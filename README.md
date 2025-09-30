@@ -74,7 +74,6 @@ After setup, just run the following command to automatically make a clean build 
 ```bash
 npm run deploy
 ```
-
 The deployment script will clean out the build directory (`_site`) and build the site. Then it will send the files to the host via SFTP. See the `package.json` and `deploy.sh` for more details on the node and bash scripts for the project.
 
 ## Resources
