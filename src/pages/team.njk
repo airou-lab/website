@@ -2,7 +2,7 @@
 permalink: "/team/"
 layout: 'layouts/site.njk'
 title: 'Team'
-memberTypes: ["Principal Investigator", "PhD Student", Master's Student", "Undergraduate Student","Alumni"]
+memberTypes: ["Principal Investigator", "PhD Student", "Master's Student", "Undergraduate Student","Alumni"]
 ---
 
 <div class="team page-content">
@@ -52,7 +52,13 @@ memberTypes: ["Principal Investigator", "PhD Student", Master's Student", "Under
     {% for member in team %}
       {% if member.class == "Alumnus" %}
         <li>
-          <a href="{{ member.url }}">{{ member.name }}</a>
+          {% if member.url and (member.url | url) %}
+            <a href="{{ member.url }}">{{ member.name }}</a>
+          {% elif member.slug %}
+            <a href="/team/{{ member.slug }}/">{{ member.name }}</a>
+          {% else %}
+            <a href="/team/{{ member.name | slugify }}/">{{ member.name }}</a>
+          {% endif %}
         </li>
       {% endif %}
     {% endfor %}
