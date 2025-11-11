@@ -15,8 +15,8 @@
   {
     "name": "Gladis",
     "class": "Master's Student",
-    "image": "/assets/images-stock/portrait-default.png",
-    "bio": "Joined AirOU in Fall 2025.",
+    "image": "/assets/images/Gladdis.png",
+    "bio": "Joined AIROU in Fall 2025. Pursuing a Master's in Computer Science at the University of Oklahoma. Holds a B.E. in Computer Science from APJ Abdul Kalam Technological University, India. Works at OSCER (Oklahoma Supercomputing Center for Education and Research) as a Student Supercomputing Specialist. Originally from India, her research interests include Artificial Intelligence, Machine Learning, and Computer Vision.",
     "url": "Gladis"
   },
   {
@@ -41,7 +41,7 @@
     "name": "Job Elliott",
     "class": "PhD Student",
     "image": "/assets/images/Job_Elliott.png",
-    "bio": "Joined AirOU in Spring 2025. PhD student in Computer Science"
+    "bio": "Joined AirOU Spring 2025. First-year Ph.D student in Computer Science. His dissertation focus will be in the field of pattern of behavior. He graduated with an A.A.S. In intelligence studies in 2018 from the Community College of the Air Force, with a B.S. in Computer Science in 2020 from the University of Central Oklahoma, and with a M.S.  in Computer Science with an emphasis in A.I. in 2023 from Oklahoma Christian University. He works for the 76 Software Engineering Group at Tinker AFB. He has done research in RNA sequencing using machine learning and neural networks, investigating the applicability of model fusion in this area. His hobbies include playing the accordion, organ, and violin, spending time with his family and church. For any questions, please reach out at job.j.elliott-1@ou.edu."
   },
   {
     "name": "Evan Mcculley ",
@@ -89,8 +89,8 @@
     "url": "subhash-chandra"
   },
   {
-    "name": "Alumnus",
-    "class": "Undergraduate Student",
+    "name": "Ethan",
+    "class": "Alumnus",
     "image": "/assets/images/ethan.jpeg",
     "bio": "Joined AirOU in Spring 2023. Senior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>"
   },
