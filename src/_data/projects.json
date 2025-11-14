@@ -1,4 +1,11 @@
 [
+      {
+        "title": "RNA Sequencing project",
+        "description": "Oxford Nanopore [1] has developed technologies that allow for sequencing of single molecules of DNA and RNA.\nSometimes the nucleotides have modifications called methylations which can have a wide variety of effects on the behavior of the RNA.\nMachine learning algorithms have been developed and used to classify each individual nucleotides in the molecule sequence.\nSeveral neural networks have been developed to run binary classification for a specific methylation at any given position in the sequences.",
+        "previewImage": "/assets/images/Oxford_Nanopore_machine.png",
+        "page": "projects-pages/RNA_Sequencing.md",
+        "github": "https://github.com/airou-lab/OmniModel"
+    },
     {
         "title": "AirOU Race Cars (ARC)",
         "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR software. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
@@ -66,7 +73,7 @@
     {
         "title": "Radar-Based Depth Estimation",
         "description": "Camera Radar Object Detection and Tracking",
-        "previewImage": null,
+        "previewImage": "/assets/images/radar_depth.png",
         "page": "projects-pages/radarcameraperception.md",
         "github": "https://github.com/airou-lab/radar-camera-fusion-depth",
         "docs": null
@@ -74,7 +81,7 @@
     {
         "title": "Previous Projects",
         "description": "Previous Works",
-        "previewImage": null,
+        "previewImage": "/assets/images/prev_projs.png",
         "page": "projects-pages/previous_works.md",
         "github": null,
         "docs": null
