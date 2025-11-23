@@ -4,6 +4,8 @@ The codebase for the static AirLab website.
 
 Hosted URL: https://airou.cs.ou.edu
 
+**Current maintainer**: Core310 (Arika)
+
 ## About
 
 This project uses *Eleventy* (11ty), a static site generator (SSG), along with *Nunjucks* templating engine. Eleventy is a NodeJS based SSG, so with that comes `npm`.
