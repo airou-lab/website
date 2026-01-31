@@ -1,89 +1,96 @@
 [
-      {
-        "title": "RNA Sequencing project",
-        "description": "Oxford Nanopore [1] has developed technologies that allow for sequencing of single molecules of DNA and RNA.\nSometimes the nucleotides have modifications called methylations which can have a wide variety of effects on the behavior of the RNA.\nMachine learning algorithms have been developed and used to classify each individual nucleotides in the molecule sequence.\nSeveral neural networks have been developed to run binary classification for a specific methylation at any given position in the sequences.",
-        "previewImage": "/assets/images/Oxford_Nanopore_machine.png",
-        "page": "projects-pages/RNA_Sequencing.md",
-        "github": "https://github.com/airou-lab/OmniModel"
-    },
-    {
-        "title": "AirOU Race Cars (ARC)",
-        "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR software. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
-        "previewImage": "/assets/images/cars.png",
-        "page": "projects-pages/MuSHR.md",
-        "github": "https://github.com/airou-lab/mushr",
-        "docs": "https://airou-lab.github.io/docs/arc/index.html"
-    },
-   {
-        "title": "AirOU Race Cars - Pro (ARCPro)",
-        "description": "The successor to ARC, this project also has the same goals as it and working on MuSHR system and was used in the Artificial Intelligence course. In addition, it is used for Kimera and Multi-Kimera for real-time metric-semantic simultaneous localization and mapping (SLAM), which uses camera images and inertial data to build a semantically annotated 3D mesh of the environment. The ARCPro also includes full overhaul - Updated chassis, upgraded processor (i7 Intel NUC with 32GB RAM), and an upgraded Lidar (X4-Pro YDLIDAR).",
-        "previewImage": "/assets/images/ARCnew.jpg",
-        "page": "projects-pages/MuSHR.md",
-        "github": "https://github.com/airou-lab/mushr",
-        "docs": "https://airou-lab.github.io/docs/arc/index.html"
-    },
-    {
-        "title": "Autonomous Drones",
-        "description": "We have built a fully autonomous drone. We were inspired by the original design by ACL, MIT. Our goal to implement radar and vision based SLAM and path planning algorithms on our drone to autonomously navigate aerially.",
-        "previewImage": "/assets/images/drone.jpeg",
-        "page": "projects-pages/PANTHER.md",
-        "github": null,
-        "docs": "https://airou-lab.github.io/docs/lionn/overview.html"
-    },
-    {
-        "title": "Applying Gender-Semantic Classification for Enhanced 3D Tracking and Reconstruciton",
-        "description": "This project is a continuation of our previous project Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary. It applies a trained Convolutional Neural Network (YOLOv11) model to detect, track, and classify small birds based on their gender and environmental context, while also creating a 3D view of their flight patterns",
-        "previewImage": "/assets/images/Bird_project_cover.jpeg",
-        "page": "projects-pages/birds.md",
-        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
-        "docs": null
-    },
-    {
-        "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary",
-        "description": "This project has several different outlier rejection modes (landmark (L), sex (X), semantic segmentation (S), L+X, L+S, X+S, L+X+S) to assist with removing incorrect bird matches.",
-        "previewImage": "/assets/images/semantic_match.png",
-        "page": "projects-pages/birds-outlier.md",
-        "github": "https://github.com/airou-lab/Birds-Outlier-Rejection",
-        "docs": null
-    },
-    {
-        "title": "Social Behavior Classification in Animals",
-        "description": "This project applies machine learning techniques to detect, track, and classify social behavior of small birds",
-        "previewImage": "/assets/images/Bird_project_cover.jpeg",
-        "page": "projects-pages/birds.md",
-        "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
-        "docs": null
-    },
-    {
-        "title": "AirOU Smart Mini-City (AirOUS-MCity)",
-        "description": "We have built a smart Minicity, intended to simulate a real-world urban environment. It has been used for our Visual Navigation for Autonomous Vehicles (VNAV) and Artifical Intelligence (AI) courses, as well as for our research projects!",
-        "previewImage": "/assets/images/minicity.jpeg",
-        "page": "projects-pages/minicity.md",
-        "github": null,
-        "docs": null
-    },
-    {
-        "title": "Camera-Radar Multi Object Tracking",
-        "description": "Camera-Radar Multi Object Tracking",
-        "previewImage":"/assets/images/Tracking_Velacar_wacv_submit.png",
-        "page": "projects-pages/cameraradarmot.md",
-        "github": "https://github.com/airou-lab/MatTrack",
-        "docs": null
-    },
-    {
-        "title": "Radar-Based Depth Estimation",
-        "description": "Camera Radar Object Detection and Tracking",
-        "previewImage": "/assets/images/radar_depth.png",
-        "page": "projects-pages/radarcameraperception.md",
-        "github": "https://github.com/airou-lab/radar-camera-fusion-depth",
-        "docs": null
-    },
-    {
-        "title": "Previous Projects",
-        "description": "Previous Works",
-        "previewImage": "/assets/images/prev_projs.png",
-        "page": "projects-pages/previous_works.md",
-        "github": null,
-        "docs": null
-    }
+  {
+    "title": "Multi-Agent Spectrum Sharing (MASS)",
+    "description": "As radio spectrum becomes increasingly in demand, the need for optimized spectrum usage/sharing has grown in complexity and urgency. With the growth in digital radio technologies, concepts for cognitive radar have developed where a radar learns from its environment and adapts its waveform to avoid collisions and maximize clear transmission. Current approaches mostly involve the sense-and-avoid (SAA) approach where the agent bases their current frequency and bandwidth on the widest available bandwidth from the previous timestep.",
+    "previewImage": "/assets/project_MASS/MASS_1.png",
+    "page": "projects-pages/MASS.md",
+    "github": "https://github.com/airou-lab/MASS"
+  },
+  {
+    "title": "RNA Sequencing project",
+    "description": "Oxford Nanopore [1] has developed technologies that allow for sequencing of single molecules of DNA and RNA.\nSometimes the nucleotides have modifications called methylations which can have a wide variety of effects on the behavior of the RNA.\nMachine learning algorithms have been developed and used to classify each individual nucleotides in the molecule sequence.\nSeveral neural networks have been developed to run binary classification for a specific methylation at any given position in the sequences.",
+    "previewImage": "/assets/images/Oxford_Nanopore_machine.png",
+    "page": "projects-pages/RNA_Sequencing.md",
+    "github": "https://github.com/airou-lab/OmniModel"
+  },
+  {
+    "title": "AirOU Race Cars (ARC)",
+    "description": "Our current project focuses on localization and mapping for autonomous navigation utilizing MuSHR software. We look forward to transferring this software from our assembled MUSHr racecar to future larger projects. Using SLAM (Simultaneous Localization and Mapping) on a simulation of the racecar and its surroundings, we plan on later implementing this software onto the physical car and testing it in the physical world. <br> Pictured on the right is our first assembled and operational MUSHr racecar. <br> Our next step is to implement a simulation using SLAM that allows the vehicle to gather data using the LiDAR and stereo camera installed on-board for accurate and consistent localization. Our goals is for our car to physically showcase fully autonomous navigation.",
+    "previewImage": "/assets/images/cars.png",
+    "page": "projects-pages/MuSHR.md",
+    "github": "https://github.com/airou-lab/mushr",
+    "docs": "https://airou-lab.github.io/docs/arc/index.html"
+  },
+  {
+    "title": "AirOU Race Cars - Pro (ARCPro)",
+    "description": "The successor to ARC, this project also has the same goals as it and working on MuSHR system and was used in the Artificial Intelligence course. In addition, it is used for Kimera and Multi-Kimera for real-time metric-semantic simultaneous localization and mapping (SLAM), which uses camera images and inertial data to build a semantically annotated 3D mesh of the environment. The ARCPro also includes full overhaul - Updated chassis, upgraded processor (i7 Intel NUC with 32GB RAM), and an upgraded Lidar (X4-Pro YDLIDAR).",
+    "previewImage": "/assets/images/ARCnew.jpg",
+    "page": "projects-pages/MuSHR.md",
+    "github": "https://github.com/airou-lab/mushr",
+    "docs": "https://airou-lab.github.io/docs/arc/index.html"
+  },
+  {
+    "title": "Autonomous Drones",
+    "description": "We have built a fully autonomous drone. We were inspired by the original design by ACL, MIT. Our goal to implement radar and vision based SLAM and path planning algorithms on our drone to autonomously navigate aerially.",
+    "previewImage": "/assets/images/drone.jpeg",
+    "page": "projects-pages/PANTHER.md",
+    "github": null,
+    "docs": "https://airou-lab.github.io/docs/lionn/overview.html"
+  },
+  {
+    "title": "Applying Gender-Semantic Classification for Enhanced 3D Tracking and Reconstruciton",
+    "description": "This project is a continuation of our previous project Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary. It applies a trained Convolutional Neural Network (YOLOv11) model to detect, track, and classify small birds based on their gender and environmental context, while also creating a 3D view of their flight patterns",
+    "previewImage": "/assets/images/Bird_project_cover.jpeg",
+    "page": "projects-pages/birds.md",
+    "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+    "docs": null
+  },
+  {
+    "title": "Context-Aware Outlier Rejection for Robust Multi-View 3D Tracking of Similar Small Birds in An Outdoor Aviary",
+    "description": "This project has several different outlier rejection modes (landmark (L), sex (X), semantic segmentation (S), L+X, L+S, X+S, L+X+S) to assist with removing incorrect bird matches.",
+    "previewImage": "/assets/images/semantic_match.png",
+    "page": "projects-pages/birds-outlier.md",
+    "github": "https://github.com/airou-lab/Birds-Outlier-Rejection",
+    "docs": null
+  },
+  {
+    "title": "Social Behavior Classification in Animals",
+    "description": "This project applies machine learning techniques to detect, track, and classify social behavior of small birds",
+    "previewImage": "/assets/images/Bird_project_cover.jpeg",
+    "page": "projects-pages/birds.md",
+    "github": "https://github.com/airou-lab/Bird_Tracking_Maisha",
+    "docs": null
+  },
+  {
+    "title": "AirOU Smart Mini-City (AirOUS-MCity)",
+    "description": "We have built a smart Minicity, intended to simulate a real-world urban environment. It has been used for our Visual Navigation for Autonomous Vehicles (VNAV) and Artifical Intelligence (AI) courses, as well as for our research projects!",
+    "previewImage": "/assets/images/minicity.jpeg",
+    "page": "projects-pages/minicity.md",
+    "github": null,
+    "docs": null
+  },
+  {
+    "title": "Camera-Radar Multi Object Tracking",
+    "description": "Camera-Radar Multi Object Tracking",
+    "previewImage": "/assets/images/Tracking_Velacar_wacv_submit.png",
+    "page": "projects-pages/cameraradarmot.md",
+    "github": "https://github.com/airou-lab/MatTrack",
+    "docs": null
+  },
+  {
+    "title": "Radar-Based Depth Estimation",
+    "description": "Camera Radar Object Detection and Tracking",
+    "previewImage": "/assets/images/radar_depth.png",
+    "page": "projects-pages/radarcameraperception.md",
+    "github": "https://github.com/airou-lab/radar-camera-fusion-depth",
+    "docs": null
+  },
+  {
+    "title": "Previous Projects",
+    "description": "Previous Works",
+    "previewImage": "/assets/images/prev_projs.png",
+    "page": "projects-pages/previous_works.md",
+    "github": null,
+    "docs": null
+  }
 ]

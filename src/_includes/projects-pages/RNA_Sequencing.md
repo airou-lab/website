@@ -30,10 +30,10 @@ Specialized algorithms for model fusion will be needed to ensure the best of bot
 
 
 # Progress:
-Guppy base-calling via Dorado and Nanopolish [2] provide good features to train the OmniModel.
-I have written preprocessing code that converts Nanopolish output files into an ingestible format for the OmniModel.
-I have prepared unmodified tomato invitro transcribed RNA data and ran tests on the model.
-I have processed modified RNA data and created labels for it, but poor accuracy indicates bad data or labels, or a need for a better training algorithm.
+
+Guppy base-calling via Dorado and Nanopolish [2] provide good features to train the OmniModel. I have written preprocessing code that converts Nanopolish output files into an ingestible format for the OmniModel. I have prepared unmodified tomato invitro transcribed RNA data and ran tests on the model. I have processed modified RNA data and created labels for it; unfortunately the labels proved to be highly inaccurate leading to poor results when testing the model. The need for proper ground truth data to test and train the model persists.
+
+
 
 ## OmniModel Structure:
 ![Alt text](/assets/images/omniModelStruct.png)

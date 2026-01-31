@@ -8,9 +8,17 @@
     "url": "/team/golnaz-habibi/"
   },
   {
+    "name": "Gautham Chandra",
+    "slug": "gautham-chandra",
+    "class": "Undergraduate Student",
+    "image": "/assets/images-stock/portrait-default.png",
+    "bio": "Joined AirOU in Spring 2025.",
+    "url": "/team/gautham-chandra/"
+  },
+  {
     "name": "Arika Khor",
     "slug": "arika-khor",
-    "class": "Undergraduate Student",
+    "class": "Under2graduate Student",
     "image": "/assets/images/arika.jpg",
     "bio": "Joined AirOU in Fall 2025. Arika is a undergraduate CS student currently working on autonomous navigation with reinforcement learning and several other projects. <br>You can reach her via her email found through her website <br>https://core310.github.io/arika/",
     "url": "https://core310.github.io/arika/"
@@ -22,6 +30,12 @@
     "image": "/assets/images/Gladdis.png",
     "bio": "Joined AIROU in Fall 2025. Pursuing a Master's in Computer Science at the University of Oklahoma. Holds a B.E. in Computer Science from APJ Abdul Kalam Technological University, India. Works at OSCER (Oklahoma Supercomputing Center for Education and Research) as a Student Supercomputing Specialist. Originally from India, her research interests include Artificial Intelligence, Machine Learning, and Computer Vision.",
     "url": "/team/gladis/"
+  },
+  {
+    "name": "Sai Madhukar Vanam",
+    "class": "PhD Student",
+    "image": "/assets/images/sai.jpeg",
+    "bio": "Joined AIROU in Spring 2026. Pursuing a PhD in Computer Science at the University of Oklahoma. Hold a Master's in computer science at the University of Oklahoma and BSc in Computer Science and Engineering from KL University, India. Originally from India, his research interests include Computer Vision, Machine Learning and Robotics."
   },
   {
     "name": "Aaron Hamil",
@@ -118,14 +132,6 @@
     "image": "/assets/images/ethan.jpeg",
     "bio": "Joined AirOU in Spring 2023. Senior student in Computer Science on the Accelerated Masters track while minoring in Mathematics, Economics, and Psychology. He is a freelance designer, which includes but is not limited to photography, graphic design, illustration, mobile app development, and UI/UX Design.<br>His research interests include: Autonomous Vehicles, Medical Imaging Technology, Computer vision, and Artificial Intelligence. During his free time, he enjoys grabbing refreshers in cafes with people, birdwatching, playing the piano, and digital painting. </p> <p> He is currently working on the <i>The Social Behavior Classification in Animals</i> project.</p>",
     "url": "/team/ethan/"
-  },
-  {
-    "name": "Gautham Chandra",
-    "slug": "gautham-chandra",
-    "class": "Alumnus",
-    "image": "/assets/images-stock/portrait-default.png",
-    "bio": "Joined AirOU in Spring 2025.",
-    "url": "/team/gautham-chandra/"
   },
   {
     "name": "Nthati Lehloenya",
